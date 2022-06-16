@@ -150,9 +150,15 @@ img {
 .displayflex .dpinblock {
     position: relative;
 }
+
 .displayflex6 .dpinblock {
     position: relative;
 }
+
+.displayflex5 .dpinblock {
+    position: relative;
+}
+
 .displayflex6{
     overflow-x: auto;
     display: flex;

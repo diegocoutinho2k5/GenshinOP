@@ -131,7 +131,7 @@ img {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     display: flex;
     padding: 20px;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-color: #0f0c16;
     flex-wrap: wrap;
     text-align: center;
@@ -159,7 +159,7 @@ img {
 }
 
 .ICONS{
-    width: max(70px, 4vw);
+    width: max(70px, 3vw);
     border-radius: 900px;
 }
 
@@ -174,7 +174,7 @@ img {
 }
 
 .WeaponIcon{
-    height: 70px;
+    width: max(70px, 3vw);
     border-radius: 900px;
 }
 
@@ -215,7 +215,7 @@ table {
 
 #bg2 {
     text-align: center;
-    background-color: #0f0c16;
+    background-color:#212129b9;
     padding: 12px 12px;
 }
 
@@ -254,10 +254,6 @@ table {
 
 .topnav #myLinks {
     display: none;
-}
-
-.tm{
-    padding: 5px;
 }
 
 .mobile-container {
@@ -543,7 +539,8 @@ li {
     position: absolute;
     top: 0px;
     right: 0px;
-    height: 30px;
+    width: 44%;
+    min-width: 30px;
     display: inline-block;
     background-color: #53427944;
     border-radius: 50%;
@@ -580,8 +577,7 @@ li {
 }
 
 .fd img{
-    width: 50%;
-    min-width: 100px;
+    width: max(100px, 6vw);
     border-radius: 900px;
 }
 
@@ -604,6 +600,7 @@ li {
 .fxx{
     display: flex;
     justify-content:space-between;
+    
 }
 
 @media only screen and (max-width: 850px) {
@@ -652,9 +649,6 @@ li {
         padding-right: 0;
         padding-bottom: 0;
     }
-    .displayflex5{
-        padding: 0px;
-    }
     .ayuh{
         max-width: 300px;
     }
@@ -668,12 +662,7 @@ li {
 }
 
 @media only screen and (max-width: 315px) {
-    .displayflex {
-        padding: 0px;
-    }
     #pers, #pers2 {
-        padding-bottom: 10px;
-        padding-top: 10px;
-        padding-right: 10px;
+        padding: 10px 10px 10px 0px;
     }
 }

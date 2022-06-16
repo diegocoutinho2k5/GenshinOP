@@ -77,6 +77,10 @@ body.dark .displayflex {
 
 }
 
+body.dark #bg2{
+    color: white;
+    background-color:#212129d3;
+}
 
 body.dark .subtitleicon {
     color: rgb(37, 37, 37);

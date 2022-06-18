@@ -126,10 +126,13 @@ width: 45px;
     left: 4px;
     cursor: pointer;
     transform: translateX(0px);
+    transition: transform 0.2s linear;
 }
 #ff:checked + #lua .bola{
     transform: translateX(19px);
+    transition: transform 0.2s linear;
 }
+
 #main2 {
     border-radius: 12px;
     background-color: #2a2a3b;

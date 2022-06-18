@@ -14,12 +14,19 @@ body.dark #main2 {
     
 }
 
-
+body.pu #bg12 .bg_purple{ 
+    display: none;
+}
+body.go #bg12 .bg_golden{
+    display: none;
+}
 body.dark #dpflex2 {
     background-color: rgb(252, 252, 252);
     color: rgb(43, 43, 43);
 }
-
+body.dark #lua{
+    background-color: #7d7d97;
+}
 body.dark #dpflex2 a {
 
     color: rgb(37, 37, 37);
@@ -91,7 +98,10 @@ body.dark #header {
     background-color: #a5a5ca;
     color: white;
 }
-
+body.dark #content{
+    background-color: #a5a5ca;
+    color: #38355a;
+}
 
 body.dark #header a:hover {
     

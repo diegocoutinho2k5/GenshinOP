@@ -197,13 +197,15 @@ label{
     margin: auto;
 }
 #main1{
-    max-width: 850px;
+    max-width: 900px;
     min-width: 200px;
     margin: auto;
+    margin-bottom: 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 9px;
     background-color: #0f0c16;
     color: white;
+    padding: 10px;
 }
 
 table, tr, th {
@@ -379,14 +381,14 @@ table {
     display: inline-block;
     width: 120px;
     text-align: center;
-    margin: 10px;
+    margin: 5px;
     width: max(120px,8vw);
 }
 #bg12 .bg_green{
     display: inline-block;
     width: 120px;
     text-align: center;
-    margin: 10px;
+    margin: 5px;
     width: max(120px,8vw);
     
 }
@@ -394,7 +396,7 @@ table {
     display: inline-block;
     width: 120px;
     text-align: center;
-    margin: 10px;
+    margin: 5px;
     width: max(120px,8vw);
     max-height: 303px;
 }
@@ -402,14 +404,14 @@ table {
     display: inline-block;
     width: 120px;
     text-align: center;
-    margin: 10px;
+    margin: 5px;
     width: max(120px,8vw);
 }
 #bg12 .bg_blue{
     display: inline-block;
     width: 120px;
     text-align: center;
-    margin: 10px;
+    margin: 5px;
     width: max(120px,8vw);
 }
 .art2{

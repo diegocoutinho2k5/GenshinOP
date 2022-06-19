@@ -92,12 +92,53 @@ body {
     background-color: #2a2a3b;
     border: 1px solid #0f0c16;
     margin-top: 21px;
-  padding: 0px 20px 10px 20px;
+  padding: 20px;
   left: 15px;
   font-weight: bold;
 }
 #bn, #bj{
     display: none;
+}
+#main1 form img{
+    padding: 5px;
+}
+#Claymore:checked + #Cl img{
+    background-color: #ffffff15;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-size: 100%;
+    
+    border-radius: 6px;
+}
+#Sword:checked + #Sw img{
+    background-color: #ffffff15;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-size: 100%;
+    
+    border-radius: 6px;
+}
+
+
+#Bow:checked + #Bw img{
+    background-color: #ffffff15;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-size: 100%;
+    
+    border-radius: 6px;
+}
+#Polearm:checked + #Pl img{
+    background-color: #ffffff15;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-size: 100%;
+    
+    border-radius: 6px;
+}
+
+#Catalyst:checked + #Ct img{
+    background-color: #ffffff15;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-size: 100%;
+    
+    border-radius: 6px;
 }
 input{
     display: none;
@@ -108,28 +149,34 @@ input{
 #lua{
     background-color: #0f0c16;
     padding: 5px;
-    border-radius: 30px;
+    border-radius: 20px;
     position: relative;
-display: flex;
-justify-content: space-between;
-width: 45px;
 
+
+width: 50px;
+height: 32px;
+font-size: 16px;
 }
-
-#lua .bola{
+#main1 label img{
+    cursor: pointer;
+}
+label{
+    cursor: pointer;
+}
+.bola{
     position: absolute;
     background-color: white;
-    height: 18px;
-    width: 18px;
+    height: 20px;
+    width: 20px;
     border-radius: 50%;
-    top: 2px;
+    top: 6px;
     left: 4px;
     cursor: pointer;
     transform: translateX(0px);
     transition: transform 0.2s linear;
 }
 #ff:checked + #lua .bola{
-    transform: translateX(19px);
+    transform: translateX(22px);
     transition: transform 0.2s linear;
 }
 
@@ -148,6 +195,15 @@ width: 45px;
     max-width: 850px;
     min-width: 200px;
     margin: auto;
+}
+#main1{
+    max-width: 850px;
+    min-width: 200px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 9px;
+    background-color: #0f0c16;
+    color: white;
 }
 
 table, tr, th {
@@ -311,27 +367,53 @@ table {
 
 #database:hover i{
     transform: rotate(90deg);
-    transition: 0.3s;
+    transition: transform 0.25s linear;
 }
 #bg12{
-    background-color: #0f0c16;
-    padding-top: 10px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    border-radius: 9px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
-#bg12 .bg_golden, .bg_purple, .bg_gray{
+#bg12 .bg_golden{
     display: inline-block;
-    width: 200px;
+    width: 120px;
     text-align: center;
     margin: 10px;
-    width: max(120px,12vw);
+    width: max(120px,8vw);
+}
+#bg12 .bg_green{
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+    margin: 10px;
+    width: max(120px,8vw);
+    
+}
+#bg12 .bg_purple{
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+    margin: 10px;
+    width: max(120px,8vw);
+    max-height: 303px;
+}
+#bg12 .bg_gray{
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+    margin: 10px;
+    width: max(120px,8vw);
+}
+#bg12 .bg_blue{
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+    margin: 10px;
+    width: max(120px,8vw);
 }
 .art2{
-    width: max(100px,10vw);
+    width: max(100px,6vw);
 }
 #vis1 {
     text-align: right;
@@ -373,8 +455,13 @@ table {
 .bg_gray {
     background-image: url(images/Backgrounds/bg_gray.png);
 }
-
-.bg_golden, .bg_purple, .bg_gray{
+.bg_green{
+    background-image: url(images/Backgrounds/bg_green.png);
+}
+.bg_blue{
+    background-image: url(images/Backgrounds/bg_blue.png);
+}
+.bg_golden, .bg_purple, .bg_gray, .bg_green, .bg_blue{
     padding: 10px;
     background-size: 100%;
     border-radius: 10px 10px 30px 30px;
@@ -567,7 +654,7 @@ a {
 }
 
 .starsize2 {
-    height: max(18px,1.3vw);
+    height: max(18px,1vw);
 }
 
 .gas {
@@ -702,8 +789,8 @@ li {
 
 @media only screen and (max-width: 850px) {
    
-    #main4{
-        padding-top: 100px;
+    #main4, #main2, #main1{
+        margin-top: 100px;
     }
     #vis1 {
         display: block;
@@ -712,7 +799,7 @@ li {
         z-index: 1;
     }
     #main2 {
-        margin-top: 100px;
+       margin-top: 100px;
         padding: 10px;
     }
     #header {

@@ -14,12 +14,29 @@ body.dark #main2 {
     
 }
 
-body.pu #bg12 .bg_purple{ 
+
+body.Cl .Claymores{
     display: none;
 }
-body.go #bg12 .bg_golden{
+
+body.Sw .Swords{ 
     display: none;
 }
+
+body.Bw .Bows{ 
+    display: none;
+}
+
+body.Ct .Catalysts{ 
+    display: none;
+}
+
+body.Pl .Polearms{ 
+    display: none;
+}
+
+
+
 body.dark #dpflex2 {
     background-color: rgb(252, 252, 252);
     color: rgb(43, 43, 43);
@@ -125,7 +142,7 @@ body.dark .bg5{
 body.dark #bg11{
     background-color: #fbf9ff;
 }
-body.dark #bg12{
+body.dark #main1{
     background-color: #fbf9ff;
 }
 body.dark #bg11 a{

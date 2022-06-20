@@ -39,23 +39,20 @@ body.Pl .Polearms{
 
 body.dark #dpflex2 {
     background-color: rgb(252, 252, 252);
-    color: rgb(43, 43, 43);
+    
 }
-body.dark #lua{
-    background-color: #7d7d97;
+body.dark #ggg{
+   color: var(--pt);
 }
-body.dark #dpflex2 a {
 
-    color: rgb(37, 37, 37);
-}
 
 body.dark .dpflex3 {
     background-color: rgb(245, 246, 253);
-    color: rgb(88, 88, 88);
+    
 }
 
-body.dark .dpflex3 h1 {
-    color: rgb(29, 29, 53);
+body.dark #bg2 a{
+    color: white;
 }
 
 body.dark .gas {
@@ -72,30 +69,15 @@ body.dark .bg1 {
 
 }
 
-body.dark .tn {
-    color: rgb(37, 37, 37);
-
-}
-
-body.dark .pl {
-    color: rgb(37, 37, 37);
-    
-}
 
 
 
-body.dark table {
-    color: rgb(37, 37, 37);
-
-}
 
 body.dark #bg4 {
     background-color: rgb(248, 248, 255);
     
 }
-body.dark #bg4 th{
-    color: rgb(48, 48, 48);
-}
+
 body.dark .displayflex {
     background-color: white;
 
@@ -105,10 +87,8 @@ body.dark #bg2{
     color: white;
     background-color: #0f0c16b2;
 }
-
-body.dark .subtitleicon {
-    color: rgb(37, 37, 37);
-
+body.dark a{
+    color: var(--pt);
 }
 
 body.dark #header {
@@ -141,7 +121,7 @@ body.dark .cs{
 }
 body.dark .bg5{
     background-color: #ffffff;
-    color: rgb(29, 29, 29);
+    
 }
 body.dark #bg11{
     background-color: #fbf9ff;
@@ -149,9 +129,7 @@ body.dark #bg11{
 body.dark #main1{
     background-color: #fbf9ff;
 }
-body.dark #bg11 a{
-    color: rgb(77, 77, 77);
-}
+
 body.dark #bg11 a:hover{
     color: rgb(0, 0, 0);
     
@@ -164,55 +142,16 @@ body.dark ::-webkit-scrollbar-thumb:hover {
     background: #9797dab4;
     
   }
-body.dark #Sexta{
 
-    color: rgb(29, 29, 53);
-}
-body.dark #Domingo{
-    color: rgb(29, 29, 53);
-}
-body.dark #Segunda3{
-    color: rgb(29, 29, 53);
-}
-body.dark #Terça3{
-    color: rgb(29, 29, 53);
-}
-body.dark #Quarta3{
-    color: rgb(29, 29, 53);
-}
-body.dark #Quinta{
-    color: rgb(29, 29, 53);
-}
-body.dark #Sábado{
-    color: rgb(29, 29, 53);
-}
 
 body.dark hr{
     background-color: var(--pt);
     height: 2px;
     border: 0;
 }
-body.dark h1{
-    color:var(--pt);
-}
-body.dark h2{
-    color: var(--pt);
-}
-body.dark h3{
-    color: var(--pt);
-}
-body.dark h4{
-    color: var(--pt);
-}
-body.dark #main4{
-    color: rgb(29, 29, 29);
-}
-body.dark #txt h1{
-    color: white;
-}
-body.dark #txt h3{
-    color: white;
-}
+
+
+
 body.dark #txt hr{
     background-color: white;
 }

@@ -17,7 +17,7 @@ html {
 body {
     background: var(--BACK-GROUND);
     margin: 0;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: white;
     font-size: max(0.77vw, 12px);
 }
@@ -33,7 +33,7 @@ body {
 }
 
 #header {
-    color: #ffffff;
+    
     
     background-color: var(--css);
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -152,7 +152,7 @@ input{
 }
 .lua{
     color: white;
-    background-color:rgba(123, 116, 151, 0.287);
+    
     padding: 3px 8px;
     border-radius: 20px;
     position: relative;
@@ -172,18 +172,18 @@ label i:nth-child(3) {
     position: absolute;
     font-size: 25px;
     border-radius: 50%;
-    top: 3px;
-    left: 3.2px;
+    top: 1.4px;
+    left: 3.0px;
     cursor: pointer;
     transform: translateX(0px);
     transition: transform 0.2s linear;
 }
 #ff:checked + .lua label i:nth-child(3){
-    transform: translateX(24.2px);
+    transform: translateX(24.5px);
     transition: transform 0.2s linear;
 }
 #btt:checked + .lua label i:nth-child(3){
-    transform: translateX(24.2px);
+    transform: translateX(24.5px);
     transition: transform 0.2s linear;
 }
 #main2 {
@@ -232,13 +232,13 @@ th {
 }
 
 .subtitleicon {
-    color: #ffffffa4;
+    
     opacity: 1;
     position: relative;
 }
 
 .subtitleicon:hover {
-    color: #ffffff;
+    color: #ffffffa4;
 }
 
 .llk{
@@ -809,7 +809,7 @@ li {
 }
 .menu-a{
     color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 10px;
     font-size: 15px;
     

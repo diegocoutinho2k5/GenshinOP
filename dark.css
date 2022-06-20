@@ -1,7 +1,7 @@
 
 body.dark {
     color: var(--pt);
-    background-color: rgb(181, 178, 202);
+    background-color: rgb(225, 224, 235);
 }
 
 body.dark .bg8 {
@@ -103,7 +103,7 @@ body.dark .displayflex {
 
 body.dark #bg2{
     color: white;
-    background-color:#212129d3;
+    background-color: #0f0c16b2;
 }
 
 body.dark .subtitleicon {
@@ -112,8 +112,8 @@ body.dark .subtitleicon {
 }
 
 body.dark #header {
-    background-color: #a5a5ca;
-    color: white;
+    background-color: rgb(245, 245, 255);
+    color: rgb(103, 96, 114);
 }
 body.dark #content{
     background-color: #a5a5ca;
@@ -122,15 +122,19 @@ body.dark #content{
 
 body.dark #header a:hover {
     
-    color: #38355a;
+    color: #000000;
+}
+body.dark #bdd{
+    border-bottom: 2px solid black;
 }
 body.dark #header a{
-    color: white;
-}
-body.dark #LOGO {
-    color: white;
+    color: rgb(67, 62, 75);
 }
 
+body.dark #vis1{
+    background-color: #0f0c16b2;
+    
+}
 body.dark .cs{
     color: white;
     background-color: var(--pt);
@@ -182,9 +186,7 @@ body.dark #Quinta{
 body.dark #Sábado{
     color: rgb(29, 29, 53);
 }
-body.dark #bg2 a{
-color: #d4d4d4;
-}
+
 body.dark hr{
     background-color: var(--pt);
     height: 2px;

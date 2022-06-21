@@ -21,7 +21,9 @@ body {
     color: white;
     font-size: max(0.77vw, 12px);
 }
-
+input{
+    display: none;
+}
 .ponto {
     visibility: hidden;
 }
@@ -144,11 +146,55 @@ body {
     
     border-radius: 6px;
 }
-input{
-    display: none;
-}
+
 #database:hover #content{
     display: block;
+}
+#Geo:checked + #Go img{
+    background-color: #ffffff15;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-size: 100%;
+    
+    border-radius: 6px;
+}
+#Electro:checked + #El img{
+    background-color: #ffffff15;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-size: 100%;
+    
+    border-radius: 6px;
+}
+.Pyro{
+
+position: relative;
+}
+#Hydro:checked + #Hy img{
+    background-color: #ffffff15;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-size: 100%;
+    
+    border-radius: 6px;
+}
+#Pyro:checked + #Py img{
+    background-color: #ffffff15;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-size: 100%;
+    
+    border-radius: 6px;
+}
+#Anemo:checked + #An img{
+    background-color: #ffffff15;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-size: 100%;
+    
+    border-radius: 6px;
+}
+#Cryo:checked + #Cr img{
+    background-color: #ffffff15;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-size: 100%;
+    
+    border-radius: 6px;
 }
 .lua{
     color: white;

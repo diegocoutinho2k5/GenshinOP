@@ -22,7 +22,9 @@ body.Cl .Claymores{
 body.Sw .Swords{ 
     display: none;
 }
-
+body.Py .Pyro{
+    display: none;
+}
 body.Bw .Bows{ 
     display: none;
 }
@@ -34,9 +36,39 @@ body.Ct .Catalysts{
 body.Pl .Polearms{ 
     display: none;
 }
+body.Star5 #bg12 .bg_golden{
+    display: block;
+}
+body.Star5 #bg12 .bg_purple{
+    display: none;
+}
 
+body.Star5 #bg12 .bg_blue{
+    display: none;
+}
+body.Star5 #bg12 .bg_green{
+    display: none;
+}
+body.Star5 #bg12 .bg_gray{
+    display: none;
+}
 
+body.Star4 #bg12 .bg_golden{
+    display: none;
+}
 
+body.Star4 #bg12 .bg_blue{
+    display: none;
+}
+body.Star4 #bg12 .bg_green{
+    display: none;
+}
+body.Star4 #bg12 .bg_gray{
+    display: none;
+}
+body.Star4 #bg12 .bg_purple{
+    display: block;
+}
 body.dark #dpflex2 {
     background-color: rgb(252, 252, 252);
     

@@ -119,7 +119,7 @@ body.dark #bg2{
     color: white;
     background-color: #0f0c16b2;
 }
-body.dark a{
+body.dark .header-center a{
     color: var(--pt);
 }
 

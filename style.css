@@ -15,11 +15,11 @@ html {
 }
 
 body {
-    background: var(--BACK-GROUND);
+    background: var(--css);
     margin: 0;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: white;
-    font-size: max(0.77vw, 12px);
+    font-size:min(15px,3.8vw);
 }
 input{
     display: none;
@@ -61,6 +61,7 @@ input{
 .titulos {
     font-size: max(1.4vw, 20px);
     font-weight: bold;
+    
 }
 
 .titulos2 {
@@ -73,6 +74,7 @@ input{
     font-size: max(0.8vw, 11px);
     font-weight: bold;
     line-height: 2.4;
+    
 }
 
 #header a {
@@ -99,7 +101,7 @@ input{
     border-bottom-left-radius: 9px;
     border-bottom-right-radius: 9px;
   padding: 20px 40px;
-  
+  z-index: 1;
   
 }
 #bn, #bj{
@@ -235,7 +237,7 @@ label i:nth-child(3) {
 #main2 {
     border-radius: 12px;
     background-color: #2a2a3b;
-    max-width: 850px;
+    max-width: 900px;
     min-width: 200px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding: 30px;
@@ -555,8 +557,21 @@ content:url(images/We/11star.png);
     padding: 10px;
     background-size: 100%;
     border-radius: 10px 10px 30px 30px;
+    color: white;
 }
-
+.Picon{
+    position: relative;
+    background-color: #1f1f2b89;box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;border-radius: 10%;
+    text-align: center;
+}
+.Picon #gt{
+    
+    
+    display: inline-block;
+    text-align: center;
+    
+    
+}
 .s1, .s2, .s3, .s4, .s5 {
     background-size: 100%;
     width: 90%;
@@ -576,18 +591,28 @@ content:url(images/We/11star.png);
     box-shadow: 0 1px 2px rgb(0 0 0 / 24%), 0 1px 3px rgb(0 0 0 / 42%);
     border-radius: 9px;
     background-image: url(images/Backgrounds/bg_golden.png);
+   
+}
+.ops{
+    position: absolute;bottom: -70px; z-index: 20000;
+    text-align:center; background-color:var(--css) ; overflow-x:auto;white-space: nowrap; font-weight:bold; padding:5px 20px; max-width: 800px; margin: auto; display: flex; justify-content: space-between;
+}
+.ops a{
+    margin: 10px;
+}
+#pers2 {
+    align-items: top;
+    padding:20px 10px;
+    background-image:linear-gradient(135deg, rgb(91, 83, 129) , rgb(183, 136, 202));
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
     
+    margin: auto;
+color: white;
 }
 
-#pers2 {
-    display:flex;
-    padding: 20px;
-    border-radius: 3px;
-    background-repeat: no-repeat;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    border-radius: 9px;
-    background-image:linear-gradient(135deg, rgb(91, 83, 129) , rgb(183, 136, 202));
-}
 
 #txt {
     display: inline-block;
@@ -858,6 +883,7 @@ li {
 }
 #bdd{
     border-bottom: 2px solid white;
+    display: inline-block;
 }
 @media only screen and (max-width: 850px) {
    
@@ -893,9 +919,7 @@ li {
 }
 
 @media only screen and (max-width: 682px) {
-    #pers, #pers2{
-        padding: 10px;
-    }
+    
     .bg5{
         padding-left: 5px;
         padding-right: 5px;
@@ -921,8 +945,3 @@ li {
     }
 }
 
-@media only screen and (max-width: 315px) {
-    #pers, #pers2 {
-        padding: 10px 10px 10px 0px;
-    }
-}

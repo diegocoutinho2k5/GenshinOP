@@ -128,8 +128,7 @@ body.dark #header {
     color: rgb(103, 96, 114);
 }
 body.dark #content{
-    background-color: #a5a5ca;
-    color: #38355a;
+    background-color: rgb(245, 245, 255);
 }
 
 body.dark #header a:hover {
@@ -138,6 +137,14 @@ body.dark #header a:hover {
 }
 body.dark #bdd{
     border-bottom: 2px solid black;
+    background-image: linear-gradient(to top,rgb(225, 224, 224), rgb(245, 245, 255));
+}
+body.dark .ops{
+    background-color: rgb(243, 243, 243);
+    
+}
+body.dark .ops a{
+    color: black;
 }
 body.dark #header a{
     color: rgb(67, 62, 75);

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="wida=device-wida, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GenshinOP</title>
     <link rel="shortcut icon" href="images/We/LOGO.ico" type="image/x-icon">
     <link rel="stylesheet" href="dark.css">
@@ -16,7 +16,7 @@
         
             
                 <div id="database">
-                    <a href="" class="header-center" id="bdd">
+                    <a href="" class="header-center">
                     Database&ensp;<i class="fa-solid fa-angle-right"></i></a> 
                     <div id="content">
                         <a href="materiais.html">Materias</a>
@@ -34,22 +34,22 @@
             
             <a href="#" class="header-center">Sobre Nós</a>
             <a href="index.html" class="header-center">
-                <div id="LOGO">
+                <div class="LOGO">
                     <img class="vam" src="images/We/LOGO.png" alt="Logo" height="50">GENSHINOP.GG
                 </div>
             </a>
-            <a href="Personagens.html" class="header-center">Personagens</a>
+            <a href="Personagens.html" class="header-center" id="bdd">Personagens</a>
             <a href="tierlist.html " class="header-center">Tier List</a>
         
         <div style="text-align: left; margin-top: -25px;">
             <input type="checkbox" id="ff"/>
-            <div class="lua"><label for="ff"><i class="fa-regular fa-moon"></i>&ensp;<i class="fa-solid fa-sun"></i><i class="fa-regular fa-circle"></i></label></div>
+            <div class="lua"><label for="ff" id="ggg"><i class="fa-regular fa-moon"></i>&ensp;<i class="fa-solid fa-sun"></i><i class="fa-solid fa-circle"></i></label></div>
         </div>
     </div>
         <div class="mobile-container">
             <div class="topnav">
                 <div id="vis1">
-                    <div class="icon" onclick="myFunction()"><a href="index.html"><div id="LOGO2" style="float: left;"><img class="vam" src="images/We/LOGO.png" alt="Logo" height="50">GENSHINOP.GG</div>
+                    <div class="icon" onclick="myFunction()"><a href="index.html"><div class="LOGO2" style="float: left;"><img class="vam" src="images/We/LOGO.png" alt="Logo" height="50">GENSHINOP.GG</div>
                             
                     </a>
                     <i class="fa-solid fa-bars" style="font-size: 30px; padding: 10px;" id="menu"></i>
@@ -66,16 +66,16 @@
                                 <br>
                                 <table style="width: 260px; margin:auto; height: 80px;">
                                     <tr>
-                                        <a href=""><a href="Personagens.html" class="menu-a">Personagens</a></a>
-                                        <a href=""><a href="#about" class="menu-a">Sobre Nós</a></a>
+                                        <th><a href="Personagens.html" class="menu-a">Personagens</a></th>
+                                        <th><a href="#about" class="menu-a">Sobre Nós</a></th>
                                     </tr>
                                     <tr>
-                                        <a href=""><a href="armas.html" class="menu-a">Armas</a></a>
-                                        <a href=""><a href="tierlist.html" class="menu-a">Tier List</a></a>
+                                        <th><a href="armas.html" class="menu-a">Armas</a></th>
+                                        <th><a href="tierlist.html" class="menu-a">Tier List</a></th>
                                     </tr>
                                 </table>
                                 <input type="checkbox" id="btt"/>
-            <div class="lua"><label for="btt"><i class="fa-regular fa-moon"></i>&ensp;<i class="fa-solid fa-sun"></i><i class="fa-regular fa-circle"></i></label></div>
+            <div class="lua"><label for="btt"><i class="fa-solid fa-sun"></i>&ensp;<i class="fa-regular fa-moon"></i><i class="fa-solid fa-circle"></i></label></div>
                                 
                                 
                                 
@@ -86,52 +86,31 @@
         
     <br>
     <div id="main2">
-        <br>
 
-        <div id="pers2"><img src="images/Banners/BarbaraB.png" alt="" id="kl">
-            <div id="right">
-                <div id="txt">
-                    <div class="center">
-                        <div class="titulos2">Bárbara</div>
-                        <img src="images/We/4star.png" alt="" id="ghg">
-                    </div>
-                    <br>
-                    Elemento: <img src="images/We/Element_Hydro.png" alt="" class="fa">
-                    <br>
-                    Região: Mondstadt
-                    <br>
-                    Arma: <a href="#Catalisadores">Catalisador</a>
-                    <br>
-                    Função: Suporte
-                    <br>
-                    Gênero: <img src="images/We/icon-fem.png" alt="" class="fa">  
-                    <br>
-                    Aniversário: 5/06
-                    <hr>
-                    <div id="tit">Descrição</div>
-                    <hr>
-                    Todos os habitantes de Mondstadt adoram a Barbara. Contudo, ela viu a palavra "ídolo" pela primeira
-                    vez em uma revista.
+        <div id="pers2">
+            <div class="Picon">
+                <img src="images/Characters/Barbara.png" alt="" id="gt"><br><img
+                    src="images/We/44star.png" alt="" style="margin:0px 10px;"><img src="images/We/Element_Hydro.png" alt="" height="40px"
+                    style="position: absolute; top: -10px; right:-10px; border-radius: 50%;background-color: rgba(0, 0, 0, 0.149); padding: 5px;box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+            </div>
+            <div
+                style="margin-left: 10px; text-align: center; background-color: rgba(0, 0, 0, 0.3);padding: 5px;box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;border-radius: 5px;">
+                <div class="titulos2">Bárbara</div>
+                <div class="titulos3">Catalisador</div>
+                <div style=" max-width: 450px; ">Todos os habitantes de Mondstadt adoram a Barbara. Contudo, ela viu a palavra "ídolo" pela primeira vez em uma revista.
                 </div>
             </div>
         </div>
-        <br><br>
-
-
-
-
-        <div id="dpflex2">
-            <ol>
-                <li><a href="#Builds">Builds</a></li>
-                <li><a href="#Ascensão">Materiais de Ascensão</a></li>
-                <li><a href="#talento">Materiais de Talento</a></li>
-                <li><a href="#Estatísticas">Estatísticas</a></li>
-                <li><a href="#Habilidades">Habilidades</a></li>
-                <li><a href="#Passivas">Passivas</a></li>
-                <li><a href="#Constelações">Constelações</a></li>
-                <li><a href="#Outros">Outros Personagens</a></li>
-            </ol>
-        </div>
+            <div class="ops">
+                <a href="#Builds">Builds</a>
+                <a href="#Ascensão">Materiais <br> de Ascensão</a>
+                <a href="#talento">Materiais <br> de Talento</a>
+                <a href="#Estatísticas">Estatísticas</a>
+                <a href="#Habilidades">Habilidades</a>
+                <a href="#Passivas">Passivas</a>
+                <a href="#Constelações">Constelações</a>
+                <a href="#Outros">Outros <br> Personagens</a>
+            </div>
 
 
 
@@ -158,13 +137,13 @@
             <div class="dgd">Elevação de Talentos: Habilidade Elemental > Explosão Elemental </div>
             <div class="titulos3">Armas</div>
             <div class="A_A">
-                <a href=""><div class="bg_blue"><img src="images/Armas/Weapon_Thrilling_Tales_of_Dragon_Slayers.webp" alt="" ><br></div></a>
+                <a href=""><div class="bg_blue"><img src="images/Armas/Weapon_Thrilling_Tales_of_Dragon_Slayers.webp" alt=""><br></div></a>
                 <div class="cs">Ou</div>
-                <a href=""><div class="bg_purple"><img src="images/Armas/Weapon_Prototype_Amber.webp" alt="" ><br></div></a>
+                <a href=""><div class="bg_purple"><img src="images/Armas/Weapon_Prototype_Amber.webp" alt=""><br></div></a>
                 <div class="cs">Ou</div>
-                <a href=""><div class="bg_purple"><img src="images/Armas/Weapon_Favonius_Codex.webp" alt="" ><br></div></a>
+                <a href=""><div class="bg_purple"><img src="images/Armas/Weapon_Favonius_Codex.webp" alt=""><br></div></a>
                 <div class="cs">Ou</div>
-                <a href=""><div class="bg_purple"><img src="images/Armas/Weapon_Wine_and_Song.webp" alt="" ><br></div></a>
+                <a href=""><div class="bg_purple"><img src="images/Armas/Weapon_Wine_and_Song.webp" alt=""><br></div></a>
             </div>
             <br>
             <div class="titulos3">Artefatos</div>
@@ -297,242 +276,243 @@
 
             <table class="bg3">
                 <tr>
-                    <a class="vam">Lvl. 1→2</a>
-                    <a href="">
+                    <th class="vam">Lvl. 1→2</th>
+                   <th><a href="">
                         <div class="dpinblock"><img src="images/AT/mora.png" alt="" class="s1">
                                 <div class="pl">20000</div>
                         </div>
-                    </a>
-                    <a href="">
+                    </a></th>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/varunada_lazurite_sliver.png" alt="" class="s2">
-                                <div class="pl">1 <br></div>
+                                <div class="pl">1</div>
                         </div>
-                    </a>
-                    
-                    <a href="">
+                    </a></th>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/philanemo_mushroom.png" alt="" class="s1">
                                 <div class="pl">3</div>
                         </div>
-                    </a>
-                    <a href="">
+                    </a></th>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/divining_scroll.png" alt="" class="s1"><br>
                                 <div class="pl">3</div>
                         </div>
-                    </a>
+                    </a></th>
+                    
                 
                 </tr>
 
                 <tr>
-                    <a class="vam">Lvl. 2→3</a>
-                    <a href="">
+                    <th class="vam">Lvl. 2→3</th>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/mora.png" alt="" class="s1">
                                 <div class="pl">40000</div>
                         </div>
-                    </a>
-                    <a href="">
+                    </a></th>
+                    
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/varunada_lazurite_fragment.png" alt=""
                                     class="s3"><br>
                                 <div class="pl">3</div>
                         </div>
-                    </a>
-                    <a href="">
+                    </a></th>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/cleansing_heart.png" alt="" class="s4"><br>
                                 <div class="pl">2</div>
                         </div>
-                    </a>
-                    <a href="">
+                    </a></th>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/philanemo_mushroom.png" alt="" class="s1">
                                 <div class="pl">10</div>
                         </div>
-                    </a>
-                    <a href="">
+                    </a></th>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/divining_scroll.png" alt="" class="s1"><br>
                                 <div class="pl">15</div>
                         </div>
-                    </a>
+                    </a></th>
                 </tr>
 
                 <tr>
-                    <a class="vam">Lvl. 3→4</a>
-                    <a href="">
+                    <th class="vam">Lvl. 3→4</th>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/mora.png" alt="" class="s1">
                                 <div class="pl">60000</div>
                         </div>
-                    </a>
-                    <a href="">
+                    </a></th>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/varunada_lazurite_fragment.png" alt=""
                                     class="s3"><br>
                                 <div class="pl">6</div>
                         </div>
-                    </a>
-                    <a href="">
+                    </a></th>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/cleansing_heart.png" alt="" class="s4"><br>
                                 <div class="pl">4</div>
                         </div>
-                    </a>
-                    <a href="">
+                    </a></th>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/philanemo_mushroom.png" alt="" class="s1">
                                 <div class="pl">20</div>
                         </div>
-                    </a>
-                    <a href="">
+                    </a></th>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/sealed_scroll.png" alt="" class="s2"><br>
                                 <div class="pl">12</div>
                         </div>
-                    </a>
+                    </a></th>
                 </tr>
 
                 <tr>
-                    <a class="vam">Lvl. 4→5</a>
-                    <a href="">
+                    <th class="vam">Lvl. 4→5</th>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/mora.png" alt="" class="s1">
                                 <div class="pl">80000</div>
                         </div>
-                    </a>
-                    <a href="">
+                    </a></th>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/varunada_lazurite_chunk.png" alt=""
                                     class="s4"><br>
                                 <div class="pl">3</div>
                         </div>
-                    </a>
-                    <a href="">
+                    </a></th>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/cleansing_heart.png" alt="" class="s4"><br>
                                 <div class="pl">8</div>
                         </div>
-                    </a>
-                    <a href="">
+                    </a></th>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/philanemo_mushroom.png" alt="" class="s1">
                                 <div class="pl">30</div>
                         </div>
-                    </a>
-                    <a href="">
+                    </a></th>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/sealed_scroll.png" alt="" class="s2"><br>
                                 <div class="pl">18</div>
                         </div>
-                    </a>
+                    </a></th>
                     </tr>
 
                 <tr>
-                    <a class="vam">Lvl. 5→6</a>
-                    <a href="">
+                    <th class="vam">Lvl. 5→6</th>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/mora.png" alt="" class="s1">
                                 <div class="pl">100000</div>
                         </div>
-                    </a>
-                    <a href="">
+                    </a></th>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/varunada_lazurite_chunk.png" alt=""
                                     class="s4"><br>
                                 <div class="pl">6</div>
                         </div>
-                    </a>
-                    <a href="">
+                    </a></th>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/cleansing_heart.png" alt="" class="s4"><br>
                                 <div class="pl">12</div>
                         </div>
-                    </a>
-                    <a href="">
+                    </a></th>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/philanemo_mushroom.png" alt="" class="s1">
                                 <div class="pl">45</div>
                         </div>
-                    </a>
-                    <a href="">
+                    </a></th>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/forbidden_curse_scroll.png" alt=""
                                     class="s3"><br>
                                 <div class="pl">12</div>
                         </div>
-                    </a>
+                    </a></th>
                     </tr>
 
                 <tr>
-                    <a class="vam">Lvl. 6→7</a>
-                    <a href="">
+                    <th class="vam">Lvl. 6→7</th>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/mora.png" alt="" class="s1">
                                 <div class="pl">120000</div>
                         </div>
-                    </a>
-                    <a href="">
+                    </a></th>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/varunada_lazurite_gemstone.png" alt=""
                                     class="s5"><br>
                                 <div class="pl">6</div>
                         </div>
-                    </a>
-                    <a href="">
+                    </a></th>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/cleansing_heart.png" alt="" class="s4"><br>
                                 <div class="pl">20</div>
                         </div>
-                    </a>
-                    <a href="">
+                    </a></th>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/philanemo_mushroom.png" alt="" class="s1">
                                 <div class="pl">60 </div>
                         </div>
-                    </a>
-                    <a href="">
+                    </a></th>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/forbidden_curse_scroll.png" alt=""
                                     class="s3"><br>
                                 <div class="pl">24</div>
                         </div>
-                    </a>
+                    </a></th>
                     </tr>
 
             </table>
             <div style="overflow-x: auto;">
                 <table class="bg3">
                     <tr>
-                        <a class="vam"><b>TOTAL</b></a>
-                        <a href="">
+                        <th class="vam"><b>TOTAL</b></th>
+                        <th><a href="">
                             <div class="dpinblock"><img src="images/AT/mora.png" alt="" class="s1">
                                     <div class="pl">420000</div>
                             </div>  
-                        </a>
-                        <a href="">
+                        </a></th>
+                        <th><a href="">
                             <div class="dpinblock"><img src="images/AT/varunada_lazurite_sliver.png" alt=""
                                         class="s2">
                                     <div class="pl">1 <br></div>
                             </div>  
-                        </a>
-                        <a href="">
+                        </a></th>
+                        <th><a href="">
                             <div class="dpinblock"><img src="images/AT/varunada_lazurite_fragment.png" alt=""
                                         class="s3"><br>
                                     <div class="pl">9</div>
                             </div>  
-                        </a>
-                        <a href="">
+                        </a></th>
+                        <th><a href="">
                             <div class="dpinblock"><img src="images/AT/varunada_lazurite_chunk.png" alt=""
                                         class="s4"><br>
                                     <div class="pl">9</div>
                             </div>  
-                        </a>
-                        <a href="">
+                        </a></th>
+                        <th><a href="">
                             <div class="dpinblock"><img src="images/AT/varunada_lazurite_gemstone.png" alt=""
                                         class="s5"><br>
                                     <div class="pl">6</div>
                             </div>  
-                        </a>
-                        <a href="">
+                        </a></th>
+                        <th><a href="">
                             <div class="dpinblock"><img src="images/AT/cleansing_heart.png" alt="" class="s4"><br>
                                     <div class="pl">46</div>
                             </div>  
-                        </a>
-                        <a href="">
+                        </a></th>
+                        <th><a href="">
                             <div class="dpinblock"><img src="images/AT/philanemo_mushroom.png" alt="" class="s1">
                                     <div class="pl">168</div>
                             </div>  
-                        </a>
-                        <a href="">
+                        </a></th>
+                        <th><a href="">
                             <div class="dpinblock"><img src="images/AT/divining_scroll.png" alt="" class="s1"><br>
                                     <div class="pl">18</div>
                             </div>  
-                        </a>
-                        <a href="">
+                        </a></th>
+                        <th><a href="">
                             <div class="dpinblock"><img src="images/AT/sealed_scroll.png" alt="" class="s2"><br>
                                     <div class="pl">30</div>
                             </div>  
-                        </a>
-                        <a href="">
+                        </a></th>
+                        <th><a href="">
                             <div class="dpinblock"><img src="images/AT/forbidden_curse_scroll.png" alt=""
                                         class="s3"><br>
                                     <div class="pl">36</div>
-                            </div>
+                            </div></a></th>
                     </tr>
                 </table>
             </div>
@@ -555,155 +535,155 @@
         <div style="overflow-x:auto;">
             <table class="bg3">
                 <tr>
-                    <a class="vam">Lvl. 1→2</a>
-                    <a href="">
+                    <th class="vam">Lvl. 1→2</th>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/mora.png" alt="" class="s1">
                                 <div class="pl">12500</div>
                         </div>
-                    </a>
-                    <a href="">
+                    </a></th>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/teachings_of_freedom.png" alt="" class="s2">
                                 <div class="pl">3</div>
                         </div>
-                    </a>
-                    <a href="">
+                    </a></th>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/divining_scroll.png" alt="" class="s1">
                                 <div class="pl">6</div>
                         </div>
-                    </a>
+                    </a></th>
                     
                 </tr>
 
                 <tr>
-                    <a class="vam">Lvl. 2→3</a>
-                    <a href="">
+                    <th class="vam">Lvl. 2→3</th>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/mora.png" alt="" class="s1">
                                 <div class="pl">17500</div>
                         </div>
-                    </a>
-                    <a href="">
+                    </a></th>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/guide_to_freedom.png" alt="" class="s3">
                                 <div class="pl">2</div>
                         </div>
-                    </a>
-                    <a href="">
+                    </a></th>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/sealed_scroll.png" alt="" class="s2">
                                 <div class="pl">3</div>
                         </div>
-                    </a>
+                    </a></th>
                     
                 
                 </tr>
 
                 <tr>
-                    <a class="vam">Lvl. 3→4</a>
-                    <a href="">
+                    <th class="vam">Lvl. 3→4</a>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/mora.png" alt="" class="s1">
                                 <div class="pl">25000</div>
                         </div>
-                    </a>
-                    <a href="">
+                    </a></th>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/guide_to_freedom.png" alt="" class="s3">
                                 <div class="pl">4</div>
                         </div>
-                    </a>
-                    <a href="">
+                    </a></th>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/sealed_scroll.png" alt="" class="s2">
                                 <div class="pl">4</div>
                         </div>
-                    </a>
+                    </a></th>
                     
                     
                 </tr>
 
                 <tr>
-                    <a class="vam">Lvl. 4→5</a>
-                    <a href="">
+                    <th class="vam">Lvl. 4→5</a>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/mora.png" alt="" class="s1">
                                 <div class="pl">30000</div>
                         </div>
-                    </a>
-                    <a href="">
+                    </a></th>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/guide_to_freedom.png" alt="" class="s3">
                                 <div class="pl">6</div>
                         </div>
-                    </a>
-                    <a href="">
+                    </a></th>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/sealed_scroll.png" alt="" class="s2">
                                 <div class="pl">6</div>
                         </div>
-                    </a>
+                    </a></th>
                     
                 </tr>
 
                 <tr>
-                    <a class="vam">Lvl. 5→6</a>
-                    <a href="">
+                    <th class="vam">Lvl. 5→6</a>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/mora.png" alt="" class="s1">
                                 <div class="pl">37000</div>
                         </div>
-                    </a>
-                    <a href="">
+                    </a></th>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/guide_to_freedom.png" alt="" class="s3">
                                 <div class="pl">9</div>
                         </div>
-                    </a>
-                    <a href="">
+                    </a></th>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/sealed_scroll.png" alt="" class="s2">
                                 <div class="pl">9</div>
                         </div>
-                    </a>
+                    </a></th>
                     
                 </tr>
 
                 <tr>
-                    <a class="vam">Lvl. 6→7</a>
-                    <a href="">
+                    <th class="vam">Lvl. 6→7</a>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/mora.png" alt="" class="s1">
                                 <div class="pl">120000</div>
                         </div>
-                    </a>
-                    <a href="">
+                    </a></th>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/philosophies_of_freedom.png" alt="" class="s4">
                                 <div class="pl">4</div>
                         </div>
-                    </a>
-                    <a href="">
+                    </a></th>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/forbidden_curse_scroll.png" alt="" class="s3">
                                 <div class="pl">4</div>
                         </div>
-                    </a>
-                    <a href="">
+                    </a></th>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/ring_of_boreas.png" alt="" class="s5">
                                 <div class="pl">1</div>
                         </div>
-                    </a>
+                    </a></th>
                     
                     
                 </tr>
 
                 <tr>
-                    <a class="vam">Lvl. 7→8</a>
-                    <a href="">
+                    <th class="vam">Lvl. 7→8</a>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/mora.png" alt="" class="s1">
                                 <div class="pl">260000</div>
                         </div>
-                    </a>
-                    <a href="">
+                    </a></th>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/philosophies_of_freedom.png" alt="" class="s4">
                                 <div class="pl">6</div>
                         </div>
-                    </a>
-                    <a href="">
+                    </a></th>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/forbidden_curse_scroll.png" alt="" class="s3">
                                 <div class="pl">6</div>
                         </div>
-                    </a>
-                    <a href="">
+                    </a></th>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/ring_of_boreas.png" alt="" class="s5">
                                 <div class="pl">1</div>
                         </div>
-                    </a>
+                    </a></th>
                     
                     
                     
@@ -714,27 +694,27 @@
                 </tr>
 
                 <tr>
-                    <a class="vam">Lvl. 8→9</a>
-                    <a href="">
+                    <th class="vam">Lvl. 8→9</a>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/mora.png" alt="" class="s1">
                                 <div class="pl">450000</div>
                         </div>
-                    </a>
-                    <a href="">
+                    </a></th>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/philosophies_of_freedom.png" alt="" class="s4">
                                 <div class="pl">12 </div>
                         </div>
-                    </a>
-                    <a href="">
+                    </a></th>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/forbidden_curse_scroll.png" alt="" class="s3">
                                 <div class="pl">9</div>
                         </div>
-                    </a>
-                    <a href="">
+                    </a></th>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/ring_of_boreas.png" alt="" class="s5">
                                 <div class="pl">2</div>
                         </div>
-                    </a>
+                    </a></th>
                     
                     
                     
@@ -745,32 +725,32 @@
                 </tr>
 
                 <tr>
-                    <a class="vam">Lvl. 9→10</a>
-                    <a href="">
+                    <th class="vam">Lvl. 9→10</a>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/mora.png" alt="" class="s1">
                                 <div class="pl">700000</div>
                         </div>
-                    </a>
-                    <a href="">
+                    </a></th>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/philosophies_of_freedom.png" alt="" class="s4">
                                 <div class="pl">16</div>
                         </div>
-                    </a>
-                    <a href="">
+                    </a></th>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/forbidden_curse_scroll.png" alt="" class="s3">
                                 <div class="pl">12</div>
                         </div>
-                    </a>
-                    <a href="">
+                    </a></th>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/ring_of_boreas.png" alt="" class="s5">
                                 <div class="pl">2</div>
                         </div>
-                    </a>
-                    <a href="">
+                    </a></th>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/crown_of_insight.png" alt="" class="s5">
                                 <div class="pl">1</div>
                         </div>
-                    </a>
+                    </a></th>
                     
                     
                     
@@ -785,54 +765,54 @@
 
             <table class="bg3">
                 <tr>
-                    <a class="vam"><b>TOTAL</b></a>
-                    <a href="">
+                    <th class="vam"><b>TOTAL</b></a>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/mora.png" alt="" class="s1">
                                 <div class="pl">1652500</div>
                         </div>
-                    </a>
-                    <a href="">
+                    </a></th>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/teachings_of_freedom.png" alt="" class="s2">
                                 <div class="pl">3</div>
                         </div>
-                    </a>
-                    <a href="">
+                    </a></th>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/guide_to_freedom.png" alt="" class="s3">
                                 <div class="pl">21</div>
                         </div>
-                    </a>
-                    <a href="">
+                    </a></th>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/philosophies_of_freedom.png" alt="" class="s4">
                                 <div class="pl">38 </div>
                         </div>
-                    </a>
-                    <a href="">
+                    </a></th>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/divining_scroll.png" alt="" class="s1">
                                 <div class="pl">6</div>
                         </div>
-                    </a>
+                    </a></th>
                     
-                    <a href="">
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/sealed_scroll.png" alt="" class="s2">
                                 <div class="pl">22</div>
                         </div>
-                    </a>
+                    </a></th>
                     
-                    <a href="">
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/forbidden_curse_scroll.png" alt="" class="s3">
                                 <div class="pl">31</div>
                         </div>
-                    </a>
-                    <a href="">
+                    </a></th>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/ring_of_boreas.png" alt="" class="s5">
                                 <div class="pl">6</div>
                         </div>
-                    </a>
-                    <a href="">
+                    </a></th>
+                    <th><a href="">
                         <div class="dpinblock"><img src="images/AT/crown_of_insight.png" alt="" class="s5">
                                 <div class="pl">1</div>
                         </div>
-                    </a>
+                    </a></th>
                 </tr>
             </table>
         </div>
@@ -850,109 +830,109 @@
         <div id="bg4" style="overflow-x: auto;">
             <table>
                 <tr>
-                    <a href="">Level</a>
-                    <a href="">Base <br>Vida</a>
-                    <a href="">Base <br>Ataque</a>
-                    <a href="">Base <br>Defesa</a>
-                    <a href="">Vida %</a>
+                    <th>Level</th>
+                    <th>Base <br>Vida</th>
+                    <th>Base <br>Ataque</th>
+                    <th>Base <br>Defesa</th>
+                    <th>Vida %</th>
                 </tr>
                 <tr>
-                    <a href="">1</a>
-                    <a href="">821.0</a>
-                    <a href="">13.0</a>
-                    <a href="">56.0</a>
-                    <a href="">0.0</a>
+                    <th>1</th>
+                    <th>821.0</th>
+                    <th>13.0</th>
+                    <th>56.0</th>
+                    <th>0.0</th>
                 </tr>
                 <tr>
-                    <a href="">20</a>
-                    <a href="">2108.0</a>
-                    <a href="">34.0</a>
-                    <a href="">144.0</a>
-                    <a href="">0.0</a>
+                    <th>20</th>
+                    <th>2108.0</th>
+                    <th>34.0</th>
+                    <th>144.0</th>
+                    <th>0.0</th>
                 </tr>
                 <tr>
-                    <a href="">20+</a>
-                    <a href="">2721.0</a>
-                    <a href="">44.0</a>
-                    <a href="">186.0</a>
-                    <a href="">00.0</a>
+                    <th>20+</th>
+                    <th>2721.0</th>
+                    <th>44.0</th>
+                    <th>186.0</th>
+                    <th>00.0</th>
                 </tr>
                 <tr>
-                    <a href="">40</a>
-                    <a href="">4076.0</a>
-                    <a href="">66.0</a>
-                    <a href="">279.0</a>
-                    <a href="">0.0</a>
+                    <th>40</th>
+                    <th>4076.0</th>
+                    <th>66.0</th>
+                    <th>279.0</th>
+                    <th>0.0</th>
                 </tr>
                 <tr>
-                    <a href="">40+</a>
-                    <a href="">4512.0</a>
-                    <a href="">73.0</a>
-                    <a href="">308.0</a>
-                    <a href="">6.0</a>
+                    <th>40+</th>
+                    <th>4512.0</th>
+                    <th>73.0</th>
+                    <th>308.0</th>
+                    <th>6.0</th>
                 </tr>
                 <tr>
-                    <a href="">50</a>
-                    <a href="">5189.0</a>
-                    <a href="">84.0</a>
-                    <a href="">355.0</a>
-                    <a href="">6.0</a>
+                    <th>50</th>
+                    <th>5189.0</th>
+                    <th>84.0</th>
+                    <th>355.0</th>
+                    <th>6.0</th>
                 </tr>
                 <tr>
-                    <a href="">50+</a>
-                    <a href="">5770.0</a>
-                    <a href="">94.0</a>
-                    <a href="">394.0</a>
-                    <a href="">12.0</a>
+                    <th>50+</th>
+                    <th>5770.0</th>
+                    <th>94.0</th>
+                    <th>394.0</th>
+                    <th>12.0</th>
                 </tr>
                 <tr>
-                    <a href="">60</a>
-                    <a href="">6448.0</a>
-                    <a href="">105.0</a>
-                    <a href="">441.0</a>
-                    <a href="">12.0</a>
+                    <th>60</th>
+                    <th>6448.0</th>
+                    <th>105.0</th>
+                    <th>441.0</th>
+                    <th>12.0</th>
                 </tr>
                 <tr>
-                    <a href="">60+</a>
-                    <a href="">6884.0</a>
-                    <a href="">112.0</a>
-                    <a href="">470.0</a>
-                    <a href="">12.0</a>
+                    <th>60+</th>
+                    <th>6884.0</th>
+                    <th>112.0</th>
+                    <th>470.0</th>
+                    <th>12.0</th>
                 </tr>
                 <tr>
-                    <a href="">70</a>
-                    <a href="">7561.0</a>
-                    <a href="">123.0</a>
-                    <a href="">517.0</a>
-                    <a href="">12.0</a>
+                    <th>70</th>
+                    <th>7561.0</th>
+                    <th>123.0</th>
+                    <th>517.0</th>
+                    <th>12.0</th>
                 </tr>
                 <tr>
-                    <a href="">70+</a>
-                    <a href="">7996.0</a>
-                    <a href="">130.0</a>
-                    <a href="">546.0</a>
-                    <a href="">18.0</a>
+                    <th>70+</th>
+                    <th>7996.0</th>
+                    <th>130.0</th>
+                    <th>546.0</th>
+                    <th>18.0</th>
                 </tr>
                 <tr>
-                    <a href="">80</a>
-                    <a href="">8674.0</a>
-                    <a href="">141.0</a>
-                    <a href="">593.0</a>
-                    <a href="">18.0</a>
+                    <th>80</th>
+                    <th>8674.0</th>
+                    <th>141.0</th>
+                    <th>593.0</th>
+                    <th>18.0</th>
                 </tr>
                 <tr>
-                    <a href="">80+</a>
-                    <a href="">9110.0</a>
-                    <a href="">148.0</a>
-                    <a href="">623.0</a>
-                    <a href="">24.0</a>
+                    <th>80+</th>
+                    <th>9110.0</th>
+                    <th>148.0</th>
+                    <th>623.0</th>
+                    <th>24.0</th>
                 </tr>
                 <tr>
-                    <a href="">90</a>
-                    <a href="">9787.0</a>
-                    <a href="">159.0</a>
-                    <a href="">669.0</a>
-                    <a href="">24.0</a>
+                    <th>90</th>
+                    <th>9787.0</th>
+                    <th>159.0</th>
+                    <th>669.0</th>
+                    <th>24.0</th>
                 </tr>
             </table>
 

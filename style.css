@@ -6,7 +6,8 @@
 
 *{
     box-sizing: border-box;
-    
+    padding: 0;
+    margin: 0;
 }
 
 html {
@@ -35,7 +36,7 @@ input{
 }
 
 #header {
-    
+    border-bottom: 1px solid white;
     
     background-color: var(--css);
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -51,6 +52,7 @@ input{
     font-weight: bold;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: max(0.8vw, 12px);
+    
 }
 
 .dgd {
@@ -264,11 +266,15 @@ label i:nth-child(3) {
 
 table, tr, th {
     border-collapse: collapse;
+    white-space: nowrap;
+
+
 }
 
 th {
     font-weight: normal;
     border: 0px;
+    padding: 2px;
     vertical-align: top;
 }
 
@@ -366,25 +372,22 @@ img {
     opacity: 0.7;
 }
 
-table {
+table{
     width: 100%;
 }
-
 .dpinblock {
     display: inline-block;
+    position: relative;
 }
 
-#LOGO {
+.LOGO {
     font-size: 23px;
-    background-color: #31314080;
-    color: white;
-    padding: 5px 20px;
-    border-radius: 12px;
     font-weight: bold;
     display: inline-block;
+    padding-right: 10px;
 }
 
-#LOGO2 {
+.LOGO2 {
     font-size: 20px;
     color: white;
     font-weight: bold;
@@ -482,6 +485,7 @@ content:url(images/We/11star.png);
     font-size:max(13px,0.8vw);
     color: #ffffff;
     font-weight: bold;
+    justify-content: space-between;
 }
 .A_A img{
     width: 80%;
@@ -529,11 +533,12 @@ content:url(images/We/11star.png);
 }
 
 .pl {
-    font-family: sans-serif;
     border-bottom-left-radius: 9px;
     border-bottom-right-radius: 9px;
-    padding: 2px;
-    text-align: center;
+    position: absolute;
+    bottom: 4px;
+    width:60px;
+    background-color: rgba(0, 0, 0, 0.453);
 }
 
 .bg_golden, .s5 {
@@ -561,21 +566,19 @@ content:url(images/We/11star.png);
 }
 .Picon{
     position: relative;
-    background-color: #1f1f2b89;box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;border-radius: 10%;
+    background-color: #1f1f2b89;box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;border-radius: 5px;
     text-align: center;
 }
 .Picon #gt{
     
-    
-    display: inline-block;
+   width:90%;
+   display: inline-block;
     text-align: center;
     
     
 }
 .s1, .s2, .s3, .s4, .s5 {
-    background-size: 100%;
-    width: 90%;
-    min-width: 40px;
+    width:60px;
     border-radius: 9px;
 }
 
@@ -594,8 +597,16 @@ content:url(images/We/11star.png);
    
 }
 .ops{
-    position: absolute;bottom: -70px; z-index: 20000;
-    text-align:center; background-color:var(--css) ; overflow-x:auto;white-space: nowrap; font-weight:bold; padding:5px 20px; max-width: 800px; margin: auto; display: flex; justify-content: space-between;
+   
+    
+    text-align:center; 
+    background-color:var(--css); 
+    overflow-x:auto;
+    white-space: nowrap;
+    padding:5px 20px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
 }
 .ops a{
     margin: 10px;
@@ -883,8 +894,10 @@ li {
 }
 #bdd{
     border-bottom: 2px solid white;
-    display: inline-block;
+    border-radius: 5px;
+    background-image: linear-gradient(to top,rgba(255, 255, 255, 0.15),var(--css));
 }
+
 @media only screen and (max-width: 850px) {
    
     #main4, #main2, #main1{
@@ -944,4 +957,12 @@ li {
         margin-left: 10px;
     }
 }
-
+@media only screen and (max-width: 368px) {
+    .s1, .s2, .s3, .s4, .s5{
+        width: 50px;
+    }
+    .pl{
+        width: 50px;
+        bottom:3px;
+    }
+}

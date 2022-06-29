@@ -440,18 +440,18 @@ table{
 }
 
 
-#bg12 .bg_golden img:first-child, .bg_purple img:first-child, .bg_blue img:first-child, .bg_green img:first-child, .bg_gray img:first-child{
-    width: max(100px,6vw);
+.bg_golden img:first-child, .bg_purple img:first-child, .bg_blue img:first-child, .bg_green img:first-child, .bg_gray img:first-child{
+    width:70px;
 }
 
 .bg_golden img:hover:first-child, .bg_purple img:hover:first-child, .bg_blue img:hover:first-child, .bg_green img:hover:first-child, .bg_gray img:hover:first-child{
     opacity: 0.5;
 }
-#bg12 .bg_purple img:nth-child(4), .bg_blue img:nth-child(4), .bg_green img:nth-child(4), .bg_gray img:nth-child(4) .bg_golden img:nth-child(4){
-    height: max(18px,1vw);
+.bg_purple img:nth-child(2), .bg_blue img:nth-child(2), .bg_green img:nth-child(2), .bg_gray img:nth-child(2), .bg_golden img:nth-child(4){
+    height: 10px;
 }
 
-#bg12 .bg_green, .bg_golden,.bg_purple,.bg_gray,.bg_blue{
+#bg12 .bg_green,#bg12 .bg_golden,#bg12 .bg_purple,#bg12 .bg_gray,#bg12 .bg_blue{
     display: inline-block;
     width: 120px;
     text-align: center;
@@ -460,6 +460,11 @@ table{
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
+}
+
+#main2 .bg_green,#main2 .bg_golden,#main2 .bg_purple,#main2 .bg_gray,#main2 .bg_blue{
+    display: inline-block;
+    text-align: center;
 }
 
 #bg12 .bg_gray b::after{
@@ -487,10 +492,7 @@ content:url(images/We/11star.png);
     font-weight: bold;
     justify-content: space-between;
 }
-.A_A img{
-    width: 80%;
-    min-width: 100px;
-}
+
 .bg8 .A_A:last-child{
     align-items: flex-start;
 }
@@ -541,10 +543,12 @@ content:url(images/We/11star.png);
     background-color: rgba(0, 0, 0, 0.453);
 }
 
-.bg_golden, .s5 {
+.bg8 .bg_golden{
     background-image:linear-gradient(135deg, rgb(107, 84, 83), rgb(189,140,81));
 }
-
+.s5{
+    background-image:linear-gradient(135deg, rgb(107, 84, 83), rgb(189,140,81));
+}
 .bg_purple, .s4{
     background-image:linear-gradient(135deg, rgb(91, 83, 129) , rgb(183, 136, 202));
 }
@@ -559,23 +563,44 @@ content:url(images/We/11star.png);
     background-image:linear-gradient(135deg, rgb(81, 84, 120) , rgb(74, 157, 179));
 }
 .bg_golden, .bg_purple, .bg_gray, .bg_green, .bg_blue{
-    padding: 10px;
-    background-size: 100%;
-    border-radius: 10px 10px 30px 30px;
-    color: white;
+    border-radius:10px; 
+    padding:10px;
 }
 .Picon{
     position: relative;
-    background-color: #1f1f2b89;box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;border-radius: 5px;
+    background-color: #00000043;box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;border-radius: 5px;
     text-align: center;
-}
-.Picon #gt{
     
+}
+#gta{
+    background-image:linear-gradient(135deg, rgb(73, 86, 91), rgb(93, 150, 108));
+}
+#gth{
+    
+}
+#gtp{
+    background-image:linear-gradient(135deg, rgb(95, 55, 55), rgb(189, 104, 67));
+}
+#gte{
+    
+}
+#gtc{
+    
+}
+#gtg{
+    
+}
+#gta,#gtp,#gth,#gte,#gtc,#gtg{
+    border-radius: 50%;
    width:90%;
    display: inline-block;
     text-align: center;
     
     
+}
+.Picon::after{
+
+    content: url(images/We/55star.png);
 }
 .s1, .s2, .s3, .s4, .s5 {
     width:60px;
@@ -584,18 +609,7 @@ content:url(images/We/11star.png);
 
 
 
-#pers {
-    padding: 20px;
-    border-radius: 3px;
-    background-repeat: no-repeat;
-    background-image:linear-gradient(135deg, rgb(107, 84, 83), rgb(189,140,81));
-    display: flex;
-    justify-content: space-between;
-    box-shadow: 0 1px 2px rgb(0 0 0 / 24%), 0 1px 3px rgb(0 0 0 / 42%);
-    border-radius: 9px;
-    background-image: url(images/Backgrounds/bg_golden.png);
-   
-}
+
 .ops{
    
     
@@ -611,10 +625,14 @@ content:url(images/We/11star.png);
 .ops a{
     margin: 10px;
 }
-#pers2 {
+#pers {
+    background-image:linear-gradient(135deg, rgb(107, 84, 83), rgb(189,140,81));
+   
+}
+#pers, #pers2{
     align-items: top;
     padding:20px 10px;
-    background-image:linear-gradient(135deg, rgb(91, 83, 129) , rgb(183, 136, 202));
+    
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     position: relative;
     display: flex;
@@ -622,6 +640,9 @@ content:url(images/We/11star.png);
     
     margin: auto;
 color: white;
+}
+#pers2 {
+    background-image:linear-gradient(135deg, rgb(91, 83, 129) , rgb(183, 136, 202));
 }
 
 
@@ -728,6 +749,8 @@ a {
     background-color: #414155be;
     border-radius: 50%;
     margin: 15px;
+    display: inline-block;
+    font-weight: bold;
 }
 
 

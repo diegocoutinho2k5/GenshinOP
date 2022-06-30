@@ -483,7 +483,7 @@ content:url(images/We/11star.png);
     content:url(images/We/55star.png);
 }
 
-.A_A{
+.A_A,.A_A1{
     overflow-x:auto; 
     display: flex; 
     align-items: center;
@@ -493,22 +493,22 @@ content:url(images/We/11star.png);
     justify-content: space-between;
 }
 
-.bg8 .A_A:last-child{
+.bg8 .A_A1{
     align-items: flex-start;
 }
-.A_A .bg_gray::after{
+.A_A .bg_gray::after,.A_A1 .bg_gray::after{
 content:url(images/We/11star.png);
 }
-.A_A .bg_green::after{
+.A_A .bg_green::after, .A_A1 .bg_green::after{
     content:url(images/We/22star.png);
 }
-.A_A .bg_blue::after{
+.A_A .bg_blue::after, .A_A1 .bg_blue::after{
     content:url(images/We/33star.png);
 }
-.A_A .bg_purple::after{
+.A_A .bg_purple::after,.A_A1 .bg_purple::after{
     content:url(images/We/44star.png);
 }
-.A_A .bg_golden::after{
+.A_A .bg_golden::after, .A_A1 .bg_golden::after{
     content:url(images/We/55star.png);
 }    
 
@@ -542,13 +542,13 @@ content:url(images/We/11star.png);
     width:60px;
     background-color: rgba(0, 0, 0, 0.453);
 }
+.bg8 .bg_golden, .bg8 .bg_purple,.bg8 .bg_blue,.bg8 .bg_green,.bg8 .bg_gray{
+    margin:0px 5px;
+}
+.bg_golden, .s5{
+    background-image:linear-gradient(135deg, rgb(107, 84, 83), rgb(189,140,81));
+}
 
-.bg8 .bg_golden{
-    background-image:linear-gradient(135deg, rgb(107, 84, 83), rgb(189,140,81));
-}
-.s5{
-    background-image:linear-gradient(135deg, rgb(107, 84, 83), rgb(189,140,81));
-}
 .bg_purple, .s4{
     background-image:linear-gradient(135deg, rgb(91, 83, 129) , rgb(183, 136, 202));
 }
@@ -566,29 +566,30 @@ content:url(images/We/11star.png);
     border-radius:10px; 
     padding:10px;
 }
-.Picon{
+.Picon, .Picon2{
     position: relative;
     background-color: #00000043;box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;border-radius: 5px;
     text-align: center;
     
 }
+
 #gta{
     background-image:linear-gradient(135deg, rgb(73, 86, 91), rgb(93, 150, 108));
 }
 #gth{
-    
+    background-image:linear-gradient(135deg, rgb(49, 54, 102) , rgb(74, 132, 179));
 }
 #gtp{
     background-image:linear-gradient(135deg, rgb(95, 55, 55), rgb(189, 104, 67));
 }
 #gte{
-    
+    background-image:linear-gradient(135deg, rgb(91, 83, 129) , rgb(183, 136, 202));
 }
 #gtc{
     
 }
 #gtg{
-    
+     background-image:linear-gradient(135deg, rgb(97, 75, 60), rgb(255, 196, 34));
 }
 #gta,#gtp,#gth,#gte,#gtc,#gtg{
     border-radius: 50%;
@@ -601,6 +602,9 @@ content:url(images/We/11star.png);
 .Picon::after{
 
     content: url(images/We/55star.png);
+}
+.Picon2::after{
+    content: url(images/We/44star.png);
 }
 .s1, .s2, .s3, .s4, .s5 {
     width:60px;
@@ -850,18 +854,17 @@ li {
 }
 
 ::-webkit-scrollbar {
-    width: 10px;
-    height: 10px;
+    height: 5px;
 }
   
 ::-webkit-scrollbar-track {
-    border-radius: 10px;
-    box-shadow: inset 0 0 5px rgba(128, 128, 128, 0.318);
+    border-radius: 5px;
+    box-shadow: inset 0 0 3px rgba(128, 128, 128, 0.318);
 }
 
 ::-webkit-scrollbar-thumb {
     background: #414155a4; 
-    border-radius: 10px;
+    border-radius: 5px;
 }
   
 ::-webkit-scrollbar-thumb:hover {
@@ -963,6 +966,9 @@ li {
 }
 
 @media only screen and (max-width: 580px) {
+    .Picon, .Picon2{
+        max-height: 100px;
+    }
     #bg11{
         padding-left: 0;
         padding-right: 0;
@@ -988,4 +994,5 @@ li {
         width: 50px;
         bottom:3px;
     }
+    
 }

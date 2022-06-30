@@ -139,7 +139,7 @@ body.dark #bdd{
     background-image: linear-gradient(to top,rgb(225, 224, 224), rgb(245, 245, 255));
 }
 body.dark .ops{
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(226, 226, 226);
     
 }
 body.dark .ops a{
@@ -154,8 +154,8 @@ body.dark #vis1{
     
 }
 body.dark .cs{
-    color: white;
-    background-color: var(--pt);
+    color: black;
+    background-color:#716fb849 ;
 }
 body.dark .bg5{
     background-color: #ffffff;
@@ -193,6 +193,6 @@ body.dark hr{
 body.dark #txt hr{
     background-color: white;
 }
-body.dark .titulos{
-    color: var(--pt);
+body.dark .titulos2,body.dark .titulos3{
+    color: #ffae00;
 }

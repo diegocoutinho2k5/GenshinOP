@@ -1,6 +1,6 @@
 :root{
-    --pt:rgb(31, 29, 35);
-    --css: #12121b;
+    --pt:rgb(49, 49, 74);
+    --css: #232431;
     --BACK-GROUND:#1f1f2b;
 }
 
@@ -25,6 +25,7 @@ body {
 input{
     display: none;
 }
+
 .ponto {
     visibility: hidden;
 }
@@ -59,17 +60,21 @@ input{
     font-size: max(0.7vw, 10px);   
     font-weight: bold; 
 }
-
+#nome{
+    font-size: max(1.2vw, 16px);
+   font-weight: bold;
+   color: white;
+}
 .titulos {
     font-size: max(1.4vw, 20px);
     font-weight: bold;
-    
 }
 
 .titulos2 {
    font-size: max(1.2vw, 16px);
    font-weight: bold;
    
+   color: #ffd780;
 }
 
 .titulos3 {
@@ -77,6 +82,7 @@ input{
     font-weight: bold;
     line-height: 2.4;
     
+    color: #ffd780;
 }
 
 #header a {
@@ -238,7 +244,7 @@ label i:nth-child(3) {
 }
 #main2 {
     border-radius: 12px;
-    background-color: #2a2a3b;
+    background-color: #2a2a3b44;
     max-width: 900px;
     min-width: 200px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -440,15 +446,20 @@ table{
 }
 
 
-.bg_golden img:first-child, .bg_purple img:first-child, .bg_blue img:first-child, .bg_green img:first-child, .bg_gray img:first-child{
-    width:70px;
+.bg_golden img:last-child, .bg_purple img:last-child, .bg_blue img:last-child, .bg_green img:last-child, .bg_gray img:last-child{
+    width: 60%;
 }
-
-.bg_golden img:hover:first-child, .bg_purple img:hover:first-child, .bg_blue img:hover:first-child, .bg_green img:hover:first-child, .bg_gray img:hover:first-child{
-    opacity: 0.5;
+#main1 .bg_golden img:first-child,#main1 .bg_purple img:first-child,#main1 .bg_blue img:first-child,#main1 .bg_green img:first-child,#main1 .bg_gray img:first-child{
+    width: 65%;
 }
-.bg_purple img:nth-child(2), .bg_blue img:nth-child(2), .bg_green img:nth-child(2), .bg_gray img:nth-child(2), .bg_golden img:nth-child(4){
-    height: 10px;
+.art {
+    width: 120px;
+    
+    margin: 5px;
+}
+.bg_golden:hover, .bg_purple:hover,.bg_blue:hover, .bg_green:hover, .bg_gray:hover{
+    opacity: 0.8;
+    transition: 0.3s;
 }
 
 #bg12 .bg_green,#bg12 .bg_golden,#bg12 .bg_purple,#bg12 .bg_gray,#bg12 .bg_blue{
@@ -467,22 +478,6 @@ table{
     text-align: center;
 }
 
-#bg12 .bg_gray b::after{
-content:url(images/We/11star.png);
-}
-#bg12 .bg_green b:after{
-    content:url(images/We/22star.png);
-}
-#bg12 .bg_blue b::after{
-    content:url(images/We/33star.png);
-}
-#bg12 .bg_purple b::after{
-    content:url(images/We/44star.png);
-}
-#bg12 .bg_golden b::after{
-    content:url(images/We/55star.png);
-}
-
 .A_A,.A_A1{
     overflow-x:auto; 
     display: flex; 
@@ -496,21 +491,12 @@ content:url(images/We/11star.png);
 .bg8 .A_A1{
     align-items: flex-start;
 }
-.A_A .bg_gray::after,.A_A1 .bg_gray::after{
-content:url(images/We/11star.png);
+
+.ffd{
+    background-color: rgba(0, 0, 0, 0.213);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
-.A_A .bg_green::after, .A_A1 .bg_green::after{
-    content:url(images/We/22star.png);
-}
-.A_A .bg_blue::after, .A_A1 .bg_blue::after{
-    content:url(images/We/33star.png);
-}
-.A_A .bg_purple::after,.A_A1 .bg_purple::after{
-    content:url(images/We/44star.png);
-}
-.A_A .bg_golden::after, .A_A1 .bg_golden::after{
-    content:url(images/We/55star.png);
-}    
 
 #vis1 {
     text-align: right;
@@ -543,28 +529,30 @@ content:url(images/We/11star.png);
     background-color: rgba(0, 0, 0, 0.453);
 }
 .bg8 .bg_golden, .bg8 .bg_purple,.bg8 .bg_blue,.bg8 .bg_green,.bg8 .bg_gray{
-    margin:0px 5px;
-}
-.bg_golden, .s5{
-    background-image:linear-gradient(135deg, rgb(107, 84, 83), rgb(189,140,81));
+    margin:0px 5    px; background-color: #57577c48;
 }
 
-.bg_purple, .s4{
+ .bg_golden, .s5{
+    
+    background-image:linear-gradient(135deg, rgb(107, 84, 83), rgb(189,140,81));
+   
+}
+
+ .bg_purple, .s4{
     background-image:linear-gradient(135deg, rgb(91, 83, 129) , rgb(183, 136, 202));
 }
 
-.bg_gray, .s1 {
+ .bg_gray, .s1 {
     background-image:linear-gradient(135deg, rgb(80, 88, 94) ,  rgb(135, 141, 157));
 }
-.bg_green, .s2{
+ .bg_green, .s2{
     background-image:linear-gradient(135deg, rgb(73, 86, 91), rgb(93, 150, 108));
 }
-.bg_blue, .s3{
+ .bg_blue, .s3{
     background-image:linear-gradient(135deg, rgb(81, 84, 120) , rgb(74, 157, 179));
 }
 .bg_golden, .bg_purple, .bg_gray, .bg_green, .bg_blue{
-    border-radius:10px; 
-    padding:10px;
+    border-radius:5px; 
 }
 .Picon, .Picon2{
     position: relative;
@@ -586,7 +574,7 @@ content:url(images/We/11star.png);
     background-image:linear-gradient(135deg, rgb(91, 83, 129) , rgb(183, 136, 202));
 }
 #gtc{
-    
+    background-image:linear-gradient(135deg, rgb(49, 57, 102) , rgb(98, 192, 236));
 }
 #gtg{
      background-image:linear-gradient(135deg, rgb(97, 75, 60), rgb(255, 196, 34));
@@ -730,10 +718,11 @@ a {
 }
 
 .bg8 {
-    background-color:var(--css);
+    background-color:#47476221;
     padding: 18px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 12px;
+    margin: auto;
 }
 
 .bg5{
@@ -755,6 +744,7 @@ a {
     margin: 15px;
     display: inline-block;
     font-weight: bold;
+    
 }
 
 
@@ -769,9 +759,7 @@ a {
     display:inline-block ;
 }
 
-.starsize {
-    height: 18px;
-}
+
 
 
 .gas {
@@ -920,6 +908,7 @@ li {
 }
 #bdd{
     border-bottom: 2px solid white;
+    color: #ffd780;
     border-radius: 5px;
     background-image: linear-gradient(to top,rgba(255, 255, 255, 0.15),var(--css));
 }
@@ -966,8 +955,11 @@ li {
 }
 
 @media only screen and (max-width: 580px) {
-    .Picon, .Picon2{
+    .Picon2{
         max-height: 100px;
+    }
+    .Picon{
+        max-height: 120px;
     }
     #bg11{
         padding-left: 0;

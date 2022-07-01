@@ -1,6 +1,6 @@
 :root{
     --pt:rgb(49, 49, 74);
-    --css: #232431;
+    --css: rgb(26, 29, 39);
     --BACK-GROUND:#1f1f2b;
 }
 
@@ -120,14 +120,14 @@ input{
 }
 #Claymore:checked + #Cl img{
     background-color: #ffffff15;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
     background-size: 100%;
     
     border-radius: 6px;
 }
 #Sword:checked + #Sw img{
     background-color: #ffffff15;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
     background-size: 100%;
     
     border-radius: 6px;
@@ -136,14 +136,14 @@ input{
 
 #Bow:checked + #Bw img{
     background-color: #ffffff15;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
     background-size: 100%;
     
     border-radius: 6px;
 }
 #Polearm:checked + #Pl img{
     background-color: #ffffff15;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
     background-size: 100%;
     
     border-radius: 6px;
@@ -151,7 +151,7 @@ input{
 
 #Catalyst:checked + #Ct img{
     background-color: #ffffff15;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
     background-size: 100%;
     
     border-radius: 6px;
@@ -162,14 +162,14 @@ input{
 }
 #Geo:checked + #Go img{
     background-color: #ffffff15;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
     background-size: 100%;
     
     border-radius: 6px;
 }
 #Electro:checked + #El img{
     background-color: #ffffff15;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
     background-size: 100%;
     
     border-radius: 6px;
@@ -180,28 +180,28 @@ position: relative;
 }
 #Hydro:checked + #Hy img{
     background-color: #ffffff15;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
     background-size: 100%;
     
     border-radius: 6px;
 }
 #Pyro:checked + #Py img{
     background-color: #ffffff15;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
     background-size: 100%;
     
     border-radius: 6px;
 }
 #Anemo:checked + #An img{
     background-color: #ffffff15;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
     background-size: 100%;
     
     border-radius: 6px;
 }
 #Cryo:checked + #Cr img{
     background-color: #ffffff15;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
     background-size: 100%;
     
     border-radius: 6px;
@@ -244,10 +244,10 @@ label i:nth-child(3) {
 }
 #main2 {
     border-radius: 12px;
-    background-color: #2a2a3b44;
+    background-color: #272937;
     max-width: 900px;
     min-width: 200px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
     padding: 30px;
     padding-top: 40px;
     margin: auto;
@@ -263,9 +263,9 @@ label i:nth-child(3) {
     min-width: 200px;
     margin: auto;
     margin-bottom: 20px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
     border-radius: 9px;
-    background-color:var(--css);
+    background-color: #272937;
     color: white;
     padding: 10px;
 }
@@ -313,12 +313,9 @@ img {
 }
 
 .displayflex {
-    border-radius: 6px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     display: flex;
-    padding: 20px;
-    justify-content: space-evenly;
-    background-color:var(--css);
+    padding: 10px;
+    justify-content:space-around;
     flex-wrap: wrap;
     text-align: center;
 }
@@ -331,10 +328,6 @@ img {
 
 .displayflex6 .bg5{
     width: 250px;
-}
-
-.displayflex .dpinblock {
-    position: relative;
 }
 
 .displayflex6 .dpinblock {
@@ -350,24 +343,25 @@ img {
     display: flex;
 }
 
-.ICONS{
-    width: max(70px, 3vw);
-    border-radius: 900px;
+.ICONS img:last-of-type{
+    width: max(70px, 4vw);
+    border-radius: 50%;
+    margin: 5px;
 }
-
+.ICONS {
+    background-color: rgba(126, 120, 146, 0.216);
+    position: relative;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
 .ICONS:hover{
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    transition: 0.4s;
     opacity: 0.6;
+    transition: 0.3s;
 }
-
-.ICONS:active{
-    background-color: rgb(73, 69, 85);
-}
-
 .WeaponIcon{
     width: max(70px, 3vw);
     border-radius: 900px;
+  
 }
 
 .WeaponIcon:active{
@@ -400,10 +394,7 @@ table{
     display: inline-block;
 }
 
-.bg1 {
-    background-color: #2a2a3b;
-    box-shadow: 0 1px 2px rgb(0 0 0 / 24%), 0 1px 3px rgb(0 0 0 / 42%);
-}
+
 
 #bg2 {
     text-align: center;
@@ -413,14 +404,15 @@ table{
 
 
 .bg3 {
-    background-color: #5252744b;
+    background-color: #52527414;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 }
 
 #bg4 {
     background-color:var(--css);
     padding: 20px;
     border-radius: 9px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
     max-width: 400px;
     min-width: 260px;
     margin: auto;
@@ -429,7 +421,7 @@ table{
 #bg11{
     background-color:var(--css);
     padding: 20px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
     border-radius: 9px;
     
 }
@@ -446,9 +438,6 @@ table{
 }
 
 
-.bg_golden img:last-child, .bg_purple img:last-child, .bg_blue img:last-child, .bg_green img:last-child, .bg_gray img:last-child{
-    width: 60%;
-}
 #main1 .bg_golden img:first-child,#main1 .bg_purple img:first-child,#main1 .bg_blue img:first-child,#main1 .bg_green img:first-child,#main1 .bg_gray img:first-child{
     width: 65%;
 }
@@ -497,7 +486,9 @@ table{
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
-
+.ffd img{
+    height: 18px;
+}
 #vis1 {
     text-align: right;
     display: none;
@@ -553,14 +544,18 @@ table{
 }
 .bg_golden, .bg_purple, .bg_gray, .bg_green, .bg_blue{
     border-radius:5px; 
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.393) 0px 0px 0px 1px inset;
 }
 .Picon, .Picon2{
     position: relative;
-    background-color: #00000043;box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;border-radius: 5px;
+    background-color: #00000043;box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;border-radius: 5px;
     text-align: center;
     
 }
-
+.displayflex .bg_golden{
+    padding: 0px;
+}
 #gta{
     background-image:linear-gradient(135deg, rgb(73, 86, 91), rgb(93, 150, 108));
 }
@@ -604,7 +599,7 @@ table{
 
 .ops{
    
-    
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
     text-align:center; 
     background-color:var(--css); 
     overflow-x:auto;
@@ -625,7 +620,7 @@ table{
     align-items: top;
     padding:20px 10px;
     
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
     position: relative;
     display: flex;
     justify-content: space-around;
@@ -667,7 +662,7 @@ color: white;
 
 #dpflex2 {
     border-radius: 6px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
     display: inline-block;
     background-color:var(--css);
     padding: 5px;
@@ -680,7 +675,7 @@ color: white;
 
 .dpflex3 {
     border-radius: 30px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
     background-color:var(--css);
     line-height: 1.8em;
     text-decoration: none;
@@ -718,9 +713,9 @@ a {
 }
 
 .bg8 {
-    background-color:#47476221;
+    background-color:rgba(0, 0, 0, 0.176);
     padding: 18px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
     border-radius: 12px;
     margin: auto;
 }
@@ -730,7 +725,7 @@ a {
     background-color: #4d45613d;
     padding-left: 10px;
     padding-right: 10px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
     border-radius: 12px;
     text-align: center;
     margin: 5px;
@@ -739,12 +734,12 @@ a {
 
 .cs {
     padding: 7px;
-    background-color: #414155be;
+    background-color: #272937;
     border-radius: 50%;
     margin: 15px;
     display: inline-block;
     font-weight: bold;
-    
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 }
 
 
@@ -811,7 +806,7 @@ a {
     min-width: 100px;
     max-width: 600px;
     margin: 0px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 }
 
 #ghg {
@@ -826,17 +821,20 @@ li {
 
 .elicon{
     position: absolute;
-    top: 0px;
-    right: 0px;
-    width: 44%;
+    top: -10px;
+    right: -10px;
+    width: 35%;
     min-width: 30px;
     display: inline-block;
-    background-color: #53427944;
+    background-color: rgba(126, 120, 146, 0.216);
     border-radius: 50%;
     padding: 3px;
     z-index: 2;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 }
-
+.displayflex .ICONS{
+    margin: 0px 10px 15px 0px;
+}
 .bg5 .elicon{
     right: -6px;
 }
@@ -907,10 +905,8 @@ li {
    
 }
 #bdd{
-    border-bottom: 2px solid white;
-    color: #ffd780;
-    border-radius: 5px;
-    background-image: linear-gradient(to top,rgba(255, 255, 255, 0.15),var(--css));
+    border-bottom: 3px solid #ffd780;
+    
 }
 
 @media only screen and (max-width: 850px) {

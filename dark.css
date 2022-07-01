@@ -6,12 +6,12 @@ body.dark {
 
 body.dark .bg8 {
     background-color: white;
-   
+    box-shadow: rgba(0, 0, 0, 0.312) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(54, 47, 82, 0.361) 0px 0px 0px 1px inset;
 }
 
 body.dark #main2 {
     background-color: rgb(245, 245, 255);
-    
+    box-shadow: rgba(0, 0, 0, 0.312) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(54, 47, 82, 0.361) 0px 0px 0px 1px inset;
 }
 
 body.Cl .Claymores{
@@ -79,7 +79,7 @@ body.dark #ggg{
 
 body.dark .dpflex3 {
     background-color: rgb(245, 246, 253);
-    
+    box-shadow: rgba(0, 0, 0, 0.312) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(54, 47, 82, 0.361) 0px 0px 0px 1px inset;
 }
 
 body.dark #bg2 a{
@@ -90,33 +90,16 @@ body.dark .gas {
     color: #ffb618;
 }
 
-body.dark .bg3 {
-    background-color: rgb(231, 230, 255);
-
-}
-
 body.dark .bg1 {
     background-color: white;
-
+   
 }
 
-
-
-
-
-body.dark #bg4 {
-    background-color: rgb(248, 248, 255);
-    
-}
-
-body.dark .displayflex {
-    background-color: white;
-
-}
 
 body.dark #bg2{
     color: white;
     background-color: #0f0c16b2;
+    box-shadow: rgba(0, 0, 0, 0.312) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(54, 47, 82, 0.361) 0px 0px 0px 1px inset;
 }
 body.dark .header-center a{
     color: var(--pt);
@@ -125,6 +108,8 @@ body.dark .header-center a{
 body.dark #header {
     background-color: rgb(245, 245, 255);
     color: rgb(103, 96, 114);
+    border: 0px;
+    box-shadow: rgba(0, 0, 0, 0.312) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(54, 47, 82, 0.361) 0px 0px 0px 1px inset;
 }
 body.dark #content{
     background-color: rgb(245, 245, 255);
@@ -135,8 +120,7 @@ body.dark #header a:hover {
     color: #000000;
 }
 body.dark #bdd{
-    border-bottom: 2px solid black;
-    background-image: linear-gradient(to top,rgb(225, 224, 224), rgb(245, 245, 255));
+    border-bottom: 3px solid #ffbb1d;
 }
 body.dark .ops{
     background-color: rgb(226, 226, 226);
@@ -154,8 +138,9 @@ body.dark #vis1{
     
 }
 body.dark .cs{
-    color: black;
-    background-color:#716fb849 ;
+    color: #1b162ad1;
+    background-color: #27293726;
+    box-shadow: rgba(0, 0, 0, 0.312) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(54, 47, 82, 0.361) 0px 0px 0px 1px inset;
 }
 body.dark .bg5{
     background-color: #ffffff;
@@ -166,8 +151,11 @@ body.dark #bg11{
 }
 body.dark #main1{
     background-color: #fbf9ff;
+    box-shadow: rgba(0, 0, 0, 0.312) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(54, 47, 82, 0.361) 0px 0px 0px 1px inset;
 }
-
+body.dark .ICONS, body.dark .elicon{
+    box-shadow: rgba(0, 0, 0, 0.312) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(54, 47, 82, 0.361) 0px 0px 0px 1px inset;
+}
 body.dark #bg11 a:hover{
     color: rgb(0, 0, 0);
     
@@ -194,5 +182,5 @@ body.dark #txt hr{
     background-color: white;
 }
 body.dark .titulos2,body.dark .titulos3{
-    color: #ffae00;
+    color: #ffbb1d;
 }

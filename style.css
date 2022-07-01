@@ -34,6 +34,7 @@ input{
     overflow-x: auto;
     display: flex;
     justify-content: space-between;
+    padding-top: 20px;
 }
 
 #header {
@@ -109,7 +110,7 @@ input{
     border-bottom-left-radius: 9px;
     border-bottom-right-radius: 9px;
   padding: 20px 40px;
-  z-index: 1;
+  z-index: 2000;
   
 }
 #bn, #bj{
@@ -160,7 +161,7 @@ input{
 #database:hover #content{
     display: block;
 }
-#Geo:checked + #Go img{
+#Geo:checked + #Ge img{
     background-color: #ffffff15;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
     background-size: 100%;
@@ -174,9 +175,8 @@ input{
     
     border-radius: 6px;
 }
-.Pyro{
-
-position: relative;
+.Pyro, .Hydro, .Geo, .Cryo, .Electro, .Anemo{
+    display: block;
 }
 #Hydro:checked + #Hy img{
     background-color: #ffffff15;
@@ -329,7 +329,6 @@ img {
 .displayflex6 .bg5{
     width: 250px;
 }
-
 .displayflex6 .dpinblock {
     position: relative;
 }
@@ -343,16 +342,23 @@ img {
     display: flex;
 }
 
-.ICONS img:last-of-type{
+.displayflex .ICONS img:last-of-type{
     width: max(70px, 4vw);
     border-radius: 50%;
     margin: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+.bg5 .ICONS img:last-of-type{
+    width: max(70px, 4vw);
+    border-radius: 50%;
+    margin: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 }
 .ICONS {
     background-color: rgba(126, 120, 146, 0.216);
     position: relative;
     border-radius: 5px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 2px inset;
 }
 .ICONS:hover{
     opacity: 0.6;
@@ -840,16 +846,17 @@ li {
 }
 
 ::-webkit-scrollbar {
-    height: 5px;
+    height: 10px;
 }
   
 ::-webkit-scrollbar-track {
     border-radius: 5px;
-    box-shadow: inset 0 0 3px rgba(128, 128, 128, 0.318);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #414155a4; 
+    background-color: #272937; 
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
     border-radius: 5px;
 }
   
@@ -877,6 +884,7 @@ li {
   
 #Segunda, #Terça, #Quarta, #Quarta2, #Terça2, #Segunda2, #Domingo, #SegundaM, #TerçaM, #QuartaM, #Quinta, #Sexta, #Sábado{
     display: none;
+    margin: auto;
 }
 
 .B1{

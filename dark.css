@@ -1,151 +1,157 @@
 
-body.dark {
+.dark {
     color: var(--pt);
     background-color: rgb(225, 224, 235);
 }
 
-body.dark .bg8 {
-    background-color: white;
+.dark .bg8 {
+    background-color: rgba(0, 0, 0, 0.010);
     box-shadow: rgba(0, 0, 0, 0.312) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(54, 47, 82, 0.361) 0px 0px 0px 1px inset;
 }
 
-body.dark #main2 {
+.dark #main2 {
     background-color: rgb(245, 245, 255);
     box-shadow: rgba(0, 0, 0, 0.312) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(54, 47, 82, 0.361) 0px 0px 0px 1px inset;
 }
-body.dark .bg3, body.dark #bg4{
-    background-color: #0000000c;
+.dark .bg3, .dark #bg4{
+    background-color: rgba(0, 0, 0, 0.010);
     box-shadow: rgba(0, 0, 0, 0.312) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(54, 47, 82, 0.361) 0px 0px 0px 1px inset;
 }
-body.Cr .Cryo{
+.Cr .Cryo{
     display: block;
 }
-body.Cr .Electro,body.Cr .Anemo,body.Cr .Hydro,body.Cr .Geo,body.Cr .Pyro{
+.Cr .Electro,.Cr .Anemo,.Cr .Hydro,.Cr .Geo,.Cr .Pyro{
     display: none;
 }
-body.Cl .Claymores{
+.Cl .Claymores{
     display: none;
 }
-
-body.Sw .Swords{ 
-    display: none;
+.dark .bg5 b{
+    color: #ffb618;
 }
-
-body.Bw .Bows{ 
-    display: none;
-}
-
-body.Ct .Catalysts{ 
+.Sw .Swords{ 
     display: none;
 }
 
-body.Pl .Polearms{ 
+.Bw .Bows{ 
     display: none;
 }
 
-body.dark #dpflex2 {
+.Ct .Catalysts{ 
+    display: none;
+}
+
+.Pl .Polearms{ 
+    display: none;
+}
+
+.dark #dpflex2 {
     background-color: rgb(252, 252, 252);
     
 }
-body.dark #ggg, body.dark #Vt{
+.dark #ggg, .dark #Vt{
    color: var(--pt);
 }
 
 
-body.dark .dpflex3 {
-    background-color: rgb(245, 246, 253);
+.dark .dpflex3 {
+    background-color: rgb(255, 255, 255);
     box-shadow: rgba(0, 0, 0, 0.312) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(54, 47, 82, 0.361) 0px 0px 0px 1px inset;
 }
 
-body.dark #bg2 a{
+.dark #bg2 a{
     color: white;
 }
 
-body.dark .gas {
-    color: #ffb618;
-}
 
-body.dark .bg1 {
-    background-color: white;
+.dark .bg1 {
+    background-color: rgba(0, 0, 0, 0.010);
    
 }
 
 
-body.dark #bg2{
+.dark #bg2{
     color: white;
     background-color: #0f0c16b2;
     box-shadow: rgba(0, 0, 0, 0.312) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(54, 47, 82, 0.361) 0px 0px 0px 1px inset;
 }
-body.dark .header-center a{
+.dark .header-center a{
     color: var(--pt);
 }
 
-body.dark #header {
+.dark #header {
     background-color: rgb(245, 245, 255);
     color: rgb(103, 96, 114);
     border: 0px;
     box-shadow: rgba(0, 0, 0, 0.312) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(54, 47, 82, 0.361) 0px 0px 0px 1px inset;
 }
-body.dark #content{
+.dark #content{
     background-color: rgb(245, 245, 255);
 }
 
-body.dark #header a:hover {
+.dark #header a:hover {
     
     color: #000000;
 }
-body.dark #bdd{
+.dark #bdd{
     border-bottom: 3px solid #ffbb1d;
 }
-body.dark .ops{
-    background-color: rgba(0, 0, 0, 0.042);
+.dark .ops{
+    background-color: rgba(0, 0, 0, 0.010);
     box-shadow: rgba(0, 0, 0, 0.312) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(54, 47, 82, 0.361) 0px 0px 0px 2px inset;
 }
-body.dark .ops a{
-    color: black;
+.dark .ops a{
+    color:var(--pt);
 }
-body.dark #header a{
+.dark #header a{
     color: rgb(67, 62, 75);
 }
 
-body.dark #vis1{
+.dark #vis1{
     background-color: #0f0c16b2;
     
 }
-body.dark .cs{
+.dark .cs{
     color: #1b162ad1;
     background-color: #27293726;
     box-shadow: rgba(0, 0, 0, 0.312) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(54, 47, 82, 0.361) 0px 0px 0px 1px inset;
 }
-body.dark .bg5{
+.dark .bg5{
     background-color: #ffffff;
-    
+    box-shadow: rgba(0, 0, 0, 0.312) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(54, 47, 82, 0.361) 0px 0px 0px 2px inset;
 }
-body.dark #bg11{
-    background-color: #fbf9ff;
-}
-body.dark #main1{
+.dark #bg11{
     background-color: #fbf9ff;
     box-shadow: rgba(0, 0, 0, 0.312) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(54, 47, 82, 0.361) 0px 0px 0px 1px inset;
 }
-body.dark .ICONS, body.dark .elicon{
+.dark #main1{
+    background-color: #fbf9ff;
     box-shadow: rgba(0, 0, 0, 0.312) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(54, 47, 82, 0.361) 0px 0px 0px 1px inset;
 }
-body.dark #bg11 a:hover{
+.dark .ICONS, .dark .elicon{
+    box-shadow: rgba(0, 0, 0, 0.312) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(54, 47, 82, 0.361) 0px 0px 0px 1px inset;
+}
+.dark #bg11 a:hover{
     color: rgb(0, 0, 0);
     
     font-weight: bold;
 }
-body.dark ::-webkit-scrollbar-thumb{
-    background-color: #696b82; 
+.dark ::-webkit-scrollbar-track{
+    background-color: #696b822a; 
+    box-shadow: rgba(0, 0, 0, 0.312) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(54, 47, 82, 0.211) 0px 0px 0px 1px inset;
 }
-body.dark ::-webkit-scrollbar-thumb:hover {
+.dark ::-webkit-scrollbar-thumb{
+    background-color: #696b8268; 
+    box-shadow: rgba(0, 0, 0, 0.312) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(54, 47, 82, 0.361) 0px 0px 0px 1px inset;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
     background: #9797dab4;
-    
+    box-shadow: rgba(0, 0, 0, 0.312) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(54, 47, 82, 0.361) 0px 0px 0px 1px inset;
   }
 
 
-body.dark hr{
+.dark hr{
     background-color: var(--pt);
     height: 2px;
     border: 0;
@@ -153,9 +159,19 @@ body.dark hr{
 
 
 
-body.dark #txt hr{
-    background-color: white;
+.dark #txt hr{
+    background-color: rgba(0, 0, 0, 0.010);
 }
-body.dark .titulos2,body.dark .titulos3{
-    color: #ffbb1d;
+.dark .titulos2,.dark .titulos3,.dark .gas{
+    color: #ffa81d;
+}
+.dark #bg4 tr:first-of-type{
+    color: #ffa81d;
+    border-bottom:1px solid rgb(0, 0, 0);
+}
+.dark #bg4 tr td:first-of-type{
+    border-right:1px solid rgb(0, 0, 0);
+}
+.dark .bg3 tr td:first-of-type{
+    color: #ffa81d;
 }

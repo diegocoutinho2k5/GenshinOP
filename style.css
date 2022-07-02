@@ -270,17 +270,15 @@ label i:nth-child(3) {
     padding: 10px;
 }
 
-table, tr, th {
+table, tr, th, td{
     border-collapse: collapse;
     white-space: nowrap;
-
-
+text-align: center;
 }
 
-th {
-    font-weight: normal;
+th, td{
     border: 0px;
-    padding: 2px;
+    padding: 10px;
     vertical-align: top;
 }
 
@@ -343,7 +341,8 @@ img {
 }
 
 .displayflex .ICONS img:last-of-type{
-    width: max(70px, 4vw);
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     margin: 5px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
@@ -392,7 +391,10 @@ table{
     display: inline-block;
     padding-right: 10px;
 }
-
+.LOGO img, .LOGO2 img{
+    height: 50px;
+    width: 50px;
+}
 .LOGO2 {
     font-size: 20px;
     color: white;
@@ -410,28 +412,30 @@ table{
 
 
 .bg3 {
-    background-color: #52527414;
+    background-color:rgba(0, 0, 0, 0.176);
+    border-radius: 12px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    padding: 10px;
 }
 
 #bg4 {
     background-color:var(--css);
-    padding: 20px;
+    padding: 10px;
     border-radius: 9px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
-    max-width: 400px;
-    min-width: 260px;
+    
     margin: auto;
 }
 
 #bg11{
     background-color:var(--css);
-    padding: 20px;
+    padding: 15px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
     border-radius: 9px;
-    
 }
-
+.bg5 b{
+    color: #ffd780;
+}
 
 #database:hover i{
     transform: rotate(90deg);
@@ -443,10 +447,6 @@ table{
     justify-content: space-around;
 }
 
-
-#main1 .bg_golden img:first-child,#main1 .bg_purple img:first-child,#main1 .bg_blue img:first-child,#main1 .bg_green img:first-child,#main1 .bg_gray img:first-child{
-    width: 65%;
-}
 .art {
     width: 120px;
     
@@ -459,19 +459,15 @@ table{
 
 #bg12 .bg_green,#bg12 .bg_golden,#bg12 .bg_purple,#bg12 .bg_gray,#bg12 .bg_blue{
     display: inline-block;
-    width: 120px;
     text-align: center;
     margin: 5px;
-    width: max(120px,8vw);
+    width: min(140px,40vw);
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
 }
 
-#main2 .bg_green,#main2 .bg_golden,#main2 .bg_purple,#main2 .bg_gray,#main2 .bg_blue{
-    display: inline-block;
-    text-align: center;
-}
+
 
 .A_A,.A_A1{
     overflow-x:auto; 
@@ -485,8 +481,29 @@ table{
 
 .bg8 .A_A1{
     align-items: flex-start;
+    
 }
-
+.A_A1 .bg_golden{
+    margin-right: 10px;
+    
+}
+.bg_golden img:first-child,.bg_purple img:first-child,.bg_blue img:first-of-type,.bg_green img:first-of-type,.bg_gray img:first-of-type{
+    width: 120px;
+    height: 120px;
+    
+}
+.bg_purple img:last-child{
+    width: 80px;
+    height: 18px;
+}
+.bg_golden img:last-child{
+    width: 97px;
+    height: 18px;
+}
+.bg_blue img:last-child{
+    width: 58px;
+    height: 18px;
+}
 .ffd{
     background-color: rgba(0, 0, 0, 0.213);
     border-bottom-left-radius: 5px;
@@ -524,11 +541,22 @@ table{
     bottom: 4px;
     width:60px;
     background-color: rgba(0, 0, 0, 0.453);
+    color: white;
 }
-.bg8 .bg_golden, .bg8 .bg_purple,.bg8 .bg_blue,.bg8 .bg_green,.bg8 .bg_gray{
-    margin:0px 5    px; background-color: #57577c48;
+#bg4 tr:first-of-type{
+    color: #ffd780;
+    font-weight: bold;
+    border-bottom: 1px solid white;
+}
+#bg4 tr td:first-of-type{
+    font-weight: bold;
+    border-right: 1px solid white;
 }
 
+.bg3 .vam{
+    color: #ffd780;
+    font-weight: bold;
+}
  .bg_golden, .s5{
     
     background-image:linear-gradient(135deg, rgb(107, 84, 83), rgb(189,140,81));
@@ -549,8 +577,8 @@ table{
     background-image:linear-gradient(135deg, rgb(81, 84, 120) , rgb(74, 157, 179));
 }
 .bg_golden, .bg_purple, .bg_gray, .bg_green, .bg_blue{
-    border-radius:5px; 
-    position: relative;
+    border-radius:5px;
+    text-align: center;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.393) 0px 0px 0px 1px inset;
 }
 .Picon, .Picon2{
@@ -558,9 +586,6 @@ table{
     background-color: #00000043;box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;border-radius: 5px;
     text-align: center;
     
-}
-.displayflex .bg_golden{
-    padding: 0px;
 }
 #gta{
     background-image:linear-gradient(135deg, rgb(73, 86, 91), rgb(93, 150, 108));
@@ -582,7 +607,8 @@ table{
 }
 #gta,#gtp,#gth,#gte,#gtc,#gtg{
     border-radius: 50%;
-   width:90%;
+   width:90px;
+   height: 90px;
    display: inline-block;
     text-align: center;
     
@@ -597,6 +623,7 @@ table{
 }
 .s1, .s2, .s3, .s4, .s5 {
     width:60px;
+    height: 60px;
     border-radius: 9px;
 }
 
@@ -617,6 +644,7 @@ table{
 }
 .ops a{
     margin: 10px;
+    font-weight: bold;
 }
 #pers {
     background-image:linear-gradient(135deg, rgb(107, 84, 83), rgb(189,140,81));
@@ -680,16 +708,12 @@ color: white;
 }
 
 .dpflex3 {
-    border-radius: 30px;
+    border-radius: 12px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
     background-color:var(--css);
     line-height: 1.8em;
     text-decoration: none;
-    padding-top:max(3vw, 20px) ;
-    padding-bottom: max(3vw, 20px);
-    padding-left:max(3vw, 20px) ;
-    padding-right: max(3vw, 20px);
-    max-width: 560px;
+    padding: 30px;
     margin: auto;
 }
 
@@ -734,7 +758,7 @@ a {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
     border-radius: 12px;
     text-align: center;
-    margin: 5px;
+    margin-right: 10px;
     display: inline-block;
 }
 
@@ -855,7 +879,7 @@ li {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #272937; 
+    background-color: #ffffff23; 
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
     border-radius: 5px;
 }
@@ -918,7 +942,9 @@ li {
 }
 
 @media only screen and (max-width: 850px) {
-   
+    ::-webkit-scrollbar {
+        height: 6px;
+    }
     #main4, #main2, #main1{
         margin-top: 100px;
     }
@@ -965,11 +991,7 @@ li {
     .Picon{
         max-height: 120px;
     }
-    #bg11{
-        padding-left: 0;
-        padding-right: 0;
-        padding-bottom: 0;
-    }
+    
     
     .ayuh{
         max-width: 300px;

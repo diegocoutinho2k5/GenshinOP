@@ -2,27 +2,28 @@
 <html lang="pt-br">
 
 <head>
+    <meta name="description" content="Xiao Page">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GenshinOP</title>
     <link rel="shortcut icon" href="images/We/LOGO.ico" type="image/x-icon">
-    <link rel="stylesheet" href="dark.css">
-<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    
     <div id="header">
         
             
                 <div id="database">
-                    <a href="" class="header-center" >
+                    <a href="#" class="header-center" >
                     Database&ensp;<i class="fa-solid fa-angle-right"></i></a> 
                     <div id="content">
                         <a href="materiais.html">Materias</a>
                             <br>
                             <br>
-                            <a href="">Artefatos</a>
+                            <a href="#">Artefatos</a>
                             <br>
                             <br>
                             <a href="armas.html">Armas</a>
@@ -35,21 +36,21 @@
             <a href="#" class="header-center">Sobre Nós</a>
             <a href="index.html" class="header-center">
                 <div class="LOGO">
-                    <img class="vam" src="images/We/LOGO.png" alt="Logo" height="50">GENSHINOP.GG
+                    <img class="vam" src="images/We/LOGO.webp" alt="Logo">GENSHINOP.GG
                 </div>
             </a>
             <a href="Personagens.html" class="header-center" id="bdd">Personagens</a>
             <a href="tierlist.html " class="header-center">Tier List</a>
         
         <div style="text-align: left; margin-top: -25px;">
-            <input type="checkbox" id="ff"/>
+            <input type="checkbox" id="ff" onclick="darkmode()"/>
             <div class="lua"><label for="ff" id="ggg"><i class="fa-regular fa-moon"></i>&ensp;<i class="fa-solid fa-sun"></i><i class="fa-solid fa-circle"></i></label></div>
         </div>
     </div>
         <div class="mobile-container">
             <div class="topnav">
                 <div id="vis1">
-                    <div class="icon" onclick="myFunction()"><a href="index.html"><div class="LOGO2" style="float: left;"><img class="vam" src="images/We/LOGO.png" alt="Logo" height="50">GENSHINOP.GG</div>
+                    <div class="icon" onclick="myFunction()"><a href="index.html"><div class="LOGO2" style="float: left;"><img class="vam" src="images/We/LOGO.webp" alt="Logo">GENSHINOP.GG</div>
                             
                     </a>
                     <i class="fa-solid fa-bars" style="font-size: 30px; padding: 10px;" id="menu"></i>
@@ -66,15 +67,15 @@
                                 <br>
                                 <table style="width: 260px; margin:auto; height: 80px;">
                                     <tr>
-                                        <th><a href="Personagens.html" class="menu-a">Personagens</a></th>
-                                        <th><a href="#about" class="menu-a">Sobre Nós</a></th>
+                                        <td><a href="Personagens.html" class="menu-a">Personagens</a></td>
+                                        <td><a href="#about" class="menu-a">Sobre Nós</a></td>
                                     </tr>
                                     <tr>
-                                        <th><a href="armas.html" class="menu-a">Armas</a></th>
-                                        <th><a href="tierlist.html" class="menu-a">Tier List</a></th>
+                                        <td><a href="armas.html" class="menu-a">Armas</a></td>
+                                        <td><a href="tierlist.html" class="menu-a">Tier List</a></td>
                                     </tr>
                                 </table>
-                                <input type="checkbox" id="btt"/>
+                                <input type="checkbox" id="btt" onclick="darkmode()"/>
             <div class="lua"><label for="btt"><i class="fa-solid fa-sun"></i>&ensp;<i class="fa-regular fa-moon"></i><i class="fa-solid fa-circle"></i></label></div>
                                 
                                 
@@ -85,15 +86,15 @@
         </div>
     <br>
     <div id="main2">
-
+       
         <div id="pers">
             <div class="Picon">
-                <img src="images/Characters/Xiao.png" alt="" id="gta"><img src="images/We/Element_Anemo.png" alt="" height="40"
-                    style="position: absolute; top: -10px; right:-10px; border-radius: 50%;background-color: rgba(0, 0, 0, 0.149); padding: 5px;box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;"><br>
+                <img src="images/Characters/Xiao.webp" alt="d" id="gta"><br><img src="images/We/Element_Anemo.webp" alt="d" height="40"
+                    style="position: absolute; top: -10px; right:-10px; border-radius: 50%;background-color: rgba(0, 0, 0, 0.149); padding: 5px;box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;">
             </div>
             <div
-                style="margin-left: 10px; text-align: center; background-color: rgba(0, 0, 0, 0.3);padding: 5px;box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;border-radius: 5px;">
-                <div class="titulos2">Xiao</div>
+                style="margin-left: 10px; text-align: center; background-color: rgba(0, 0, 0, 0.3);padding: 5px;box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;border-radius: 5px;">
+                <div id="nome">Xiao</div>
                 <div class="titulos3">Lança</div>
                 <div style=" max-width: 450px; ">Um Yaksha, um ser imortal que protege Liyue. Também chamado de "Conquistador de Demônios" ou "Guardião Yaksha".
                 </div>
@@ -101,13 +102,11 @@
         </div>
             <div class="ops">
                 <a href="#Builds">Builds</a>
+                <a href="#Times">Times</a>
                 <a href="#Ascensão">Materiais <br> de Ascensão</a>
                 <a href="#talento">Materiais <br> de Talento</a>
                 <a href="#Estatísticas">Estatísticas</a>
-                <a href="#Habilidades">Habilidades</a>
-                <a href="#Passivas">Passivas</a>
-                <a href="#Constelações">Constelações</a>
-                <a href="#Outros">Outros <br> Personagens</a>
+                
             </div>
         
         
@@ -121,635 +120,731 @@
 
         
             
-                <div class="titulos" id="Builds"><img src="images/We/Item_Primogem.png" alt="" class="marcador"> Builds</div>
-               
-        
-
-        <hr>
+                <div class="titulos" id="Builds">Builds</div>
+          
+                <hr>
         <br>
 
-        
-           
         <div class="bg8">
-            <div class="titulos2">DPS</div>
-            <div class="dgd">Elevação de Talentos: Ataque Normal > Habilidade Elemental > Explosão Elemental </div>
+            
+            <div class="titulos2"><div class="mc2">★</div> DPS</div>
+            <div class="dgd">Elevação de Talentos: Explosão Elemental > Habilidade Elemental > Ataque Normal</div>
             <div class="titulos3">Armas</div>
             <div class="A_A">
 
                 
-                                <a href="">
-                                    <div class="bg_golden"><img src="images/Armas/Weapon_Primordial_Jade_Winged-Spear.webp" alt=""><br></div>
+                                <a href="#">
+                                    <div class="bg_golden"><img src="images/Armas/Weapon_Primordial_Jade_Winged-Spear.webp" alt="d"><div class="ffd"><img src="images/We/555.webp" alt="d"></div></div>
                                 </a>
-                                <div class="cs">Ou</div>
-                                <a href=""><div class="bg_golden"><img src="images/Armas/Weapon_Staff_of_Homa.webp" alt=""><br></div></a>
-                                
-                           
+                            
+                        
                             <div class="cs">Ou</div>
-                            <a href=""><div class="bg_purple"><img src="images/Armas/Weapon_Blackcliff_Pole.webp" alt=""><br></div></a>
+                            <a href="#"><div class="bg_golden"><img src="images/Armas/Weapon_Staff_of_Homa.webp" alt="d"><div class="ffd"><img src="images/We/55star.webp" alt="d"></div></div></a>
                                 
-                                <div class="cs">Ou</div>
-                                <a href=""><div class="bg_golden"><img src="images/Armas/Weapon_Skyward_Spine.webp" alt=""><br></div>
-                    </a>
+                            
+                        
+                            <div class="cs">Ou</div>
+                            <a href="#"><div class="bg_purple"><img src="images/Armas/Weapon_Blackcliff_Pole.webp" alt="d"><div class="ffd"><img src="images/We/44star.webp" alt="d"></div></div></a>
                                 
-                                <div class="cs">Ou</div>
-                                <a href=""><div class="bg_purple"><img src="images/Armas/Weapon_Prototype_Starglitter.webp" alt=""><br></div></a>
+                            
+                        
+                            <div class="cs">Ou</div>
+                            <a href="#"><div class="bg_golden"><img src="images/Armas/Weapon_Skyward_Spine.webp" alt="d"><div class="ffd"><img src="images/We/55star.webp" alt="d"></div></div></a>
                                 
+                            
+                            <div class="cs">Ou</div>
+                            <a href="#"><div class="bg_purple"><img src="images/Armas/Weapon_Prototype_Starglitter.webp" alt="d"><div class="ffd"><img src="images/We/44star.webp" alt="d"></div></div></a>
+
+                
 
             </div>
             <br>
             <div class="titulos3">Artefatos</div>
-            <div class="dgd">Substats: Dano Críico % > Taxa Crítica % > Ataque % > Recarga de Energia % </div>
-            <div class="A_A">
-                   <a href=""><div class="bg_golden"><img src="images/Artefacts/Item_Witch_Flower_of_Blaze.png" alt=""><br>
-                                        <b>Vida</b> <br>
-                                    </div></a>
-                                
-                                <div class="ponto">.</div></a>
-                                    
-                                <a href=""> <div class="bg_golden"><img src="images/Artefacts/Item_Witch_Ever-Burning_Plume.png" alt=""><br>
-                                        <b>Ataque</b> <br>
-                                    </div></a>
-                                   
-                               
-                                <div class="ponto">.</div>
-                                <a href=""><div class="bg_golden"><img src="images/Artefacts/Item_Witch_End_Time.png" alt=""><br>
-                                        <b>Ataque%</b> <br>
+            <div class="dgd">Substats: Ataque % > Recarga de Energia % > Taxa Crítica % > Dano Crítico %</div>
+            <br>
+            <div class="A_A1">
+                <a href="#"><div class="bg_golden"><img src="images/Artefacts/Item_Flowering_Life.webp" alt="d"><br>Vida<div class="ffd"><img src="images/We/555.webp" alt="d"></div>
                                     </div></a>
                                     
                                 
-                                <div class="ponto">.</div>
-                                <a href=""><div class="bg_golden"><img src="images/Artefacts/Item_Witch_Heart_Flames.png" alt=""><br>
-                                        <b>Pyro Bonus <br> de Dano %</b> <br>
+                                
+                                <a href="#"><div class="bg_golden"><img src="images/Artefacts/Item_Feather_of_Nascent_Light.webp" alt="d"><br>Ataque<div class="ffd"><img src="images/We/555.webp" alt="d"></div>
                                     </div>
                                 </a>
-                                    
-                                <div class="ponto">.</div>
-                                <a href=""> <div class="bg_golden"><img src="images/Artefacts/Item_Witch_Scorching_Hat.png" alt=""><br>
-                                        <b>Taxa Crítica %</b> <br>
-                                    </div></a>
-                                   
                               
-                
-
-
-            </div>
-        </div>
+                                
+                                <a href="#"><div class="bg_golden"><img src="images/Artefacts/Item_Solar_Relic.webp" alt="d"><br>Ataque %<div class="ffd"><img src="images/We/555.webp" alt="d"></div>
+                                    </div>
+                      </a>
+                                    
+                            
+                                
+                                <a href="#"><div class="bg_golden"><img src="images/Artefacts/Item_Moment_of_the_Pact.webp" alt="d"><br>Anemo Bonus <br>de Dano %<div class="ffd"><img src="images/We/555.webp" alt="d"></div>
+                                    </div></a>
+                                    
+                         
+                            
+                                
+                                <a href="#"><div class="bg_golden"><img src="images/Artefacts/Item_Thundering_Poise.webp" alt="d"
+                                    class="art"><br>Dano Crítico %<div class="ffd"><img src="images/We/555.webp" alt="d"></div>
+                                    </div></a>
+                                    
+                        
+                </div>
+                <div class="center">
+                    <div class="cs">Ou</div>
+                </div>
+                <div class="A_A1">
+                    <a href="#"><div class="bg_golden"><img src="images/Artefacts/Item_In_Remembrance_of_Viridescent_Fields.webp" alt="d"><br>Vida<div class="ffd"><img src="images/We/555.webp" alt="d"></div>
+                                        </div></a>
+                                        
+                                    
+                                    
+                                    <a href="#"><div class="bg_golden"><img src="images/Artefacts/Item_Viridescent_Arrow_Feather.webp" alt="d"><br>Ataque<div class="ffd"><img src="images/We/555.webp" alt="d"></div>
+                                        </div>
+                                    </a>
+                                  
+                                    
+                                    <a href="#"><div class="bg_golden"><img src="images/Artefacts/Item_Gladiator's_Longing.webp" alt="d"><br>Ataque %<div class="ffd"><img src="images/We/555.webp" alt="d"></div>
+                                        </div>
+                          </a>
+                                        
+                                
+                                    
+                                    <a href="#"><div class="bg_golden"><img src="images/Artefacts/Item_Gladiator's_Intoxication.webp" alt="d"><br>Anemo Bonus <br>de Dano %<div class="ffd"><img src="images/We/555.webp" alt="d"></div>
+                                        </div></a>
+                                        
+                             
+                                
+                                    
+                                    <a href="#"><div class="bg_golden"><img src="images/Artefacts/Item_Gladiator's_Triumphus.webp" alt="d"
+                                        class="art"><br>Dano Crítico %<div class="ffd"><img src="images/We/555.webp" alt="d"></div>
+                                        </div></a>
+                                        
+                            
+                    </div>
+                    <div class="center">
+                        <div class="cs">Ou</div>
+                    </div>
+                    <div class="A_A1">
+                        <a href="#"><div class="bg_golden"><img src="images/Artefacts/Item_In_Remembrance_of_Viridescent_Fields.webp" alt="d"><br>Vida<div class="ffd"><img src="images/We/555.webp" alt="d"></div>
+                                            </div></a>
+                                            
+                                        
+                                        
+                                        <a href="#"><div class="bg_golden"><img src="images/Artefacts/Item_Viridescent_Arrow_Feather.webp" alt="d"><br>Ataque<div class="ffd"><img src="images/We/555.webp" alt="d"></div>
+                                            </div>
+                                        </a>
+                                      
+                                        
+                                        <a href="#"><div class="bg_golden"><img src="images/Artefacts/Item_Morning_Dew's_Moment.webp" alt="d"><br>Ataque %<div class="ffd"><img src="images/We/555.webp" alt="d"></div>
+                                            </div>
+                              </a>
+                                            
+                                    
+                                        
+                                        <a href="#"><div class="bg_golden"><img src="images/Artefacts/Item_Hopeful_Heart.webp" alt="d"><br>Anemo Bonus <br>de Dano %<div class="ffd"><img src="images/We/555.webp" alt="d"></div>
+                                            </div></a>
+                                            
+                                 
+                                    
+                                        
+                                        <a href="#"><div class="bg_golden"><img src="images/Artefacts/Item_Capricious_Visage.webp" alt="d"
+                                            class="art"><br>Dano Crítico %<div class="ffd"><img src="images/We/555.webp" alt="d"></div>
+                                            </div></a>
+                                            
+                                
+                        </div>
+            </div><br><br>
+           
+            
         
 
 
 
 
-
         <br>
-
-
-        <div id="Ascensão">
-
-
-            
-                <div class="titulos">
-                    <img src="images/We/Item_Primogem.png" alt="" class="marcador">
-                     Materias de Ascensão
-                </div>
-            
-
-
-        </div>
+        <div id="Times"><div class="titulos">Melhores Times</div>
         <hr>
+        <br>
+        <div class="displayflex"><a href="xiao.html">
+                <div class="ICONS"><img src="images/We/Element_Anemo.webp" class="elicon" alt="Elemento Anemo"><img
+                        src="images/Characters/Xiao.webp" alt="Xiao">
+                    
+                </div></a>
+                <a href="jean"><div class="ICONS"><img src="images/We/Element_Anemo.webp" class="elicon" alt="Elemento Anemo"><img src="images/Characters/Jean.webp" alt="Jean">
+                </div></a>
+                    <a href="albedo"><div class="ICONS"><img src="images/We/Element_Geo.webp" class="elicon" alt="Elemento Geo"><img src="images/Characters/Albedo.webp" alt="Albedo">
+                        
+                    </div></a>
+                    <a href="zhongli"><div class="ICONS"><img src="images/We/Element_Geo.webp" class="elicon" alt="Elemento Geo"><img src="images/Characters/Zhongli.webp" alt="Zhongli">
+                        
+                    </div></a>
+        </div><br>
+        <div class="displayflex"><a href="xiao.html">
+            <div class="ICONS"><img src="images/We/Element_Anemo.webp" class="elicon" alt="Elemento Anemo"><img
+                    src="images/Characters/Xiao.webp" alt="Xiao">
+                
+            </div></a>
+            <a href="Sucrose"><div class="ICONS"><img src="images/We/Element_Anemo.webp" class="elicon" alt="Elemento Anemo"><img src="images/Characters/Sucrose.webp" alt="Sucrose">
+                
+            </div></a>
+            <a href="bennett.html"><div class="ICONS"><img src="images/We/Element_Pyro.webp" class="elicon" alt="Elemento Pyro"><img src="images/Characters/Bennett.webp" alt="Bennet">
+            </div></a>
+            <a href="zhongli"><div class="ICONS"><img src="images/We/Element_Geo.webp" class="elicon" alt="Elemento Geo"><img src="images/Characters/Zhongli.webp" alt="Zhongli">
+                        
+            </div></a>
+    </div><br>
+    <div class="displayflex"><a href="xiao.html">
+        <div class="ICONS"><img src="images/We/Element_Anemo.webp" class="elicon" alt="Elemento Anemo"><img
+                src="images/Characters/Xiao.webp" alt="Xiao">
+            
+        </div></a>
+        <a href="Sucrose"><div class="ICONS"><img src="images/We/Element_Anemo.webp" class="elicon" alt="Elemento Anemo"><img src="images/Characters/Sucrose.webp" alt="Sucrose">
+            
+        </div></a>
+        <a href="fischl.html"><div class="ICONS"><img src="images/We/Element_Electro.webp" class="elicon" alt="Elemento Electro"><img src="images/Characters/Fischl.webp" alt="Fischl">
+            
+        </div></a>
+        <a href="diona"><div class="ICONS"><img src="images/We/Element_Cryo.webp" class="elicon" alt="Elemento Cryo"><img src="images/Characters/Diona.webp" alt="Diona">
+           
+        </div></a>
+    
+</div></div>
+
+        <div id="Ascensão"><div class="titulos">Materias de Ascensão</div></div>
+        <hr>
+        <br>
         <div style="overflow-x:auto;">
 
             <table class="bg3">
                 <tr>
-                    <th class="vam">Lvl. 1→2</th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/mora.png" alt="" class="s1">
+                    <td class="vam">Lvl. 1→2</td>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/mora.webp" alt="d" class="s1">
                                 <div class="pl">20000</div>
-                        </div>
-                    </th>
+                        </div></a>
+                    </td>
                    
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/agnidus_agate_sliver.png" alt="" class="s2">
-                                <div class="pl">1 <br></div>
-                        </div>
-                    </th>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/varunada_lazurite_sliver.webp" alt="d" class="s2">
+                                <div class="pl">1</div>
+                        </div></a>
+                    </td>
                     
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/windwheel_aster.png" alt="" class="s1">
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/starconch.webp" alt="d" class="s1">
                                 <div class="pl">3</div>
-                        </div>
+                        </div></a>
                     
-                    </th>
-                    <th></th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/treasure_hoarder_insignia.png" alt="" class="s1"><br>
+                    </td>
+                    <td></td>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/recruits_insignia.webp" alt="d" class="s1"><br>
                                 <div class="pl">3</div>
-                        </div>
-                    </th>
+                        </div></a>
+                    </td>
                 </tr>
 
                 <tr>
-                    <th class="vam">Lvl. 2→3</th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/mora.png" alt="" class="s1">
+                    <td class="vam">Lvl. 2→3</td>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/mora.webp" alt="d" class="s1">
                                 <div class="pl">40000</div>
-                        </div>
-                    </th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/agnidus_agate_fragment.png" alt=""
-                                    class="s3"><br>
-                                <div class="pl">3</div>
-                        </div>
-                    </th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/everflame_seed.png" alt="" class="s4"><br>
+                        </div></a>
+                    </td>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/varunada_lazurite_fragment.webp" alt="d"
+                                    class="s3">
+                               <div class="pl">3</div> 
+                        </div></a>
+                    </td>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/runic_fang.webp" alt="d" class="s4"><br>
                                 <div class="pl">2</div>
-                        </div>
-                    </th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/windwheel_aster.png" alt="" class="s1">
+                        </div></a>
+                    </td>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/starconch.webp" alt="d" class="s1">
                                 <div class="pl">10</div>
-                        </div>
+                        </div></a>
                     
-                    </th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/treasure_hoarder_insignia.png" alt="" class="s1"><br>
+                    </td>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/recruits_insignia.webp" alt="d" class="s1"><br>
                                 <div class="pl">15</div>
-                        </div>
-                    </th>
+                        </div></a>
+                    </td>
                 </tr>
 
                 <tr>
-                    <th class="vam">Lvl. 3→4</th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/mora.png" alt="" class="s1">
+                    <td class="vam">Lvl. 3→4</td>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/mora.webp" alt="d" class="s1">
                                 <div class="pl">60000</div>
-                        </div>
-                    </th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/agnidus_agate_fragment.png" alt=""
-                                    class="s3"><br>
+                        </div></a>
+                    </td>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/varunada_lazurite_fragment.webp" alt="d" class="s3">
                                 <div class="pl">6</div>
-                        </div>
-                    </th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/everflame_seed.png" alt="" class="s4"><br>
+                        </div></a>
+                    </td>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/runic_fang.webp" alt="d" class="s4">
                                 <div class="pl">4</div>
-                        </div>
-                    </th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/windwheel_aster.png" alt="" class="s1">
+                        </div></a>
+                    </td>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/starconch.webp" alt="d" class="s1">
                                 <div class="pl">20</div>
-                        </div>
+                        </div></a>
                     
-                    </th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/silver_raven_insignia.png" alt="" class="s2"><br>
+                    </td>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/sergeants_insignia.webp" alt="d" class="s2">
                                 <div class="pl">12</div>
-                        </div>
-                    </th>
+                        </div></a>
+                    </td>
                 </tr>
 
                 <tr>
-                    <th class="vam">Lvl. 4→5</th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/mora.png" alt="" class="s1">
+                    <td class="vam">Lvl. 4→5</td>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/mora.webp" alt="d" class="s1">
                                 <div class="pl">80000</div>
-                        </div>
-                    </th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/agnidus_agate_chunk.png" alt=""
-                                    class="s4"><br>
-                                <div class="pl">3</div>
-                        </div>
-                    </th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/everflame_seed.png" alt="" class="s4"><br>
+                        </div></a>
+                    </td>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/varunada_lazurite_chunk.webp" alt="d"
+                                    class="s4">
+                               <div class="pl">3</div> 
+                        </div></a>
+                    </td>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/runic_fang.webp" alt="d" class="s4">
                                 <div class="pl">8</div>
-                        </div>
-                    </th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/windwheel_aster.png" alt="" class="s1">
+                        </div></a>
+                    </td>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/starconch.webp" alt="d" class="s1">
                                 <div class="pl">30</div>
-                        </div>
+                        </div></a>
                     
-                    </th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/silver_raven_insignia.png" alt="" class="s2"><br>
+                    </td>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/sergeants_insignia.webp" alt="d" class="s2">
                                 <div class="pl">18</div>
-                        </div>
-                    </th>
+                        </div></a>
+                    </td>
                 </tr>
 
                 <tr>
-                    <th class="vam">Lvl. 5→6</th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/mora.png" alt="" class="s1">
+                    <td class="vam">Lvl. 5→6</td>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/mora.webp" alt="d" class="s1">
                                 <div class="pl">100000</div>
-                        </div>
-                    </th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/agnidus_agate_chunk.png" alt=""
-                                    class="s4"><br>
+                        </div></a>
+                    </td>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/varunada_lazurite_chunk.webp" alt="d"
+                                    class="s4">
                                 <div class="pl">6</div>
-                        </div>
-                    </th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/everflame_seed.png" alt="" class="s4"><br>
+                        </div></a>
+                    </td>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/runic_fang.webp" alt="d" class="s4">
                                 <div class="pl">12</div>
-                        </div>
-                    </th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/windwheel_aster.png" alt="" class="s1">
+                        </div></a>
+                    </td>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/starconch.webp" alt="d" class="s1">
                                 <div class="pl">45</div>
-                        </div>
+                        </div></a>
                     
-                    </th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/golden_raven_insignia.png" alt=""
-                                    class="s3"><br>
+                    </td>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/lieutenants_insignia.webp" alt="d"
+                                    class="s3">
                                 <div class="pl">12</div>
-                        </div>
-                    </th>
+                        </div></a>
+                    </td>
                 </tr>
 
                 <tr>
-                    <th class="vam">Lvl. 6→7</th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/mora.png" alt="" class="s1">
+                    <td class="vam">Lvl. 6→7</td>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/mora.webp" alt="d" class="s1">
                                 <div class="pl">120000</div>
-                        </div>
-                    </th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/agnidus_agate_gemstone.png" alt=""
-                                    class="s5"><br>
+                        </div></a>
+                    </td>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/varunada_lazurite_gemstone.webp" alt="d"
+                                    class="s5">
                                 <div class="pl">6</div>
-                        </div>
-                    </th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/everflame_seed.png" alt="" class="s4"><br>
+                        </div></a>
+                    </td>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/runic_fang.webp" alt="d" class="s4">
                                 <div class="pl">20</div>
-                        </div>
-                    </th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/windwheel_aster.png" alt="" class="s1">
+                        </div></a>
+                    </td>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/starconch.webp" alt="d" class="s1">
                                 <div class="pl">60 </div>
-                        </div>
+                        </div></a>
                     
-                    </th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/golden_raven_insignia.png" alt=""
-                                    class="s3"><br>
-                                <div class="pl">24</div>
-                        </div>
-                    </th>
+                    </td>
+                    <td><a href="#"> 
+                        <div class="dpinblock"><img src="images/AT/lieutenants_insignia.webp" alt="d"
+                                    class="s3">
+                               <div class="pl">24</div>
+                        </div></a> 
+                    </td>
                 </tr>
 
             </table>
-             
+        </div>
+             <br>
             <div style="overflow-x: auto;">
                 <table class="bg3">
                     <tr>
-                        <th class="vam"><b>TOTAL</b></th>
-                        <th>
-                            <div class="dpinblock"><img src="images/AT/mora.png" alt="" class="s1">
+                        <td class="vam"><b>TOTAL</b></td>
+                        <td><a href="#"> 
+                            <div class="dpinblock"><img src="images/AT/mora.webp" alt="d" class="s1">
                                     <div class="pl">420000</div>
-                            </div>
-                        </th>
-                        <th>
-                            <div class="dpinblock"><img src="images/AT/agnidus_agate_sliver.png" alt=""
+                            </div></a>
+                        </td>
+                        <td><a href="#"> 
+                            <div class="dpinblock"><img src="images/AT/varunada_lazurite_sliver.webp" alt="d"
                                         class="s2">
                                     <div class="pl">1 <br></div>
-                            </div>
-                        </th>
-                        <th>
-                            <div class="dpinblock"><img src="images/AT/agnidus_agate_fragment.png" alt=""
+                            </div></a>
+                        </td>
+                        <td><a href="#"> 
+                            <div class="dpinblock"><img src="images/AT/varunada_lazurite_fragment.webp" alt="d"
                                         class="s3"><br>
                                     <div class="pl">9</div>
-                            </div>
-                        </th>
-                        <th>
-                            <div class="dpinblock"><img src="images/AT/agnidus_agate_chunk.png" alt=""
+                            </div></a>
+                        </td>
+                        <td><a href="#"> 
+                            <div class="dpinblock"><img src="images/AT/varunada_lazurite_chunk.webp" alt="d"
                                         class="s4"><br>
                                     <div class="pl">9</div>
-                            </div>
-                        </th>
-                        <th>
-                            <div class="dpinblock"><img src="images/AT/agnidus_agate_gemstone.png" alt=""
+                            </div></a>
+                        </td>
+                        <td><a href="#"> 
+                            <div class="dpinblock"><img src="images/AT/varunada_lazurite_gemstone.webp" alt="d"
                                         class="s5"><br>
                                     <div class="pl">6</div>
-                            </div>
-                        </th>
-                        <th>
-                            <div class="dpinblock"><img src="images/AT/everflame_seed.png" alt="" class="s4"><br>
+                            </div></a>
+                        </td>
+                        <td><a href="#"> 
+                            <div class="dpinblock"><img src="images/AT/runic_fang.webp" alt="d" class="s4"><br>
                                     <div class="pl">46</div>
-                            </div>
-                        </th>
-                        <th>
-                            <div class="dpinblock"><img src="images/AT/windwheel_aster.png" alt="" class="s1">
+                            </div></a>
+                        </td>
+                        <td><a href="#"> 
+                            <div class="dpinblock"><img src="images/AT/starconch.webp" alt="d" class="s1">
                                     <div class="pl">168</div>
-                            </div>
-                        </th>
-                        <th>
-                            <div class="dpinblock"><img src="images/AT/treasure_hoarder_insignia.png" alt="" class="s1"><br>
+                            </div></a>
+                        </td>
+                        <td><a href="#"> 
+                            <div class="dpinblock"><img src="images/AT/recruits_insignia.webp" alt="d" class="s1"><br>
                                     <div class="pl">18</div>
-                            </div>
-                        </th>
-                        <th>
-                            <div class="dpinblock"><img src="images/AT/silver_raven_insignia.png" alt="" class="s2"><br>
+                            </div></a>
+                        </td>
+                        <td><a href="#"> 
+                            <div class="dpinblock"><img src="images/AT/sergeants_insignia.webp" alt="d" class="s2"><br>
                                     <div class="pl">30</div>
-                            </div>
-                        </th>
-                        <th>
-                            <div class="dpinblock"><img src="images/AT/golden_raven_insignia.png" alt=""
+                            </div></a>
+                        </td>
+                        <td><a href="#"> 
+                            <div class="dpinblock"><img src="images/AT/lieutenants_insignia.webp" alt="d"
                                         class="s3"><br>
                                     <div class="pl">36</div>
-                            </div>
-                        </th>
+                            </div></a>
+                        </td>
 
                     </tr>
                 </table>
             </div>
 
-        </div>
+        
 
         <br>
         <br>
         <br>
 
-        <div id="talento">
-            
-                <div class="titulos">
-                    <img src="images/We/Item_Primogem.png" alt="" class="marcador">
-                   Materias de Talento</div> 
-               
-        </div>
+        <div id="talento"><div class="titulos">Materias de Talento</div></div>
         <hr>
+        <br>
         <div style="overflow-x:auto;">
             <table class="bg3">
                 <tr>
-                    <th class="vam">Lvl. 1→2</th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/mora.png" alt="" class="s1">
+                    <td class="vam">Lvl. 1→2</td>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/mora.webp" alt="d" class="s1">
                                 <div class="pl">12500</div>
-                        </div>
-                    </th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/teachings_of_resistance.png" alt="" class="s2">
+                        </div></a>
+                    </td>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/teachings_of_prosperity.webp" alt="d" class="s2">
                                 <div class="pl">3</div>
-                        </div>
-                    </th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/treasure_hoarder_insignia.png" alt="" class="s1">
+                        </div></a>
+                    </td>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/recruits_insignia.webp" alt="d" class="s1">
                                 <div class="pl">6</div>
-                        </div>
-                    </th>
-                    <th></th>
-                    <th></th>
+                        </div></a>
+                    </td>
+                    <td></td>
+                    <td></td>
                 </tr>
 
                 <tr>
-                    <th class="vam">Lvl. 2→3</th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/mora.png" alt="" class="s1">
+                    <td class="vam">Lvl. 2→3</td>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/mora.webp" alt="d" class="s1">
                                 <div class="pl">17500</div>
-                        </div>
-                    </th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/guide_to_resistance.png" alt="" class="s3">
+                        </div></a>
+                    </td>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/guide_to_prosperity.webp" alt="d" class="s3">
                                 <div class="pl">2</div>
-                        </div>
-                    </th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/silver_raven_insignia.png" alt="" class="s2">
+                        </div></a>
+                    </td>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/sergeants_insignia.webp" alt="d" class="s2">
                                 <div class="pl">3</div>
-                        </div>
-                    </th>
-                    <th></th>
-                    <th></th>
+                        </div></a>
+                    </td>
+                    <td></td>
+                    <td></td>
                 </tr>
 
                 <tr>
-                    <th class="vam">Lvl. 3→4</th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/mora.png" alt="" class="s1">
+                    <td class="vam">Lvl. 3→4</td>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/mora.webp" alt="d" class="s1">
                                 <div class="pl">25000</div>
-                        </div>
-                    </th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/guide_to_resistance.png" alt="" class="s3">
+                        </div></a>
+                    </td>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/guide_to_prosperity.webp" alt="d" class="s3">
                                 <div class="pl">4</div>
-                        </div>
-                    </th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/silver_raven_insignia.png" alt="" class="s2">
+                        </div></a>
+                    </td>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/sergeants_insignia.webp" alt="d" class="s2">
                                 <div class="pl">4</div>
-                        </div>
-                    </th>
-                    <th></th>
-                    <th></th>
+                        </div></a>
+                    </td>
+                    <td></td>
+                    <td></td>
                 </tr>
 
                 <tr>
-                    <th class="vam">Lvl. 4→5</th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/mora.png" alt="" class="s1">
+                    <td class="vam">Lvl. 4→5</td>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/mora.webp" alt="d" class="s1">
                                 <div class="pl">30000</div>
-                        </div>
-                    </th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/guide_to_resistance.png" alt="" class="s3">
+                        </div></a>
+                    </td>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/guide_to_prosperity.webp" alt="d" class="s3">
                                 <div class="pl">6</div>
-                        </div>
-                    </th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/silver_raven_insignia.png" alt="" class="s2">
+                        </div></a>
+                    </td>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/sergeants_insignia.webp" alt="d" class="s2">
                                 <div class="pl">6</div>
-                        </div>
-                    </th>
-                    <th></th>
-                    <th></th>
+                        </div></a>
+                    </td>
+                    <td></td>
+                    <td></td>
 
                 </tr>
 
                 <tr>
-                    <th class="vam">Lvl. 5→6</th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/mora.png" alt="" class="s1">
+                    <td class="vam">Lvl. 5→6</td>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/mora.webp" alt="d" class="s1">
                                 <div class="pl">37000</div>
-                        </div>
-                    </th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/guide_to_resistance.png" alt="" class="s3">
+                        </div></a>
+                    </td>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/guide_to_prosperity.webp" alt="d" class="s3">
                                 <div class="pl">9</div>
-                        </div>
-                    </th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/silver_raven_insignia.png" alt="" class="s2">
+                        </div></a>
+                    </td>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/sergeants_insignia.webp" alt="d" class="s2">
                                 <div class="pl">9</div>
-                        </div>
-                    </th>
-                    <th></th>
-                    <th></th>
+                        </div></a>
+                    </td>
+                    <td></td>
+                    <td></td>
                 </tr>
 
                 <tr>
-                    <th class="vam">Lvl. 6→7</th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/mora.png" alt="" class="s1">
+                    <td class="vam">Lvl. 6→7</td>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/mora.webp" alt="d" class="s1">
                                 <div class="pl">120000</div>
-                        </div>
-                    </th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/philosophies_of_resistance.png" alt="" class="s4">
+                        </div></a>
+                    </td>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/philosophies_of_prosperity.webp" alt="d" class="s4">
                                 <div class="pl">4</div>
-                        </div>
-                    </th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/golden_raven_insignia.png" alt="" class="s3">
+                        </div></a>
+                    </td>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/lieutenants_insignia.webp" alt="d" class="s3">
                                 <div class="pl">4</div>
-                        </div>
-                    </th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/dvalins_plume.png" alt="" class="s5">
+                        </div></a>
+                    </td>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/gilded_scale.webp" alt="d" class="s5">
                                 <div class="pl">1</div>
-                        </div>
-                    </th>
-                    <th></th>
+                        </div></a>
+                    </td>
+                    <td></td>
                 </tr>
 
                 <tr>
-                    <th class="vam">Lvl. 7→8</th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/mora.png" alt="" class="s1">
+                    <td class="vam">Lvl. 7→8</td>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/mora.webp" alt="d" class="s1">
                                 <div class="pl">260000</div>
-                        </div>
-                    </th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/philosophies_of_resistance.png" alt="" class="s4">
+                        </div></a>
+                    </td>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/philosophies_of_prosperity.webp" alt="d" class="s4">
                                 <div class="pl">6</div>
-                        </div>
-                    </th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/golden_raven_insignia.png" alt="" class="s3">
+                        </div></a>
+                    </td>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/lieutenants_insignia.webp" alt="d" class="s3">
                                 <div class="pl">6</div>
-                        </div>
-                    </th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/dvalins_plume.png" alt="" class="s5">
+                        </div></a>
+                    </td>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/gilded_scale.webp" alt="d" class="s5">
                                 <div class="pl">1</div>
-                        </div>
-                    </th>
-                    <th></th>
+                        </div></a>
+                    </td>
+                    <td></td>
                 </tr>
 
                 <tr>
-                    <th class="vam">Lvl. 8→9</th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/mora.png" alt="" class="s1">
+                    <td class="vam">Lvl. 8→9</td>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/mora.webp" alt="d" class="s1">
                                 <div class="pl">450000</div>
-                        </div>
-                    </th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/philosophies_of_resistance.png" alt="" class="s4">
+                        </div></a>
+                    </td>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/philosophies_of_prosperity.webp" alt="d" class="s4">
                                 <div class="pl">12 </div>
-                        </div>
-                    </th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/golden_raven_insignia.png" alt="" class="s3">
+                        </div></a>
+                    </td>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/lieutenants_insignia.webp" alt="d" class="s3">
                                 <div class="pl">9</div>
-                        </div>
-                    </th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/dvalins_plume.png" alt="" class="s5">
+                        </div></a>
+                    </td>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/gilded_scale.webp" alt="d" class="s5">
                                 <div class="pl">2</div>
-                        </div>
-                    </th>
-                    <th></th>
+                        </div></a>
+                    </td>
+                    <td></td>
                 </tr>
 
                 <tr>
-                    <th class="vam">Lvl. 9→10</th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/mora.png" alt="" class="s1">
+                    <td class="vam">Lvl. 9→10</td>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/mora.webp" alt="d" class="s1">
                                 <div class="pl">700000</div>
-                        </div>
-                    </th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/philosophies_of_resistance.png" alt="" class="s4">
+                        </div></a>
+                    </td>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/philosophies_of_prosperity.webp" alt="d" class="s4">
                                 <div class="pl">16</div>
-                        </div>
-                    </th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/golden_raven_insignia.png" alt="" class="s3">
+                        </div></a>
+                    </td>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/lieutenants_insignia.webp" alt="d" class="s3">
                                 <div class="pl">12</div>
-                        </div>
-                    </th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/dvalins_plume.png" alt="" class="s5">
+                        </div></a>
+                    </td>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/gilded_scale.webp" alt="d" class="s5">
                                 <div class="pl">2</div>
-                        </div>
-                    </th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/crown_of_insight.png" alt="" class="s5">
+                        </div></a>
+                    </td>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/crown_of_insight.webp" alt="d" class="s5">
                                 <div class="pl">1</div>
-                        </div>
-                    </th>
+                        </div></a>
+                    </td>
                     
                 </tr>
             </table>
         </div>
+        <br>
         <div style="overflow-x: auto;">
 
             <table class="bg3">
                 <tr>
-                    <th class="vam"><b>TOTAL</b></th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/mora.png" alt="" class="s1">
+                    <td class="vam"><b>TOTAL</b></td>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/mora.webp" alt="d" class="s1">
                                 <div class="pl">1652500</div>
-                        </div>
-                    </th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/teachings_of_resistance.png" alt="" class="s2">
+                        </div></a>
+                    </td>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/teachings_of_prosperity.webp" alt="d" class="s2">
                                 <div class="pl">3</div>
-                        </div>
-                    </th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/guide_to_resistance.png" alt="" class="s3">
+                        </div></a>
+                    </td>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/guide_to_prosperity.webp" alt="d" class="s3">
                                 <div class="pl">21</div>
-                        </div>
-                    </th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/philosophies_of_resistance.png" alt="" class="s4">
+                        </div></a>
+                    </td>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/philosophies_of_prosperity.webp" alt="d" class="s4">
                                 <div class="pl">38 </div>
-                        </div>
-                    </th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/treasure_hoarder_insignia.png" alt="" class="s1">
+                        </div></a>
+                    </td>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/recruits_insignia.webp" alt="d" class="s1">
                                 <div class="pl">6</div>
-                        </div>
-                    </th>
+                        </div></a>
+                    </td>
                     
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/silver_raven_insignia.png" alt="" class="s2">
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/sergeants_insignia.webp" alt="d" class="s2">
                                 <div class="pl">22</div>
-                        </div>
-                    </th>
+                        </div></a>
+                    </td>
                     
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/golden_raven_insignia.png" alt="" class="s3">
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/lieutenants_insignia.webp" alt="d" class="s3">
                                 <div class="pl">31</div>
-                        </div>
-                    </th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/dvalins_plume.png" alt="" class="s5">
+                        </div></a>
+                    </td>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/gilded_scale.webp" alt="d" class="s5">
                                 <div class="pl">6</div>
-                        </div>
-                    </th>
-                    <th>
-                        <div class="dpinblock"><img src="images/AT/crown_of_insight.png" alt="" class="s5">
+                        </div></a>
+                    </td>
+                    <td><a href="#">
+                        <div class="dpinblock"><img src="images/AT/crown_of_insight.webp" alt="d" class="s5">
                                 <div class="pl">1</div>
-                        </div>
-                    </th>
+                        </div></a>
+                    </td>
                 </tr>
             </table>
         </div>
@@ -758,7 +853,7 @@
         
             <div id="Estatísticas">
                 <div class="titulos">
-                    <img src="images/We/Item_Primogem.png" alt="" class="marcador"> Estatísticas
+                    Estatísticas
                 </div>
                 <hr>
             
@@ -768,300 +863,121 @@
         <div id="bg4" style="overflow-x: auto;">
             <table>
                 <tr>
-                    <th>Level</th>
-                    <th>Base <br>Vida</th>
-                    <th>Base <br>Ataque</th>
-                    <th>Base <br>Defesa</th>
-                    <th>Vida %</th>
+                    <td>Level</td>
+                    <td>Base <br>Vida</td>
+                    <td>Base <br>Ataque</td>
+                    <td>Base <br>Defesa</td>
+                    <td>Vida %</td>
                 </tr>
                 <tr>
-                    <th>1</th>
-                    <th>821.0</th>
-                    <th>13.0</th>
-                    <th>56.0</th>
-                    <th>0.0</th>
+                    <td>1</td>
+                    <td>821.0</td>
+                    <td>13.0</td>
+                    <td>56.0</td>
+                    <td>0.0</td>
                 </tr>
                 <tr>
-                    <th>20</th>
-                    <th>2108.0</th>
-                    <th>34.0</th>
-                    <th>144.0</th>
-                    <th>0.0</th>
+                    <td>20</td>
+                    <td>2108.0</td>
+                    <td>34.0</td>
+                    <td>144.0</td>
+                    <td>0.0</td>
                 </tr>
                 <tr>
-                    <th>20+</th>
-                    <th>2721.0</th>
-                    <th>44.0</th>
-                    <th>186.0</th>
-                    <th>00.0</th>
+                    <td>20+</td>
+                    <td>2721.0</td>
+                    <td>44.0</td>
+                    <td>186.0</td>
+                    <td>00.0</td>
                 </tr>
                 <tr>
-                    <th>40</th>
-                    <th>4076.0</th>
-                    <th>66.0</th>
-                    <th>279.0</th>
-                    <th>0.0</th>
+                    <td>40</td>
+                    <td>4076.0</td>
+                    <td>66.0</td>
+                    <td>279.0</td>
+                    <td>0.0</td>
                 </tr>
                 <tr>
-                    <th>40+</th>
-                    <th>4512.0</th>
-                    <th>73.0</th>
-                    <th>308.0</th>
-                    <th>6.0</th>
+                    <td>40+</td>
+                    <td>4512.0</td>
+                    <td>73.0</td>
+                    <td>308.0</td>
+                    <td>6.0</td>
                 </tr>
                 <tr>
-                    <th>50</th>
-                    <th>5189.0</th>
-                    <th>84.0</th>
-                    <th>355.0</th>
-                    <th>6.0</th>
+                    <td>50</td>
+                    <td>5189.0</td>
+                    <td>84.0</td>
+                    <td>355.0</td>
+                    <td>6.0</td>
                 </tr>
                 <tr>
-                    <th>50+</th>
-                    <th>5770.0</th>
-                    <th>94.0</th>
-                    <th>394.0</th>
-                    <th>12.0</th>
+                    <td>50+</td>
+                    <td>5770.0</td>
+                    <td>94.0</td>
+                    <td>394.0</td>
+                    <td>12.0</td>
                 </tr>
                 <tr>
-                    <th>60</th>
-                    <th>6448.0</th>
-                    <th>105.0</th>
-                    <th>441.0</th>
-                    <th>12.0</th>
+                    <td>60</td>
+                    <td>6448.0</td>
+                    <td>105.0</td>
+                    <td>441.0</td>
+                    <td>12.0</td>
                 </tr>
                 <tr>
-                    <th>60+</th>
-                    <th>6884.0</th>
-                    <th>112.0</th>
-                    <th>470.0</th>
-                    <th>12.0</th>
+                    <td>60+</td>
+                    <td>6884.0</td>
+                    <td>112.0</td>
+                    <td>470.0</td>
+                    <td>12.0</td>
                 </tr>
                 <tr>
-                    <th>70</th>
-                    <th>7561.0</th>
-                    <th>123.0</th>
-                    <th>517.0</th>
-                    <th>12.0</th>
+                    <td>70</td>
+                    <td>7561.0</td>
+                    <td>123.0</td>
+                    <td>517.0</td>
+                    <td>12.0</td>
                 </tr>
                 <tr>
-                    <th>70+</th>
-                    <th>7996.0</th>
-                    <th>130.0</th>
-                    <th>546.0</th>
-                    <th>18.0</th>
+                    <td>70+</td>
+                    <td>7996.0</td>
+                    <td>130.0</td>
+                    <td>546.0</td>
+                    <td>18.0</td>
                 </tr>
                 <tr>
-                    <th>80</th>
-                    <th>8674.0</th>
-                    <th>141.0</th>
-                    <th>593.0</th>
-                    <th>18.0</th>
+                    <td>80</td>
+                    <td>8674.0</td>
+                    <td>141.0</td>
+                    <td>593.0</td>
+                    <td>18.0</td>
                 </tr>
                 <tr>
-                    <th>80+</th>
-                    <th>9110.0</th>
-                    <th>148.0</th>
-                    <th>623.0</th>
-                    <th>24.0</th>
+                    <td>80+</td>
+                    <td>9110.0</td>
+                    <td>148.0</td>
+                    <td>623.0</td>
+                    <td>24.0</td>
                 </tr>
                 <tr>
-                    <th>90</th>
-                    <th>9787.0</th>
-                    <th>159.0</th>
-                    <th>669.0</th>
-                    <th>24.0</th>
+                    <td>90</td>
+                    <td>9787.0</td>
+                    <td>159.0</td>
+                    <td>669.0</td>
+                    <td>24.0</td>
                 </tr>
             </table>
 
-        </div><br><br>
+        </div>
         
-        <div class="dpflex3">
-            <div class="center">
-                
-                    <div id="Habilidades" class="titulos">Habilidades</div>
-                
-            </div><br>
             
-                <div class="center">
-                    <img src="images/HPC/Sword_Pyro.png" alt="" ><br>
-                    <div class="gas">Ressurgimento da Paixão</div><br>
-                    Ataque Normal
-                </div>
-                <br>
-                <div class="gas">Ataque Normal</div><br>
-                Realiza até 4 ataques com esguichos de água que infligem <b>Dano Hydro.</b><br><br>
-                <div class="gas">Ataque Carregado</div><br>
-                Consome uma certa quantidade de Stamina para infligir <b>Dano Hydro em uma AdE</b> após um curto período de
-                canalização.<br>
-                <br>
-                <div class="gas">Ataque Imersivo</div><br>
-                Reunindo o poder do Hydro, Barbara mergulha em direção ao chão em pleno ar, infligindo dano a todos os
-                inimigos em seu caminho. Inflige <b>Dano Hydro em uma AdE</b> durante o impacto com o chão.
-                <hr>
-                <br><br>
-
-
-                <div class="center"><img src="images/HPC/Talento_Sobrecarga.png" alt="" ><br>
-                    <div class="gas">Que Comece o Espetáculo ♪</div> <br>Habilidade Elemental
-                </div>
-                <br>Invoca gotículas de água que se assemelham a notas musicais que formam um Círculo Melódico, causando <b>Dano Hydro</b> aos oponentes próximos e aplicando o estado <b>Molhado</b> a eles.
-
-
-                <br><br>
-                <div class="gas">Círculo Melódico</div><br>
-                Ao acertar, os ataques normais da Barbara curam seus próprios membros de equipe e personagens aliados próximos em uma certa quantidade de Vida, que é escalonado com a Vida Máxima de Barbara. <br>
-Acertar o Ataque Carregado de Barbara gera 4 vezes a quantidade de cura. <br>
-Periodicamente regenera a Vida do seu próprio personagem ativo. <br>
-Aplica o estado <b>Molhado</b> ao personagem e aos oponentes que entram em contato com eles.
-A música da Barbara é a magia que cura seus companheiros.
-                <hr><br><br>
-
-                <div class="center"><img src="images/HPC/Talento_Viagem.png" alt="" ><br>
-                    <div class="gas">Milagre Brilhante ♪</div> <br>Explosão Elemental
-                </div> <br>Cura todas as forças aliadas e seu próprio personagem em uma grande quantidade de Vida que aumenta com a Vida Máxima de Barbara.
-                <hr>
-                <br></div><br><br>
-<div class="dpflex3">
-                <div class="center">
-                    
-                        <div id="Passivas" class="titulos">Passivas</div>
-                    <br>
-
-                    <img src="images/HPC/Talento_Ressurgimento.png" alt="" ><br>
-                    <div class="gas">Temporada Gloriosa</div> <br>
-                    Ascensão Fase 1 <br><br>
-                </div>
-                O Consumo de Stamina dos personagens dentro do loop da melodia de <b>Que Comece o Espetáculo ♪</b> é reduzido em 12%.
-                <hr><br>
-                <div class="center">
-                    <img src="images/HPC/Talento_Fervor.png" alt="" ><br>
-                    <div class="gas">Encore</div><br>
-                    Ascensão Fase 4 <br><br>
-                </div>
-                Quando seu próprio personagem ganha um Orbe/Partícula Elemental, a duração do Loop da Melodia do <b>Que Comece o Espetáculo ♪</b> é estendido em 1s.
-A extensão máxima é de 5s.
-                <hr><br>
-                <div class="center"><img src="images/HPC/Talento_Deve_ser_Seguro....png" alt="" ><br>
-                    <div class="gas">Com Todo o Meu Coração♪</div><br>Liberado Automaticamente
-                </div><br>
-                Quando uma Culinária Perfeita é feita em uma comida com efeito de recuperação, tem uma chance de 12% de receber o dobro de produção.
-                <hr><br></div>
-                <br><br><div class="dpflex3">
-                <div class="center">
-                    
-                        <div id="Constelações" class="titulos">Constelações</div>
-                    <br>
-                    <img src="images/HPC/Constellation_Grand_Expectation.png" alt="" >
-                    <br>
-                    <div class="gas">Balada Alegre</div>
-                    <br>
-                    Constelação Lv.1
-                </div>
-                <br>
-                Barbara regenera 1 de Energia a cada 10s.
-                <hr><br>
-                <div class="center"><img src="images/HPC/Constellation_Impasse_Conqueror.png" alt="" ><br>
-                    <div class="gas">Explosão de Vitalidade</div><br>Constelação Lv.2
-                </div><br>
-                Diminui a Recarga do <b>Que Comece o Espetáculo ♪</b> em 15%.
-Durante esta habilidade, o seu próprio personagem atual ganha 15% de <b>Dano Hydro</b> adicional.
-                <hr><br>
-                <div class="center"><img src="images/HPC/Constellation_Unstoppable_Fervor.png" alt="" ><br>
-                    <div class="gas">Estrela de Amanhã</div><br>Constelação Lv.3
-                </div><br>
-                Aumenta o nível do <b>Milagre Brilhante ♪</b> em 3.
-O nível máximo de elevação é 15.
-                <hr><br>
-                <div class="center"><img src="images/HPC/Constellation_Unexpected_Odyssey.png" alt="" ><br>
-                    <div class="gas">A Atenção é o Meu Poder</div><br>Constelação Lv.4
-                </div><br>
-                Sempre que os Ataques Carregados da Barbara acertarem um inimigo ela regenera 1 de Energia. <br>
-É possível regenerar um máximo de 5 de Energia desta maneira por vez.
-                <hr><br>
-                <div class="center"><img src="images/HPC/Constellation_True_Explorer.png" alt="" ><br>
-                    <div class="gas">Vínculo de Inocência</div><br>Constelação Lv.5
-                </div><br>
-                Aumenta o nível do <b>Que Comece o Espetáculo ♪</b> em 3.
-O nível máximo de elevação é 15.
-                <hr><br>
-                <div class="center"><img src="images/HPC/Constellation_Fire_Ventures_With_Me.png" alt="" ><br>
-                    <div class="gas">Dedicando Tudo para Você</div><br>Constelação Lv.6
-                </div><br>
-                Quando a Barbara não estiver no campo de batalha e o próprio personagem da equipe for abatido: <br>
-Revive automaticamente este personagem. <br>
-Regenera totalmente a Vida deste personagem até 100%. <br>
-Este efeito pode ser ativado uma vez a cada 15 mins.
-                <hr><br>
-            </div>
-        
-        <br>
-        <br>
-
-        <br><br>
-        <div class="displayflex">
-            <div id="margin4">
-                <div class="titulos2">
-                    <div id="Outros">Outros Personagens</div>
-                </div><br>
-                <div class="dpinblock"><img src="images/We/Element_Pyro.png" class="elicon" alt="Elemento Pyro"><a class="subtitleicon" href="amber.html"><img src="images/Characters/Amber.png" alt="d" class="ICONS"><br>Amber</a><div class="ponto">.</div></div>
-                <div class="dpinblock"><img src="images/We/Element_Hydro.png" class="elicon" alt="Elemento Hydro"><a class="subtitleicon" href="barbara.html"><img src="images/Characters/Barbara.png" alt="d" class="ICONS"><br>Bárbara </a><div class="ponto">.</div></div>
-                <div class="dpinblock"><img src="images/We/Element_Electro.png" class="elicon" alt="Elemento Electro"><a class="subtitleicon" href="#"><img src="images/Characters/Beidou.png" alt="d" class="ICONS"><br>Beidou </a><div class="ponto">.</div></div>
-                <div class="dpinblock"><img src="images/We/Element_Pyro.png" class="elicon" alt="Elemento Pyro"><a class="subtitleicon" href="bennett.html"><img src="images/Characters/Bennett.png" alt="d" class="ICONS"><br>Bennet </a><div class="ponto">.</div></div>
-                <div class="dpinblock"><img src="images/We/Element_Pyro.png" class="elicon" alt="Elemento Pyro"><a class="subtitleicon" href="#"><img src="images/Characters/Diluc.png" alt="d" class="ICONS"><br>Dilluc </a><div class="ponto">.</div></div>
-                <div class="dpinblock"><img src="images/We/Element_Cryo.png" class="elicon" alt="Elemento Cryo"><a class="subtitleicon" href="#"><img src="images/Characters/Diona.png" alt="d" class="ICONS"><br>Diona </a><div class="ponto">.</div></div>
-                <div class="dpinblock"><img src="images/We/Element_Electro.png" class="elicon" alt="Elemento Electro"><a class="subtitleicon" href="#"><img src="images/Characters/Fischl.png" alt="d" class="ICONS"><br>Fischl </a><div class="ponto">.</div></div>
-                <div class="dpinblock"><img src="images/We/Element_Cryo.png" class="elicon" alt="Elemento Cryo"><a class="subtitleicon" href="#"><img src="images/Characters/Kaeya.png" alt="d" class="ICONS"><br>Kaeya </a><div class="ponto">.</div></div>
-                <div class="dpinblock"><img src="images/We/Element_Electro.png" class="elicon" alt="Elemento Electro"><a class="subtitleicon" href="#"><img src="images/Characters/Keqing.png" alt="d" class="ICONS"><br>Keqing </a><div class="ponto">.</div></div>
-                <div class="dpinblock"><img src="images/We/Element_Pyro.png" class="elicon" alt="Elemento Pyro"><a class="subtitleicon" href="#"><img src="images/Characters/Klee.png" alt="d" class="ICONS"><br>Klee </a><div class="ponto">.</div></div>
-                <div class="dpinblock"><img src="images/We/Element_Electro.png" class="elicon" alt="Elemento Electro"><a class="subtitleicon" href="#"><img src="images/Characters/Lisa.png" alt="d" class="ICONS"><br>Lisa </a><div class="ponto">.</div></div>
-                <div class="dpinblock"><img src="images/We/Element_Hydro.png" class="elicon" alt="Elemento Hydro"><a class="subtitleicon" href="Mona.html"><img src="images/Characters/Mona.png" alt="d" class="ICONS"><br>Mona </a><div class="ponto">.</div></div>
-                <div class="dpinblock"><img src="images/We/Element_Geo.png" class="elicon" alt="Elemento Geo"><a class="subtitleicon" href="#"><img src="images/Characters/Noelle.png" alt="d" class="ICONS"><br>Noelle </a><div class="ponto">.</div></div>
-                <div class="dpinblock"><img src="images/We/Element_Geo.png" class="elicon" alt="Elemento Geo"><a class="subtitleicon" href="#"><img src="images/Characters/Ningguang.png" alt="d" class="ICONS"><br>Ninguang </a><div class="ponto">.</div></div>
-                <div class="dpinblock"><img src="images/We/Element_Cryo.png" class="elicon" alt="Elemento Cryo"><a class="subtitleicon" href="#"><img src="images/Characters/Qiqi.png" alt="d" class="ICONS"><br>Qiqi </a><div class="ponto">.</div></div>
-                <div class="dpinblock"><img src="images/We/Element_Electro.png" class="elicon" alt="Elemento Electro"><a class="subtitleicon" href="#"><img src="images/Characters/Razor.png" alt="d" class="ICONS"><br>Razor </a><div class="ponto">.</div></div>
-                <div class="dpinblock"><img src="images/We/Element_Anemo.png" class="elicon" alt="Elemento Anemo"><a class="subtitleicon" href="https://samuelljg.github.io/GenshinOP/Sucrose"><img src="images/Characters/Sucrose.png" alt="d" class="ICONS"><br>Sucrose </a><div class="ponto">.</div></div>
-                <div class="dpinblock"><img src="images/We/Element_Hydro.png" class="elicon" alt="Elemento Hydro"><a class="subtitleicon" href="#"><img src="images/Characters/Childe.png" alt="d" class="ICONS"><br>Tartaglia </a><div class="ponto">.</div></div>
-                <div class="dpinblock"><img src="images/We/Element_Anemo.png" class="elicon" alt="Elemento Anemo"><a class="subtitleicon" href="#"><img src="images/Characters/Venti.png" alt="d" class="ICONS"><br>Venti </a><div class="ponto">.</div></div>
-                <div class="dpinblock"><img src="images/We/Element_Anemo.png" class="elicon" alt="Elemento Anemo"><a class="subtitleicon" href="#"><img src="images/Characters/Traveler.png" alt="d" class="ICONS"><br>Viajante <br>Anemo </a></div>
-                <div class="dpinblock"><img src="images/We/Element_Geo.png" class="elicon" alt="Elemento Geo"><a class="subtitleicon" href="#"><img src="images/Characters/Traveler.png" alt="d" class="ICONS"><br>Viajante <br>Geo </a></div>
-                <div class="dpinblock"><img src="images/We/Element_Electro.png" class="elicon" alt="Elemento Electro"><a class="subtitleicon" href="#"><img src="images/Characters/Traveler.png" alt="d" class="ICONS"><br>Viajante <br>Electro </a></div>
-                <div class="dpinblock"><img src="images/We/Element_Pyro.png" class="elicon" alt="Elemento Pyro"><a class="subtitleicon" href="#"><img src="images/Characters/Xiangling.png" alt="d" class="ICONS"><br>Xiangling </a><div class="ponto">.</div></div>
-                <div class="dpinblock"><img src="images/We/Element_Hydro.png" class="elicon" alt="Elemento Hydro"><a class="subtitleicon" href="#"><img src="images/Characters/Xingqiu.png" alt="d" class="ICONS"><br>Xingqin </a><div class="ponto">.</div></div>
-                <div class="dpinblock"><img src="images/We/Element_Pyro.png" class="elicon" alt="Elemento Pyro"><a class="subtitleicon" href="#"><img src="images/Characters/Xinyan.png" alt="d" class="ICONS"><br>Xinyan </a><div class="ponto">.</div></div>
-                <div class="dpinblock"><img src="images/We/Element_Geo.png" class="elicon" alt="Elemento Geo"><a class="subtitleicon" href="#"><img src="images/Characters/Zhongli.png" alt="d" class="ICONS"><br>Zhongli </a><div class="ponto">.</div></div>
-                <div class="dpinblock"><img src="images/We/Element_Anemo.png" class="elicon" alt="Elemento Anemo"><a class="subtitleicon" href="#"><img src="images/Characters/Xiao.png" alt="d" class="ICONS"><br>Xiao </a><div class="ponto">.</div></div>
-                <div class="dpinblock"><img src="images/We/Element_Cryo.png" class="elicon" alt="Elemento Cryo"><a class="subtitleicon" href="Ganyu.html"><img src="images/Characters/Ganyu.png" alt="d" class="ICONS"><br>Ganyu </a><div class="ponto">.</div></div>
-                <div class="dpinblock"><img src="images/We/Element_Geo.png" class="elicon" alt="Elemento Geo"><a class="subtitleicon" href="#"><img src="images/Characters/Albedo.png" alt="d" class="ICONS"><br>Albedo </a><div class="ponto">.</div></div>
-                <div class="dpinblock"><img src="images/We/Element_Pyro.png" class="elicon" alt="Elemento Pyro"><a class="subtitleicon" href="#"><img src="images/Characters/HuTao.png" alt="d" class="ICONS"><br>Hu Tao </a><div class="ponto">.</div></div>
-                <div class="dpinblock"><img src="images/We/Element_Cryo.png" class="elicon" alt="Elemento Cryo"><a class="subtitleicon" href="#"><img src="images/Characters/Rosaria.png" alt="d" class="ICONS"><br>Rosaria </a><div class="ponto">.</div></div>
-                <div class="dpinblock"><img src="images/We/Element_Pyro.png" class="elicon" alt="Elemento Pyro"><a class="subtitleicon" href="#"><img src="images/Characters/Yanfei.png" alt="d" class="ICONS"><br>Yanfei </a><div class="ponto">.</div></div>
-                <div class="dpinblock"><img src="images/We/Element_Cryo.png" class="elicon" alt="Elemento Cryo"><a class="subtitleicon" href="#"><img src="images/Characters/Eula.png" alt="d" class="ICONS"><br>Eula </a><div class="ponto">.</div></div>
-                <div class="dpinblock"><img src="images/We/Element_Anemo.png" class="elicon" alt="Elemento Anemo"><a class="subtitleicon" href="#"><img src="images/Characters/Kazuha.png" alt="d" class="ICONS"><br>Kazuha </a><div class="ponto">.</div></div>
-                <div class="dpinblock"><img src="images/We/Element_Cryo.png" class="elicon" alt="Elemento Cryo"><a class="subtitleicon" href="#"><img src="images/Characters/Ayaka.png" alt="d" class="ICONS"><br>Ayaka </a><div class="ponto">.</div></div>
-                <div class="dpinblock"><img src="images/We/Element_Pyro.png" class="elicon" alt="Elemento Pyro"><a class="subtitleicon" href="#"><img src="images/Characters/Yoimiya.png" alt="Yoimiya" class="ICONS"><br>Yoimiya </a><div class="ponto">.</div></div>
-                <div class="dpinblock"><img src="images/We/Element_Anemo.png" class="elicon" alt="Elemento Anemo"><a class="subtitleicon" href="#"><img src="images/Characters/Sayu.png" alt="Sayu" class="ICONS"><br>Sayu </a><div class="ponto">.</div></div>
-                <div class="dpinblock"><img src="images/We/Element_Electro.png" class="elicon" alt="Elemento Electro"><a class="subtitleicon" href="#"><img src="images/Characters/Raiden.png" alt="Raiden Shogun" class="ICONS"><br>Raiden<br>Shogun </a></div>
-                <div class="dpinblock"><img src="images/We/Element_Electro.png" class="elicon" alt="Elemento Electro"><a class="subtitleicon" href="#"><img src="images/Characters/Sara.png" alt="Sara" class="ICONS"><br>Sara </a><div class="ponto">.</div></div>
-                <div class="dpinblock"><img src="images/We/Element_Cryo.png" class="elicon" alt="Elemento Cryo"><a class="subtitleicon" href="#"><img src="images/Characters/Aloy.png" alt="Aloy" class="ICONS"><br>Aloy </a><div class="ponto">.</div></div>
-                <div class="dpinblock"><img src="images/We/Element_Hydro.png" class="elicon" alt="Elemento Hydro"><a class="subtitleicon" href="#"><img src="images/Characters/Kokomi.png" alt="Kokomi" class="ICONS"><br>Kokomi </a><div class="ponto">.</div></div>
-                <div class="dpinblock"><img src="images/We/Element_Pyro.png" class="elicon" alt="Elemento Pyro"><a class="subtitleicon" href="#"><img src="images/Characters/Thoma.png" alt="Thoma" class="ICONS"><br>Thoma </a><div class="ponto">.</div></div>
-                <div class="dpinblock"><img src="images/We/Element_Geo.png" class="elicon" alt="Elemento Geo"><a class="subtitleicon" href="#"><img src="images/Characters/Gorou.png" alt="Gorou" class="ICONS"><br>Gorou </a><div class="ponto">.</div></div>
-                <div class="dpinblock"><img src="images/We/Element_Geo.png" class="elicon" alt="Elemento Geo"><a class="subtitleicon" href="#"><img src="images/Characters/Itto.png" alt="Arataki Itto" class="ICONS"><br>Arataki <br> Itto </a></div>
-                <div class="dpinblock"><img src="images/We/Element_Cryo.png" class="elicon" alt="Elemento Cryo"><a class="subtitleicon" href="#"><img src="images/Characters/Shenhe.png" alt="Shenhe" class="ICONS"><br>Shenhe </a><div class="ponto">.</div></div>
-                <div class="dpinblock"><img src="images/We/Element_Geo.png" class="elicon" alt="Elemento Geo"><a class="subtitleicon" href="#"><img src="images/Characters/YunJin.png" alt="YunJin" class="ICONS"><br> Yunjin </a><br><div class="ponto">.</div></div>
-                <div class="dpinblock"><img src="images/We/Element_Hydro.png" class="elicon" alt="Elemento Hydro"><a class="subtitleicon" href="#"><img src="images/Characters/Ayato.png" alt="Ayato" class="ICONS"><br>Ayato </a><div class="ponto">.</div></div>
-                <div class="dpinblock"><img src="images/We/Element_Hydro.png" class="elicon" alt="Elemento Hydro"><a class="subtitleicon" href="#"><img src="images/Characters/Yelan.png" alt="Yelan" class="ICONS"><br>Yelan </a><div class="ponto">.</div></div></div>
-            </div>
         </div>
     
-    
-    <script src="JavaScript/darkmode1.js"></script>
     <script src="JavaScript/darkmode.js"></script>
     <script src="JavaScript/Menu.js"></script>
     <script src="https://kit.fontawesome.com/7e144ec40c.js" crossorigin="anonymous"></script>
-    <script src="JavaScript/dsd.js"></script>
-   
 </body>
 
+ 
 </html>

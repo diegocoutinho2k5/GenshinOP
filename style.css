@@ -34,7 +34,6 @@ input{
     overflow-x: auto;
     display: flex;
     justify-content: space-between;
-    padding-top: 20px;
 }
 
 #header {

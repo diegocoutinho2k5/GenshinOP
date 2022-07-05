@@ -30,13 +30,7 @@ input{
     visibility: hidden;
 }
 
-.rollx{
-    
-    max-height: 220px;
-    overflow-y: auto;
-    text-align: center;
-}
-.rollx .ICONS{
+.bg5 .ICONS{
     display: inline-block;
 }
 #header {
@@ -243,22 +237,14 @@ label i:nth-child(3) {
     transform: translateX(24.5px);
     transition: transform 0.2s linear;
 }
-#main2,#main3 {
-    border-radius: 12px;
+#main2 {
+    border-radius: 5px;
     background-color: #272937;
     min-width: 200px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
     padding: 30px;
-    padding-top: 40px;
-    margin: auto;
-}
-
-#main2{
-    
     max-width: 900px;
-}
-#main3{
-    max-width: 1100px;
+    margin: auto;
 }
 
 #main4{
@@ -322,22 +308,15 @@ img {
 }
 
 .displayflex {
-    display: flex;
-    padding: 10px;
-    justify-content:space-around;
-    flex-wrap: wrap;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.176);
-}
-#main1 .displayflex,#main3 .displayflex{
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
-    border-radius: 5px;
     display: block;
     padding: 10px;
-    text-align: center;
+    text-align: justify;
     background-color: rgba(0, 0, 0, 0.176);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    border-radius: 5px;
 }
-#main1 .displayflex .ICONS,#main3 .displayflex .ICONS{
+
+.displayflex .ICONS{
     display: inline-block;
     vertical-align: top;
 }
@@ -352,8 +331,8 @@ img {
 }
 
 .ICONS img:last-of-type{
-    width: 90px;
-    height: 90px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 }
@@ -365,15 +344,15 @@ img {
 box-shadow: rgba(0, 0, 0, 0) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0) 0px 0.125em 0.5em, rgba(255, 255, 255, 0) 0px 0px 0px 1px inset;
 }
 #Times .displayflex{
+    display: flex;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
     border-radius: 5px;
     overflow-x: auto;
     flex-wrap: nowrap;
     justify-content: space-between;
 }
-.ICONS {
-    
-    margin: 6px;
+.ICONS{
+    text-align: center;
     background-color: rgba(126, 120, 146, 0.124);
     position: relative;
     border-radius: 5px;
@@ -433,7 +412,7 @@ table{
 
 .bg3 {
     background-color:rgba(0, 0, 0, 0.176);
-    border-radius: 12px;
+    border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
     padding: 10px;
 }
@@ -441,7 +420,7 @@ table{
 #bg4 {
     background-color:var(--css);
     padding: 10px;
-    border-radius: 9px;
+    border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
     
     margin: auto;
@@ -451,7 +430,7 @@ table{
     background-color:var(--css);
     padding: 15px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
-    border-radius: 9px;
+    border-radius: 5px;
 }
 #bg11 .bg5{
     margin-bottom: 20px;
@@ -697,7 +676,7 @@ color: white;
 }
 
 .dpflex3 {
-    border-radius: 12px;
+    border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
     background-color:var(--css);
     line-height: 1.8em;
@@ -709,11 +688,7 @@ color: white;
 .dpflex3 img{
     height:max(2.4vw, 30px) ;
 }
-.displayflex6{
-    flex-wrap: wrap;
-    display: flex;
-    justify-content: space-around;
-}
+
 a {
     text-decoration: none;
     color: white;
@@ -739,26 +714,24 @@ a {
     background-color:rgba(0, 0, 0, 0.176);
     padding: 18px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
-    border-radius: 12px;
+    border-radius: 5px;
     margin: auto;
 }
 
 .bg5{
-    width:41vw;
-    max-width: 460px;
+width:100%;
+margin: auto;
     background-color: #4d45613d;
-    padding-left: 10px;
-    padding-right: 10px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
-    border-radius: 12px;
+    border-radius: 5px;
     text-align: center;
-    margin-right: 10px;
+    padding:0px 15px 15px 15px;
 }
 .cs {
     padding: 7px;
     background-color: #272937;
     border-radius: 50%;
-    margin: 15px;
+    margin:0px 15px;
     display: inline-block;
     font-weight: bold;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
@@ -826,7 +799,8 @@ li {
 }
 
 .fd img{
-    width: max(100px, 6vw);
+    width: 100px;
+    height: 100px;
     border-radius: 900px;
 }
 .bg5 img:hover{
@@ -849,11 +823,16 @@ li {
 #ex{
     display: none;
 }
+.displayflex .ICONS{
+    margin: 6px;
+}
 @media only screen and (max-width: 850px) {
+    
     ::-webkit-scrollbar {
         height: 6px;
     }
-    #main4, #main2, #main1, #main3{
+    
+    #main4, #main2, #main1{
         margin-top: 50px;
     }
     #vis1 {
@@ -861,7 +840,7 @@ li {
         background: #12121bb6;
         z-index: 1;
     }
-    #main2, #main3{
+    #main2{
         padding: 10px;
     }
     #header {
@@ -874,8 +853,11 @@ li {
         display: none;
     }
     .ICONS img:last-of-type{
-        width: 75px;
-        height: 75px;
+        width: 70px;
+        height: 70px;
+    }
+    .ICONS{
+        margin: 6px;
     }
     .bg3 img{
         width: 40px;
@@ -889,6 +871,8 @@ li {
     }
     .bg5{
         width:min(400px,70vw);
+        margin-right: 5px;
+        padding: 0px 5px;
     }
     #main4 .bg5{
         width: 45%;
@@ -899,24 +883,17 @@ li {
         justify-content: space-between;
         flex-wrap: nowrap;
     }
-    #main1 .displayflex,#main3 .displayflex{
-        padding: 0px;
-    }
-}
-@media only screen and (max-width: 870px) {
-    #main2, #main3{
+    
+    #main2{
         margin-left:10px;
         margin-right:10px;
     }
 }
+
 @media only screen and (max-width: 682px) {
     #gta,#gtp,#gth,#gte,#gtc,#gtg{
         width: 100px;
         height: 100px;
-    }
-    .bg5{
-        padding-left: 5px;
-        padding-right: 5px;
     }
 }
 

@@ -27,7 +27,7 @@
     var Mqi = document.getElementById("Quinta")
     var Mse = document.getElementById("Sexta")
     var Msa = document.getElementById("Sábado")
-    if(dia == 1 || dia == 3 || dia == 0){
+    if(dia == 1 || dia == 4 || dia == 0){
              s.style.display = 'block'
              s2.style.display = 'block'
              s3.style.display = 'block'

@@ -18,7 +18,7 @@ html {
 body {
     background: var(--css);
     margin: 0;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: white;
     font-size:min(15px,3.8vw);
 }
@@ -63,12 +63,14 @@ input{
    color: white;
    text-align: center;
 }
-#pers .titulos3, #pers2 .titulos3{
+#txt .titulos3{
     text-align: center;
     line-height: 1.8;
+    
+
 }
 .titulos {
-    font-size: max(1.4vw, 20px);
+    font-size: max(1.3vw, 20px);
     font-weight: bold;
 }
 
@@ -621,7 +623,6 @@ table{
 #pers, #pers2{
     align-items: top;
     padding:20px 10px;
-    
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
     position: relative;
     display: flex;
@@ -633,16 +634,34 @@ color: white;
 #pers2 {
     background-image:linear-gradient(135deg, rgb(91, 83, 129) , rgb(183, 136, 202));
 }
-
-
+#tlS,#tlSS,#tlA,#tlB,#tlD{
+    z-index: 1;
+    display: flex;
+        justify-content: space-around;
+        align-items: center;border-radius:5px;height:35px;width:35px;position: absolute; padding:0px;color:black;font-weight:bold;
+        top:-5px;
+        left:-5px;font-size:23px;  
+}
+#tlB{
+    background-color:rgb(0, 179, 211);
+}
+#tlS{
+    background-color: #ffaf68;
+}#tlSS{
+    background-color: #ff5353;
+}
 #txt {
     margin-left: 10px;
-    font-size: min(14px,3vw);
+    font-size: min(15px,3vw);
+    background-color: rgba(0, 0, 0, 0.187);
+    padding: 5px 5px 0px 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 }
 
 #txt a {
-    color: rgb(102, 102, 180);
+    
     font-weight: bold;
+    display: block;
 }
 
 #txt a:hover {
@@ -757,16 +776,13 @@ li {
     width: 35%;
     min-width: 30px;
     display: inline-block;
-    background-color: rgba(73, 70, 85, 0.504);
     border-radius: 50%;
-    padding: 3px;
+    padding: 3.5px;
+    background-color: #1f1f2b2f;
     z-index: 2;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 }
-.bg5 .elicon{
-    right: -1px;
-    top: 2px;
-}
+
 
 ::-webkit-scrollbar {
     height: 10px;
@@ -885,6 +901,12 @@ li {
 }
 
 @media only screen and (max-width: 682px) {
+    #tlS,#tlA,#tlB,#tlD{
+        height: 30px;
+        width: 30px;
+        font-size: 20px;
+    }
+    
     #gta,#gtp,#gth,#gte,#gtc,#gtg{
         width: 100px;
         height: 100px;
@@ -897,7 +919,7 @@ li {
     color: var(--pt);
     background-color: rgb(225, 224, 235);
 }
-.dark .elicon, .dark .ICONS, .dark .bg8, .displayflex, .dark #main2, .dark .bg3, .dark #bg4,.dark .bg5,.dark .bg5 .ICONS img,.dark .ops,.dark .cs,.dark #bg11, .dark #main1,.dark ::-webkit-scrollbar-track,.dark ::-webkit-scrollbar-thumb{
+ .dark .ICONS, .dark .bg8, .displayflex, .dark #main2, .dark .bg3, .dark #bg4,.dark .bg5,.dark .bg5 .ICONS img,.dark .ops,.dark .cs,.dark #bg11, .dark #main1,.dark ::-webkit-scrollbar-track,.dark ::-webkit-scrollbar-thumb{
     box-shadow: rgba(0, 0, 0, 0.312) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(54, 47, 82, 0.361) 0px 0px 0px 1px inset;
 }
 .dark .bg8,.dark .displayflex,.dark .bg3, .dark #bg4,.dark .bg5,.dark .ops,.dark .cs,.dark .displayflex{
@@ -916,6 +938,7 @@ li {
 .Sw .Swords{ 
     display: none;
 }
+
 .Bw .Bows{ 
     display: none;
 }

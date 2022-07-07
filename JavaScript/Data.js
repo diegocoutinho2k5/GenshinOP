@@ -32,7 +32,7 @@
        
     if(dia == 0){
         Md.style.display = 'block'
-        
+       
     }
     if(dia == 1){
         Ms.style.display = 'block'

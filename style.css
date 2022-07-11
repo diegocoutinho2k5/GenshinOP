@@ -231,7 +231,7 @@ label i:nth-child(3) {
     position: absolute;
     font-size: 25px;
     border-radius: 50%;
-    top: 1.4px;
+    top: 0;
     left: 3.0px;
     cursor: pointer;
     transform: translateX(0px);
@@ -246,7 +246,8 @@ label i:nth-child(3) {
     transition: transform 0.2s linear;
 }
 #seta{
-   box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.475) 0px 0px 0px 1px inset;display:flex;justify-content:center;align-items:center;color:white;background-color:rgba(0, 0, 0, 0.204);top:400px;right:100px;height:40px;width:40px;border-radius:50%;position:fixed;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.475) 0px 0px 0px 1px inset;display:flex;justify-content:center;align-items:center;color:white;background-color:rgba(0, 0, 0, 0.204);top:50%;right:10%;height:40px;width:40px;border-radius:50%;position:fixed;
+   z-index: 1;
 }
 #main2 {
     border-radius: 5px;
@@ -331,21 +332,27 @@ img {
     display: inline-block;
     vertical-align: top;
 }
-
-
-
-.ICONS img:last-of-type{
+.bg5 .ICONS img:last-of-type{
     border-radius: 50%;
+}
+.ICONS{
+    text-align: center;
+    background-color: rgba(126, 120, 146, 0);
+    position: relative;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0) 0px 0.125em 0.5em, rgba(255, 255, 255, 0) 0px 0px 0px 1px inset;
+}
+.ICONS img:last-of-type{
+    border-radius: 5px;
+    background-color: rgba(126, 120, 146, 0.124); 
     width: 80px;
     height: 80px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 2px inset;
 }
-.displayflex .ICONS img:last-of-type{
-    margin: 5px;
-}
-.bg5 .ICONS{
-    background-color: #00000000;
-box-shadow: rgba(0, 0, 0, 0) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0) 0px 0.125em 0.5em, rgba(255, 255, 255, 0) 0px 0px 0px 1px inset;
+
+
+#txt .titulos3{
+    line-height: 1.5;
 }
 #Times .displayflex{
     display: flex;
@@ -355,13 +362,7 @@ box-shadow: rgba(0, 0, 0, 0) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0) 0px 0.125em
     flex-wrap: nowrap;
     justify-content: space-between;
 }
-.ICONS{
-    text-align: center;
-    background-color: rgba(126, 120, 146, 0.124);
-    position: relative;
-    border-radius: 5px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
-}
+
 .ICONS:hover{
     opacity: 0.6;
     transition: 0.3s;
@@ -571,7 +572,6 @@ table{
 .bg_golden, .bg_purple, .bg_gray, .bg_green, .bg_blue{
     border-radius:5px;
     text-align: center;
-    position: relative;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.393) 0px 0px 0px 1px inset;
 }
 
@@ -911,8 +911,8 @@ li {
     color: var(--pt);
     background-color: rgb(225, 224, 235);
 }
- .dark .ICONS, .dark .bg8, .displayflex, .dark #main2, .dark .bg3, .dark #bg4,.dark .bg5,.dark .bg5 .ICONS img,.dark .ops,.dark .cs,.dark #bg11, .dark #main1,.dark ::-webkit-scrollbar-track,.dark ::-webkit-scrollbar-thumb{
-    box-shadow: rgba(0, 0, 0, 0.312) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(54, 47, 82, 0.361) 0px 0px 0px 1px inset;
+.dark .bg8, .displayflex, .dark #main2, .dark .bg3, .dark #bg4,.dark .bg5,.dark .ICONS img,.dark .ops,.dark .cs,.dark #bg11, .dark #main1,.dark ::-webkit-scrollbar-track,.dark ::-webkit-scrollbar-thumb{
+    box-shadow: rgba(0, 0, 0, 0.312) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(54, 47, 82, 0.361) 0px 0px 0px 2px inset;
 }
 .dark .bg8,.dark .displayflex,.dark .bg3, .dark #bg4,.dark .bg5,.dark .ops,.dark .cs,.dark .displayflex{
     background-color: rgba(0, 0, 0, 0.010);
@@ -960,10 +960,7 @@ li {
     height: 2px;
     border: 0;
 }
-.dark .bg5 .ICONS{
-    background-color: #00000000;
-box-shadow: rgba(0, 0, 0, 0) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0) 0px 0.125em 0.5em, rgba(255, 255, 255, 0) 0px 0px 0px 1px inset;
-}
+
 .dark .titulos2,.dark .titulos3,.dark .bg3 tr td:first-of-type, .dark #bg4 tr:first-of-type,.dark .bg5 b{
     color: #cd6000;
 }

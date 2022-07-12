@@ -1,8 +1,8 @@
-var Sword = document.getElementById("Sword");
-
-Sword.addEventListener("change", () => {
-              document.body.classList.toggle("Sw");
-              
-        })
+function Swords() {
+      
+      for (let index = 0; index < document.getElementsByClassName("Swords").length; index++){
+            document.getElementsByClassName("Swords")[index].style = "display:none;"
+        }
+}
        
        

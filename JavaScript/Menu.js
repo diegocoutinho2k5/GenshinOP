@@ -13,5 +13,14 @@ ex.style.display = "block";
     }
   }
 
-  
+  function Scroll() {
+    
+
+    window.scrollTo(0, 0);
+    }
+    function Scroll2() {
+        
+    
+        window.scrollTo(-1200, 0);
+        }  
       

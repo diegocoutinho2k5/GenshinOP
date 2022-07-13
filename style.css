@@ -34,10 +34,8 @@ input{
     display: inline-block;
 }
 #header {
-    border-bottom: 1px solid white;
-    
+    border-bottom: 3px solid rgba(255, 255, 255, 0.1);
     background-color: var(--css);
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     text-align: center;
     
     padding: 20px 10px;
@@ -58,7 +56,7 @@ input{
     font-weight: bold; 
 }
 #nome{
-    font-size: max(1.2vw, 16px);
+    font-size: max(1.0vw, 16px);
    font-weight: bold;
    color: white;
    text-align: center;
@@ -70,12 +68,12 @@ input{
 
 }
 .titulos {
-    font-size: max(1.3vw, 20px);
+    font-size: max(1.1vw, 20px);
     font-weight: bold;
 }
 
 .titulos2 {
-   font-size: max(1.2vw, 16px);
+   font-size: max(1.0vw, 16px);
    font-weight: bold;
    
    color: #ffd780;
@@ -208,42 +206,31 @@ input{
     
     border-radius: 6px;
 }
-.lua{
-    color: white;
-    
-    padding: 3px 8px;
-    border-radius: 20px;
-    position: relative;
-display: flex;
-align-items:center;
 
-
-font-size: 16px;
-}
-#main1 label img{
-    cursor: pointer;
-}
 label{
     cursor: pointer;
 }
+label i:nth-child(1) {
+    display: none;
+}
+label i:nth-child(2) {
+    display: inline;
+    margin-left: 5px;
+}
+.dark label i:nth-child(2) {
+    display: none;
+    
+}
+.dark label i:nth-child(1) {
+    
+    margin-left: 5px;
+    display: inline;
+}
 
-label i:nth-child(3) {
-    position: absolute;
+.lua {
     font-size: 25px;
-    border-radius: 50%;
-    top: 0;
-    left: 3.0px;
-    cursor: pointer;
-    transform: translateX(0px);
-    transition: transform 0.2s linear;
-}
-#ff:checked + .lua label i:nth-child(3){
-    transform: translateX(24.5px);
-    transition: transform 0.2s linear;
-}
-#btt:checked + .lua label i:nth-child(3){
-    transform: translateX(24.5px);
-    transition: transform 0.2s linear;
+    display: inline-flex;
+    align-items: center;
 }
 #seta{
    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, #ffd780 0px 0px 0px 2px inset;display:flex;justify-content:center;align-items:center;color:white;background-color:rgba(0, 0, 0, 0.204);top:50%;right:10%;height:40px;width:40px;border-radius:50%;position:fixed;
@@ -254,7 +241,7 @@ label i:nth-child(3) {
     background-color: #272937;
     min-width: 200px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 2px inset;
-    padding: 10px;
+    padding: 20px;
     max-width: 900px;
     margin: auto;
 }
@@ -273,7 +260,7 @@ label i:nth-child(3) {
     border-radius: 9px;
     background-color: #272937;
     color: white;
-    padding: 10px;
+    padding: 20px;
 }
 
 table, tr, th, td{
@@ -406,10 +393,19 @@ table{
 }
 
 
-
+.lua::before{
+    content: "Tema Claro:" attr(br);
+    font-size:min(15px,3.8vw);
+font-weight: bold;    
+}
+.dark .lua::before{
+    content: "Tema Escuro: ";
+font-weight: bold;    
+}
 #bg2 {
     text-align: center;
     background-color: #0f0c16b2;
+    color: white;
   padding: 50px 10px;
 }
 
@@ -765,12 +761,11 @@ li {
     position: absolute;
     top: -10px;
     right: -10px;
-    width: 35%;
-    min-width: 30px;
+    width: 40%;
     display: inline-block;
     border-radius: 50%;
     padding: 3.5px;
-    background-color: #1f1f2b2f;
+    background-color: #3d3d5183;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 2px inset;
 }
 
@@ -919,7 +914,11 @@ li {
     background-color: rgb(245, 245, 255);
     
 }
-.dark .bg3 a,.dark #ggg, .dark #Vt,.dark .pl,.dark #header a,.dark .ops a, .dark .displayflex a{
+.dark #header{
+    
+    border-bottom: 3px solid  rgba(54, 47, 82, 0.361);
+}
+.dark .bg3 a, .dark #Vt,.dark .pl,.dark #header a,.dark .ops a, .dark .displayflex a{
     color: var(--pt);
 }
 .Cl .Claymores{

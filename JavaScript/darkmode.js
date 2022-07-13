@@ -4,10 +4,8 @@
     SetTheme.classList.toggle("dark")
     var theme;
     if(SetTheme.classList.contains("dark")){
-        console.log("Dark mode");
         theme = "DARK";
     }else{
-        console.log("Light mode");
         theme = "LIGHT";
     }
     // save to localStorage
@@ -16,7 +14,6 @@
 }
 setInterval(() => {
     let GetTheme = JSON.parse(localStorage.getItem("PageTheme"));
-    console.log(GetTheme);
     if(GetTheme === "DARK"){
         document.body.classList = "dark";
     }else{

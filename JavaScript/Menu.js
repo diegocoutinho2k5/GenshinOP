@@ -6,13 +6,27 @@ function myFunction() {
       x.style.display = "none";
       menu.style.display = "block";
       ex.style.display = "none";
+      document.getElementById("bhh").style = "transform: rotate(0deg);"
+      document.getElementById("bbg").style.display = "none"
     } else {
       x.style.display = "block";
 menu.style.display = "none";
 ex.style.display = "block";
+
     }
   }
+  function nnh() {
+    var x = document.getElementById("bbg");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+      document.getElementById("bhh").style = "transform: rotate(0deg);"
 
+    } else {
+      x.style.display = "block";
+      document.getElementById("bhh").style = "transform: rotate(90deg);"
+    }
+    
+  }
   function Scroll() {
     
 

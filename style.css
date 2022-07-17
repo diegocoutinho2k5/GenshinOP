@@ -3,7 +3,7 @@
     --css: rgba(0, 0, 0, 0.176);
     --BACK-GROUND:rgb(26, 29, 39);
 }
-
+@font-face {font-family: "CombiSansW01-Bold"; src:url(Combi\ Sans\ W01\ Bold.ttf)}
 *{
     box-sizing: border-box;
     padding: 0;
@@ -22,7 +22,7 @@ body {
     color: white;
     font-size:min(14.5px,3.3334vw);
 }
-.bg5,#main2, .bg8,.bg_golden,.bg_gray,.bg_blue,.bg_green,.bg_purple,.Picon img,.cs,.displayflex,#pers,#pers2,.bg5,.bg5 img,#main4,.ICONS,.bg3{
+.bg5,#main2, .bg8,.bg_golden,.bg_gray,.bg_blue,.bg_green,.bg_purple,.Picon img:nth-last-of-type(1),.cs,.displayflex,#pers,#pers2,.bg5,.bg5 img,#main4,.bg3{
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 }
 input{
@@ -348,38 +348,49 @@ img {
 .ICONS{
     display: inline-block;
     vertical-align: top;
-    background-color: #13121e61;
-    text-align: center;
-    padding-bottom: 5px;
+    text-align: center;     
     border-radius: 5px;
+    padding-bottom: 5px;
+    margin: 5px;
+    margin-bottom: 5px;
+    font-size: min(19px,4vw);
+    position: relative;
+    background-color: #f9f9f9;
+    font-family:CombiSansW01-Bold;
+    line-height: 0.9;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: min(100px,22vw);
+    white-space: nowrap;
 }
+
 .bg5 .rollx img{
     border-radius: 50%;
     width: 20vw;
-    max-width: 80px;
+    max-width: 90px;
 }
 #main4 .bg5 {
     display: inline-block;
 }
 
-.ICONS a{
-    color: white;
+.displayflex a{
+    
+    color: rgb(86, 94, 121);
 }
-.ICONS img{
+.ICONS img:nth-last-of-type(1){
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-    width: 20vw;
-    max-width: 80px;
+    border-bottom-right-radius: 15px;
+    width: 22vw;
+    max-width: 100px;
 }
-.ICONS:hover{
-    opacity: 0.8;
-    transition: 0.3s;
-}
+
 #Times img{
     border-radius: 5px;
     margin:6px;
+    width: 20vw;
+    max-width: 80px;
 }
 
 
@@ -482,8 +493,8 @@ table{
     
     margin: 5px;
 }
-table img:hover,.bg8 img:hover{
-    opacity: 0.6;
+table img:hover,.bg_golden:hover,.bg8 a:hover,.displayflex a:hover,.bg5 img:hover{
+    opacity: 1;
     transition: 0.3s;
 }
 
@@ -603,30 +614,23 @@ table img:hover,.bg8 img:hover{
     display: inline-block;
 }
 
-.gta,.gtp,.gth,.gte,.gtc,.gtg{
-    border-radius: 7px;
+.gtp,.gtg{
     width: 23vw;
     max-width: 110px;
+    border-radius: 5px;
 }
 
-.gtc{
-    background-image:linear-gradient(135deg, rgb(93, 98, 148) , rgb(150, 220, 240));
-}
-.gta{
-    background-image:linear-gradient(135deg, rgb(67, 106, 85), rgb(111, 188, 132));
-}
+
 .gtg{
-    background-image:linear-gradient(135deg, rgb(158, 139, 80), rgb(211, 145, 65));
+    background-image:url(images/Backgrounds/Background_Item_5_Star.webp);
+    background-size: 100%;
 }
-.gth{
-    background-image:linear-gradient(135deg, rgb(82, 98, 173) , rgb(74, 97, 179));
-}
+
 .gtp{
-    background-image:linear-gradient(135deg, rgb(105, 57, 56), rgb(193, 50, 50));
+    background-image:url(images/Backgrounds/Background_Item_4_Star.webp);
+    background-size: 100%;
 }
-.gte{
-    background-image:linear-gradient(135deg, rgb(91, 83, 129) , rgb(183, 136, 202));
-}
+
 .bg3 img{
     width:50px;
     height: 50px;
@@ -650,8 +654,11 @@ table img:hover,.bg8 img:hover{
     font-weight: bold;
 }
 #pers {
-    background-image:linear-gradient(135deg, rgb(107, 84, 83), rgb(189,140,81));
+    background-image:linear-gradient(180deg, #272937 , rgb(86, 163, 167));
+}
    
+.Picon .elicon{
+    width: min(30px,6.7vw);
 }
 #pers .bg_golden{
     display: inline-block;
@@ -665,13 +672,13 @@ table img:hover,.bg8 img:hover{
 color: white;
 }
 #pers2 {
-    background-image:linear-gradient(135deg, rgb(91, 83, 129) , rgb(183, 136, 202));
+    background-image:linear-gradient(180deg, #272937 , rgb(124, 53, 39));
 }
 #pers .titulos::after{
     content: "(5★)";
     color: #ffd780;
 }
-#pers2 .titulos2::after{
+#pers2 .titulos::after{
     content: "(4★)";
     color: #ffd780;
 }
@@ -729,8 +736,8 @@ color: white;
 }
 
 a {
+    color: rgb(241, 241, 241);
     text-decoration: none;
-    color: white;
 }
 
 .vam {
@@ -766,7 +773,7 @@ a {
     padding:10px 15px 15px 15px;
 }
 .cs {
-display: flex;
+display: inline-flex;
     background-color: #52556f6b;
     border-radius: 50%;
     margin:0px 15px;
@@ -777,6 +784,7 @@ display: flex;
     font-weight: bold;
     
 }
+
 .marcador {
     width: max(2vw,30px);
     vertical-align: middle;
@@ -799,36 +807,11 @@ li {
 
 .elicon{
     position: absolute;
-    top: -10px;
-    right: -10px;
-    width: 5vw;
-    min-width: 30px;
-    max-width: 40px;
+    top: 2px;
+    left: 2px;
+    width: min(23px,5vw);
     display: inline-block;
     border-radius: 50%;
-    padding: 1px;
-    background-color: #c0c0ea2c;
-    
-}
-
-
-::-webkit-scrollbar {
-    height: 10px;
-}
-  
-::-webkit-scrollbar-track {
-    border-radius: 5px;
-    
-}
-
-::-webkit-scrollbar-thumb {
-    background-color: #47405b78; 
-    
-    border-radius: 5px;
-}
-  
-::-webkit-scrollbar-thumb:hover {
-    background: #414155b4;
     
 }
 
@@ -839,12 +822,9 @@ li {
 .fd img{
     width: 25vw;
     max-width: 100px;
-    border-radius: 900px;
+    border-radius: 50%;
 }
-.bg5 img:hover{
-    opacity: 0.8;
-    transition: 0.3s;
-}
+
 .Segunda, .Terça, .Quarta, #Domingo, #SegundaM, #TerçaM, #QuartaM, #Quinta, #Sexta, #Sábado{
     display: none;
 }
@@ -859,9 +839,7 @@ li {
 #ex{
     display: none;
 }
-.displayflex .ICONS{
-    margin: 6px;
-}
+
 @media only screen and (max-width: 850px) {
     #pers,#pers2{
         padding: 10px;
@@ -891,7 +869,8 @@ li {
         display: none;
     }
     .ICONS{
-        margin: 6px;
+        margin:5px 0px;
+
     }
     .bg3 img{
         width: 40px;
@@ -936,8 +915,8 @@ li {
     color: var(--pt);
     background-color: rgb(236, 236, 236);
 }
-.dark #pers2,.dark #pers,.dark .bg8,.dark .displayflex, .dark #main2, .dark #bg4,.dark .cs, .dark #main1,#vis1, #bg2,.dark #header,.dark .ops,.dark #seta,.dark .bg5 img,.gta,.gtp,.gth,.gte,.gtc,.gtg{
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 5px;
+.dark #pers2,.dark #pers,.dark .bg8,.dark .displayflex, .dark #main2, .dark #bg4,.dark .cs, .dark #main1,#vis1, #bg2,.dark #header,.dark .ops,.dark #seta,.dark .bg5 img,.dark .ICONS{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 5px;
 }
 .dark .bg8,.dark .displayflex,.dark .bg3, .dark #bg4,.dark .bg5,.dark .ops,.dark .cs,.dark .displayflex,.dark #vis1{
    background-color: white;
@@ -977,12 +956,6 @@ li {
     color: #46465b;
 }
 
-.dark ::-webkit-scrollbar-thumb{
-    background-color: #afafaf9f; 
-}
-.dark ::-webkit-scrollbar-thumb:hover {
-    background: #9797dab4;
-}
 .dark hr{
     background-color: var(--pt);
     height: 2px;

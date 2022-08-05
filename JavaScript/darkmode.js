@@ -11,6 +11,8 @@
     // save to localStorage
     localStorage.setItem("PageTheme", JSON.stringify(theme));
     // ensure you convert to JSON like i have done -----JSON.stringify(theme)
+    
+
 }
 setInterval(() => {
     let GetTheme = JSON.parse(localStorage.getItem("PageTheme"));
@@ -20,4 +22,4 @@ setInterval(() => {
         document.body.classList = "";
     }
 }, 5);
-
+    

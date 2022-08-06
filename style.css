@@ -217,6 +217,9 @@ label i:nth-child(2) {
     margin-bottom: -13px;
     font-size: 20px;
 }
+#dt{
+    margin-top: 10px;
+}
 
 #seta{
   display:flex;
@@ -423,11 +426,21 @@ table{
 #bg2 {
     background-color:#272937;
     font-size: 16px;
-    text-align: center;font-weight: bold;
+    text-align: center;
   padding:10px 0px;
   border-bottom:1px solid rgba(255, 255, 255, 0.189);
 }
-
+.dark #bg2{
+    border-bottom:1px solid rgba(0, 0, 0, 0.3);
+}
+#bg2 hr{
+    background-color: rgba(255, 255, 255, 0.189);
+    border: 0;
+    height: 1px;
+}
+.dark #bg2 hr{
+    background-color: rgba(0, 0, 0, 0.3);
+}
 .dark #bg2 a{
     
     color: var(--pt);
@@ -544,6 +557,9 @@ table img:hover,.bg_golden:hover,.bg8 a:hover,.displayflex a:hover,.bg5 img:hove
     background-color: #272937;
     z-index: 1;
     border-bottom:1px solid rgba(255, 255, 255, 0.189);
+}
+.dark #vis1{
+    border-bottom:1px solid rgba(0, 0, 0, 0.3);
 }
 .topnav {
     
@@ -887,7 +903,7 @@ li {
     color: var(--pt);
     background-color: rgb(236, 236, 236);
 }
-.dark #pers2,.dark .bg5,.dark #pers,.dark .bg8,.dark .displayflex,.dark .displayflex a, .dark #main2, .dark #bg4,.dark .cs, .dark #main1,.dark #vis1,.dark #bg2,.dark .ops,.dark #seta,.dark .bg5 img,.dark .btn.active{
+.dark #pers2,.dark .bg5,.dark #pers,.dark .bg8,.dark .displayflex,.dark .displayflex a, .dark #main2, .dark #bg4,.dark .cs, .dark #main1,.dark .ops,.dark #seta,.dark .bg5 img,.dark .btn.active{
     border:1px solid rgba(0, 0, 0, 0.3);
 }
 .dark .bg8,.dark .displayflex,.dark .bg3, .dark #bg4,.dark .bg5,.dark .ops,.dark .cs,.dark .displayflex,.dark #vis1{

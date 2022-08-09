@@ -1,5 +1,5 @@
 :root{
-    --pt:rgb(251, 251, 251);
+    --pt:white;
     --css:rgba(41, 46, 63, 0.993);
     --BACK-GROUND:rgb(35, 38, 51);
     --line: rgba(255, 255, 255, 0.23);
@@ -24,7 +24,7 @@ body {
     color: white;
     font-size:min(14.5px,3.3334vw);
 }
-.bg5,#main2, .bg8,.bg_golden,.bg_gray,.bg_blue,.bg_green,.bg_purple,#seta,.Picon img,.cs,#pers,#pers2,#main4,.bg3,.fd img,.bg5 img,#Times .displayflex img,.btn.active,.displayflex a{
+.bg5,#main2, #content,.bg8,.bg_golden,.bg_gray,.bg_blue,.bg_green,.bg_purple,#seta,#gtc,.cs,#pers,#pers2,#main4,.bg3,.fd img,.bg5 img,#Times .displayflex img,.btn.active,.displayflex a{
     border:1px solid var(--line);
 }
 
@@ -35,8 +35,7 @@ body {
 #header {
     background-color: var(--css);
     border:1px solid rgba(255, 255, 255, 0.23);
-    padding:10px 0px;
-    font-weight: bold;
+    padding:5px 0px;
     z-index: 1;
     display: flex;justify-content: center;
 }
@@ -47,18 +46,19 @@ body {
 
 
 #header a {
-    color: var(--pt);
-    text-decoration: none;
+    color:var(--pt);
 }
 
 #header a:hover {
-    color: white;
+    color: rgba(255, 255, 255, 0.719);
     transition: 0.3s;
-   
+    
 }
 
 #database{
     position: relative;
+    height: 40px;
+    margin-bottom: -25px;
 }
 #database:hover #content{
     display: block;
@@ -69,6 +69,7 @@ body {
     background-color: var(--css);
   padding: 20px 40px;
   left: -30px;
+  top:35px;
   z-index: 2000;
 }
 #header .LOGO a{
@@ -564,8 +565,8 @@ table img:hover,.bg_golden:hover,.bg8 a:hover,.displayflex a:hover,.bg5 img:hove
 .bg_blue{
     background-image:linear-gradient(135deg, rgb(81, 84, 120) , rgb(74, 157, 179));
 }
-.gtr{
-    background-image:linear-gradient(135deg, rgb(141, 61, 56) , rgb(231, 100, 93));
+.gtc{
+    background-image:linear-gradient(135deg, rgb(78, 81, 114) , rgb(151, 218, 237));
 }
 
 .bg_golden, .bg_purple, .bg_gray, .bg_green, .bg_blue{
@@ -577,18 +578,22 @@ table img:hover,.bg_golden:hover,.bg8 a:hover,.displayflex a:hover,.bg5 img:hove
 .Picon{
     position: relative;
     display: inline-block;
+    
+    border-radius: 5px;
 }
-
-.gtp,.gtg,.gtr{
+.Picon img:nth-last-child(1){
     width: 23vw;
     max-width: 110px;
+}
+.gtp,.gtg,.gtc,.gta,.gth,.gte,.gtd{
+   border-radius: 3px;
 }
 
 
 
 
 .ops{
-   border: 2px solid rgba(255, 255, 255, 0.1);
+   border: 1px solid var(--line);
     
     text-align:center; 
     background-color:var(--BACK-GROUND); 
@@ -606,11 +611,7 @@ table img:hover,.bg_golden:hover,.bg8 a:hover,.displayflex a:hover,.bg5 img:hove
     font-weight: bold;
 }
 
-.Picon img:nth-last-of-type(2){
-    width: 22vw;
-    max-width: 110px;
-    border-radius: 10px;
-}   
+
 
 #pers .bg_golden{
     display: inline-block;
@@ -626,11 +627,18 @@ color: white;
 
 #pers .titulos::after{
     content: "(5★)";
-    color: var(--dest);
+    color: #ffd780;
 }
 #pers2 .titulos::after{
     content: "(4★)";
-    color: var(--dest);
+    color: #ffd780;
+}
+#txt a{
+    color: rgba(255, 255, 255, 0.586);
+}
+#txt a:hover{
+    color: white;
+    transition: 0.3s;
 }
 #tlS,#tlSS,#tlA,#tlB,#tlD,#tlC{
     z-index: 1;
@@ -948,7 +956,9 @@ color: rgb(138, 138, 138);
     --dest:#2a62ca;
     --pt:rgb(24, 24, 34);
 }
-
+.dark #header .LOGO a:hover{
+    color: black;
+}
 .dark #bg4 tr td:first-of-type{
     border-right:1px solid rgb(0, 0, 0);
 }

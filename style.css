@@ -1,8 +1,8 @@
 :root{
     --pt:white;
-    --css:rgba(41, 46, 63, 0.993);
-    --BACK-GROUND:rgb(35, 38, 51);
-    --line: rgba(255, 255, 255, 0.23);
+    --css:#252525;
+    --BACK-GROUND:#191919;
+    --line: rgba(255, 255, 255, 0.11);
     --dest:#ffd780;
 }
 
@@ -23,9 +23,10 @@ body {
     font-family:  sans-serif;
     color: white;
     font-size:min(14.5px,3.3334vw);
+    letter-spacing: 1px;
 }
-.bg5,#main2, #content,.bg8,.bg_golden,.bg_gray,.bg_blue,.bg_green,.bg_purple,#seta,#gtc,.cs,#pers,#pers2,#main4,.bg3,.fd img,.rollx img,#Times .displayflex img,.btn.active,.displayflex a{
-    border:1px solid var(--line);
+.bg5,#main2, #content,.bg8,.bg_golden,.bg_gray,.bg_blue,.bg_green,.bg_purple,#seta,#gtc,.cs,#pers,#pers2,#main4,.bg3,#Times .displayflex img,.btn.active,.displayflex a{
+    box-shadow: rgba(0, 0, 0, 0.438) 1px 1px 5px;
 }
 
 .ponto {
@@ -34,9 +35,9 @@ body {
 
 #header {
     background-color: var(--css);
-    border:1px solid rgba(255, 255, 255, 0.23);
     padding:5px 0px;
     z-index: 1;
+    border-bottom:1px solid var(--line) ;
     display: flex;justify-content: center;
 }
 
@@ -119,7 +120,6 @@ color: white;
 }
 .titulos2 {
    font-size: min(4.5vw, 22px);
-   font-weight: bold;
    
    color: var(--dest);
 }
@@ -199,7 +199,7 @@ label i:nth-child(2) {
     min-width: 200px;
     
     padding: 20px;
-    max-width: 900px;
+    max-width: 1100px;
     margin: auto;
 }
 
@@ -296,16 +296,43 @@ img {
     display: inline-block;
 }
 
+.bg5 img:hover #ggg{
+    display: none;
+}
+.rollx a:hover #ggg{
+    opacity: 1;
+    transition: 0.8s;
+}
+.rollx a{
 
-.bg5 img,.displayflex img:nth-last-of-type(1){
-    border-radius: 50%;
-    width: 20vw;
-    max-width: 90px;
-    margin: 3px;
+    margin-right: 10px;
+}
+#ggg{
+    letter-spacing: 1.2px;
+opacity: 0;
+font-size: 25px;
+text-align: center;
 }
 
-.bg5 img{
-    background-color: var(--css);
+.rollx{
+    padding-bottom: 0px;
+        display:flex;
+        overflow-x: auto;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    
+}
+.bg5 img,.displayflex img:nth-last-of-type(1){
+    max-height: 180px;
+    
+   transition: 0.5s;
+}
+
+.sds a:hover + .bg5{
+    background-color: #a30404;
+}
+.sds{
+    display: inline;
 }
 table .ICONS img:nth-last-of-type(1){
     border-top-right-radius: 5px;
@@ -343,9 +370,6 @@ table .ICONS{
 }
 
 
-.bg5 img:active{
-    background-color: #6d6d97a1;
-}
 
 table{
     width: 100%;
@@ -356,8 +380,7 @@ table{
 }
 
 .LOGO {
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 24px;font-weight: bold;
 }
 .LOGO img, .LOGO2 img{
     height: 45px;
@@ -382,7 +405,7 @@ table{
     font-size: 16px;
 }
 #bg2 {
-    background-color:var(--css);
+    background-color:var(--BACK-GROUND);
     font-size: 16px;
     text-align: center;
   padding:10px 0px;
@@ -426,6 +449,8 @@ table{
 }
 .bg5 b{
     color: var(--dest);
+    font-size: min(22px,4vw);
+    font-weight: normal;
 }
 
 #database:hover i{
@@ -516,7 +541,7 @@ table img:hover,.bg_golden:hover,.bg8 a:hover,.displayflex a:hover,.bg5 img:hove
     text-align: right;
     display: none;
     color: var(--dest);
-    background-color: var(--css);
+    background-color: var(--BACK-GROUND);
     z-index: 1;
     border-bottom:1px solid rgba(255, 255, 255, 0.189);
 }
@@ -723,13 +748,11 @@ a {
     margin: auto;
 }
 
-.bg5{
-    margin: 5px;
-    width:99%;
+.bg5{width: 100%;
     background-color: var(--BACK-GROUND);
     border-radius: 5px;
     text-align: center;
-    padding:10px 15px 15px 15px;
+    padding:10px;
 }
 .cs {
 display: inline-flex;
@@ -851,7 +874,19 @@ li {
     display: none;
 }
 
+
+@media only screen and (min-width: 851px){
+    .rollx a:hover img{max-height: 250px;}
+    .rollx a:hover{opacity: 1;
+transition: 0.8s;
+    }
+    .rollx a{opacity: 0.7;}
+    }
 @media only screen and (max-width: 850px) {
+    #ggg{
+        opacity: 1;
+        font-size: 16px;
+    }
     .bg5 .ICONS{
         margin:0px 5px 5px 5px;
     }
@@ -887,25 +922,11 @@ li {
 
     }
    
-    .displayflex6{
-        display: flex;
-        flex-wrap: nowrap;
-        overflow-x: auto;
-        justify-content: space-between;
-    }
-    .bg5{
-        width:min(400px,70vw);
-        padding: 10px 5px 0px 5px;
-    }
+    
     #main4 .bg5{
         width: 45%;
     }
-    .rollx{
-        display: flex;
-        overflow-x: auto;
-        justify-content: space-between;
-        flex-wrap: nowrap;
-    }
+
     
     #main2{
         margin-left:10px;
@@ -955,8 +976,8 @@ color: rgb(138, 138, 138);
 
 :root .dark{
     --css:  rgb(252, 252, 252);
-    --BACK-GROUND:rgb(243, 243, 243);
-    --line: rgba(0, 0, 0, 0.3);
+    --BACK-GROUND:rgb(247, 247, 247);
+    --line: rgba(0, 0, 0, 0.212);
     --dest:#2a62ca;
     --pt:rgb(24, 24, 34);
 }

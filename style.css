@@ -25,8 +25,8 @@ body {
     font-size:min(14.5px,3.3334vw);
     letter-spacing: 1px;
 }
-.bg5,#bg2,#vis1,#main2,#header, #content,.bg8,.bg_golden,.bg_gray,.bg_blue,.bg_green,.bg_purple,#seta,#gtc,.cs,#pers,#pers2,#main4,.bg3,#Times .displayflex img,.btn.active,.displayflex a{
-    box-shadow: rgba(0, 0, 0, 0.438) 1px 2px 5px;
+.bg5,#myBtnContainer,#search-input,#bg2,#vis1,#main2,#header, #content,.bg8,.bg_golden,.displayflex a,.bg_gray,.bg_blue,.bg_green,.bg_purple,#seta,#gtc,.cs,#pers,#pers2,#main4,.bg3,#Times .displayflex img,.btn.active{
+    box-shadow: rgba(0, 0, 0, 0.438) 1px 1px 5px;
 }
 
 .ponto {
@@ -115,9 +115,8 @@ color: white;
     font-weight: bold; 
 }
 .titulos {
-    font-size: min(5vw,22px);
-    font-weight: bold;
-    
+    font-size: min(5vw,26px);
+    letter-spacing: 2px;
 }
 .bg3 img{
     width:4vw;
@@ -268,22 +267,20 @@ img {
 }
 
 .displayflex {
+    padding: 0px 10px;
     text-align: justify;
 }
 #p1 a{
     padding: 5px;
-    border-radius: 6px;
+    border-radius: 5px;
     text-align: center;
     vertical-align: top;
-    margin-bottom: 10px;
-    background-color:var(--BACK-GROUND);
+    margin: 10px 2px;
 }
 .displayflex a{
     position: relative;
 }
-.displayflex a:hover{
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
+
 .ICONS{
     display: inline-block;
     vertical-align: top;
@@ -305,31 +302,35 @@ img {
     transform: rotate(20deg);
 }
 
-.rollx a:hover .ggg{
+.rollx a:hover .ggg,#p1 a:hover .ggg{
     opacity: 1;
     transition: 0.8s;
 }
 .rollx a{
 text-align: center;
+display: inline-block;
     margin: 0px 15px;
 }
+#p1 .ggg{
+    color: white;
+    max-width: 140px;
+    font-size: 22px;
+}
 .ggg{
-    max-width: 170px;margin: auto;
-    letter-spacing: 1.4px;
+
+    max-width: 160px;margin: auto;
+    letter-spacing: 2px;
 opacity: 0;
-font-size: 26px;text-align: center;
+font-size: 22px;text-align: center;
 }
 
 .rollx{
     padding-bottom: 0px;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    
+    justify-content: center;
+display: flex;flex-wrap: wrap;
 }
-.bg5 img,.displayflex img:nth-last-of-type(1){
-    max-height: 180px;
-    
+.bg5 img{
+    max-height: 220px;
    transition: 0.5s;
 }
 
@@ -607,12 +608,11 @@ table img:hover,.bg_golden:hover,.bg8 a:hover,.displayflex a:hover,.bg5 img:hove
     
     border-radius: 5px;
 }
-.Picon img:nth-last-child(1){
-    width: 23vw;
-    max-width: 110px;
-}
+
 .gtp,.gtg,.gtc,.gta,.gth,.gte,.gtd{
    border-radius: 3px;
+   width: 35vw;
+   max-width: 200px;
 }
 
 
@@ -779,20 +779,24 @@ input{
 }
 
 #myBtnContainer {
-  display: flex;justify-content: space-around;
-  align-items: center;
-  max-width: 350px;
+  display: inline-flex;
+  justify-content: space-around;align-items: baseline;
+  width: 317px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: var(--BACK-GROUND);
 }
 .vv img{
-    width: min(30px,6vw);
+    width: min(25px,6vw);
 }
-.dark .btn{
-    background-color: rgba(59, 59, 59, 0.752);
+.vv{
+    display: inline-block;
 }
 .btn {
   border: none;
   cursor: pointer;
-  background-color: rgba(127, 255, 212, 0);
+  opacity: 0.5;
+  background-color: rgba(0, 0, 0, 0);
   padding: 5px;
 }
 .tg :root{
@@ -800,27 +804,52 @@ input{
 }
 
 .btn.active {
-  background-color: rgba(0, 0, 0, 0.32);
+  background-color: var(--css);
   border-radius: 5px;
   opacity: 1;
   color: white;
 }
 .btn:first-of-type{
-    border-radius: 50%;
     display: flex;
-    background-color: rgba(255, 255, 255, 0.937);
 }
-.btn.active:first-of-type{
-border: 1px solid rgb(48, 47, 61);
-}
+
 .btn:first-of-type img{
     margin: 5px;
     width: min(24px,5vw);
 }
 .btn.active:first-of-type{
     opacity: 1;
+
 }
 
+#search-input{ 
+    display: inline-block;
+font-size: 15px;
+    height: 46px;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 44px;
+    color: var(--pt);
+    background-color: var(--BACK-GROUND);
+    border: 0;
+    width: 310px;
+    
+}
+.purple,.golden,.pink{
+    display:inline-block;
+}
+.purple:hover{
+    background-image: linear-gradient(180deg, rgb(91, 83, 129) , rgb(183, 136, 202));
+}
+.pink:hover{
+    background-image: linear-gradient(180deg, rgb(153, 75, 70) , rgb(204, 109, 96));
+}
+.golden:hover{
+    background-image:linear-gradient(180deg, rgb(107, 84, 83), rgb(187, 150, 86));
+}
+#texto{
+    display: block;
+}
 .marcador {
     width: max(2vw,30px);
     vertical-align: middle;
@@ -830,7 +859,15 @@ border: 1px solid rgb(48, 47, 61);
     font-size: max(1.5vw, 25px);
     display:inline-block ;
 }
-
+.dark #iw{
+    display: none;
+}
+.dark #ib{
+    display: block;
+}
+#ib{
+    display: none;
+}
 #ghg {
     width: 30%;
     min-width: 70px;
@@ -843,8 +880,8 @@ li {
 
 .elicon{
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 2px;
+    right: 2px;
     width: min(32px,8vw);
     border-radius: 50%;
 }
@@ -874,26 +911,54 @@ li {
     display: none;
 }
 
+ .displayflex a img:nth-last-child(2){
+       height: 230px;
+       margin-top: 10px;
+    }
+    
+    .displayflex a{
+        height: 300px;
+        width: 150px;
+        overflow: hidden;
+    }
+.ml{
+    margin-left: -30px;
+}
 
-
+    .st{
+        display: flex;flex-wrap: wrap;align-items: center;justify-content: space-between;
+}
 @media only screen and (min-width: 851px){
+    
+    .displayflex a:hover img{max-height: 300px;}
     .rollx a:hover img{max-height: 250px;}#g .ggg{
 margin-top: -35px;
 }
-    .rollx a:hover{opacity: 1;
+    .rollx a:hover,.displayflex a:hover{opacity: 1;
     }
-    .rollx a{opacity: 0.7;
-    display: inline-block;
+    .rollx a,.displayflex a{opacity: 0.7;
     }
     }
 @media only screen and (max-width: 850px) {
+    .st{
+        position: sticky; position: -webkit-sticky; z-index: 1;top: 60px;
+    }
+    #myBtnContainer{
+        margin-top: 3px;
+    }
+   .displayflex a{
+        height: 300px;
+        width: 120px;
+        overflow: hidden;
+    }
     .rollx a{margin:0px 10px;}
     .rollx{
         justify-content: space-between;
         flex-wrap: nowrap;
+        display: flex;
         overflow-x: auto;
     }
-    .ggg{
+    .ggg,#p1 .ggg{
         opacity: 1;
         font-size: 17px;
     }
@@ -985,8 +1050,8 @@ color: rgb(138, 138, 138);
 }
 
 :root .dark{
-    --css:  rgb(252, 252, 252);
-    --BACK-GROUND:rgb(247, 247, 247);
+    --css:  rgb(245, 245, 245);
+    --BACK-GROUND:rgb(239, 239, 239);
     --line: rgba(0, 0, 0, 0.212);
     --dest:#2a62ca;
     --pt:rgb(24, 24, 34);

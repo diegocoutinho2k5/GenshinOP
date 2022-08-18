@@ -24,11 +24,11 @@
                     
                     <div class="LOGO">
                         <a href="index.html">
-                        <img class="vam" src="images/We/LOGO.webp" alt="Logo">GENSHINOP.GG</a>
+                        <img class="vam" src="images/We/mpoasqj1065821.webp" alt="Logo" id="dsss"><img class="vam" src="images/We/mpoasqj106581.webp" alt="Logo" id="dsss2"> GENSHINOP.GG</a>
                     </div>
                             <a href="Personagens.html">Personagens</a>
                     <div id="database">
-                    <a href="#">Database&ensp;<i class="fa-solid fa-angle-right"></i></a>
+                    <div>Database&ensp;<i class="fa-solid fa-angle-right"></i></div>
                     <div id="content">
                         <a href="Ascensão.html">Materias</a>
                         <br>
@@ -49,7 +49,7 @@
        
     </div>
         <div class="mobile-container">
-            <div class="topnav"><a href="index.html"><div class="LOGO2"><img class="vam" src="images/We/LOGO.webp" alt="Logo">GENSHINOP.GG</div>
+            <div class="topnav"><a href="index.html"><div class="LOGO2"><img class="vam" src="images/We/mpoasqj1065821.webp" alt="Logo" id="dsss"><img class="vam" src="images/We/mpoasqj106581.webp" alt="Logo" id="dsss2"> GENSHINOP.GG</div>
                             
                     </a>
                 <div id="vis1">
@@ -62,11 +62,10 @@
                         </div>
                     </div><div id="myLinks"> 
                             <div id="bg2">
-                                
-                                    <div onclick="nnh()">Database&ensp;<i class="fa-solid fa-angle-right" id="bhh"></i></div>
+                                    <div onclick="nnh()" id="dt"> Database&ensp;<i class="fa-solid fa-angle-right" id="bhh"></i></div>
                                     <div id="bbg">
                                     
-                                        
+                                      
                                         <a href="Artefatos.html">Artefatos</a>
                                     <br>
                                     <br>
@@ -75,20 +74,23 @@
                                             <br><br>
                                             <a href="Materiais.html">Materiais</a>
                                        
-                                    </div>
+                                    </div> <br><hr>
+                                     
                                     <br>
                                 <a href="Personagens.html">Personagens</a>
                                 <br>
+                                <br><hr>
                                 <br>
                                 <a href="Tierlist.html">Tierlist</a>
                                 <br>
-                                <br>
+                                <br><hr><br>
                                 <a href="Times.html">Times</a>
                                    <br>
+                                   <br><hr>
                                    <br>
                                    <a href="Códigos.html">Códigos</a>
                                    <br>
-                                   <br>
+                                   <br><hr><br>
                                 <input type="checkbox" id="btt" onclick="darkmode()"/>
                                 <div style="text-align:center; display:inline-block;">Modo<br><label for="ff" class="lua"><i class="fa-regular fa-moon"></i><i class="fa-solid fa-sun"></i>&nbsp;</label></div>
                                 
@@ -100,193 +102,222 @@
         </div>
         <br>
         <div id="main2">
-        <div id="seta" onclick="Scroll()"><i class="fa-solid fa-angle-up"></i></div>
+        <div id="seta" onclick="Scroll()"><i class="fa-solid fa-angle-up"></i></div><br>
         <div class="center">
-            <div class="titulos2">Personagens / Builds</div>
+            <div class="titulos">Personagens / Builds</div>
         </div>
-        <br>
-        <div id="myBtnContainer" class="vv">
-            <button class="btn active" onclick="filterSelection('all')"><img src="images/We/app-menu-icon-8.jpg" alt=""></button>
-            <button class="btn" onclick="filterSelection('Anemo')"><img src="images/We/Element_Anemo.webp"
-                    alt=""></button>
-                    <button class="btn" onclick="filterSelection('Geo')"><img src="images/We/Element_Geo.webp" alt=""></button>
-                    <button class="btn" onclick="filterSelection('Electro')"><img src="images/We/Element_Electro.webp"
-                    alt=""></button>
-                    <button class="btn" onclick="filterSelection('Dendro')"><img src="images/We/Element_Dendro.webp"
-                        alt=""></button>
-            <button class="btn" onclick="filterSelection('Hydro')"><img src="images/We/Element_Hydro.webp"
-                    alt=""></button>
-            <button class="btn" onclick="filterSelection('Pyro')"><img src="images/We/Element_Pyro.webp"
-                    alt=""></button>
-            <button class="btn" onclick="filterSelection('Cryo')"><img src="images/We/Element_Cryo.webp"
-                    alt=""></button>
+        <br><br><br>
             
+                <div class="st">
+                    <div style="position:relative ; display: inline-block;"><input type="text" id="search-input" placeholder="Pesquise um Personagem..."><i style="font-size: 20px; position: absolute;left: 10px; top:12px;" class="fa-solid fa-magnifying-glass"></i></div>
+                    
+                    <div id="myBtnContainer" class="vv">
+                    <button class="btn active" onclick="filterSelection('all')"><img src="images/We/app-menu-icon-8.jpg" alt="" id="ib"><img src="images/We/iconwhite.png" alt="" id="iw"></button>
+                    <button class="btn" onclick="filterSelection('Anemo')"><img src="images/We/Element_Anemo.webp"
+                            alt=""></button>
+                            <button class="btn" onclick="filterSelection('Geo')"><img src="images/We/Element_Geo.webp" alt=""></button>
+                            <button class="btn" onclick="filterSelection('Electro')"><img src="images/We/Element_Electro.webp"
+                            alt=""></button>
+                            <button class="btn" onclick="filterSelection('Dendro')"><img src="images/We/Element_Dendro.webp"
+                                alt=""></button>
+                    <button class="btn" onclick="filterSelection('Hydro')"><img src="images/We/Element_Hydro.webp"
+                            alt=""></button>
+                    <button class="btn" onclick="filterSelection('Pyro')"><img src="images/We/Element_Pyro.webp"
+                            alt=""></button>
+                    <button class="btn" onclick="filterSelection('Cryo')"><img src="images/We/Element_Cryo.webp"
+                            alt=""></button>
+                
+                
+                
+                            </div>
+                </div>
             
-            
-        </div>
                <br>
         <div class="displayflex" id="p1">
-            <a href="Amber.html" class="filterDiv Pyro"><img src="images/We/Element_Pyro.webp" class="elicon" alt=""><img src="images/Characters/Amber.webp" alt="Amber">
-                <br>Amber
-            </a>
-        <a href="Barbara.html" class="filterDiv Hydro"><img src="images/We/Element_Hydro.webp" class="elicon" alt=""><img src="images/Characters/Barbara.webp" alt="Barbara">
-                <br>Barbara 
-           </a>
-        <a href="Beidou.html" class="filterDiv Electro"><img src="images/We/Element_Electro.webp" class="elicon" alt=""><img src="images/Characters/Beidou.webp" alt="Beidou">
-                <br>Beidou 
-            </a>
-        <a href="Bennett.html" class="filterDiv Pyro"><img src="images/We/Element_Pyro.webp" class="elicon" alt=""><img src="images/Characters/Bennett.webp" alt="Bennet">
-                <br>Bennet 
-            </a>
-        <a href="Diluc.html" class="filterDiv Pyro"><img src="images/We/Element_Pyro.webp" class="elicon" alt=""><img src="images/Characters/Diluc.webp" alt="Diluc">
-                <br>Diluc 
-            </a>
-        <a href="Diona.html" class="filterDiv Cryo"><img src="images/We/Element_Cryo.webp" class="elicon" alt=""><img src="images/Characters/Diona.webp" alt="Diona">
-                <br>Diona 
-            </a>
-        <a href="Fischl.html" class="filterDiv Electro"><img src="images/We/Element_Electro.webp" class="elicon" alt=""><img src="images/Characters/Fischl.webp" alt="Fischl">
-                <br>Fischl 
-            </a>
-        <a href="Kaeya.html" class="filterDiv Cryo"><img src="images/We/Element_Cryo.webp" class="elicon" alt=""><img src="images/Characters/Kaeya.webp" alt="Kaeya">
-                <br>Kaeya 
-            </a>
-        <a href="Keqing.html" class="filterDiv Electro"><img src="images/We/Element_Electro.webp" class="elicon" alt=""><img src="images/Characters/Keqing.webp" alt="Keqing">
-                <br>Keqing 
-            </a>
-        <a href="Klee.html" class="filterDiv Pyro"><img src="images/We/Element_Pyro.webp" class="elicon" alt=""><img src="images/Characters/Klee.webp" alt="Klee">
-                <br>Klee 
-            </a>
-        <a href="Lisa.html" class="filterDiv Electro"><img src="images/We/Element_Electro.webp" class="elicon" alt=""><img src="images/Characters/Lisa.webp" alt="Lisa">
-                <br>Lisa 
-            </a>
-        <a href="Mona.html" class="filterDiv Hydro"><img src="images/We/Element_Hydro.webp" class="elicon" alt=""><img src="images/Characters/Mona.webp" alt="Mona">
-                <br>Mona 
-            </a>
-        <a href="Noelle.html" class="filterDiv Geo"><img src="images/We/Element_Geo.webp" class="elicon" alt=""><img src="images/Characters/Noelle.webp" alt="Noelle">
-                <br>Noelle 
-            </a>
-        <a href="Ningguang" class="filterDiv Geo"><img src="images/We/Element_Geo.webp" class="elicon" alt=""><img src="images/Characters/Ningguang.webp" alt="Ninguang">
-                <br>Ningguang
-            </a>
-        <a href="Qiqi.html" class="filterDiv Cryo"><img src="images/We/Element_Cryo.webp" class="elicon" alt=""><img src="images/Characters/Qiqi.webp" alt="Qiqi">
-                <br>Qiqi 
-            </a>
-        <a href="Razor.html" class="filterDiv Electro"><img src="images/We/Element_Electro.webp" class="elicon" alt=""><img src="images/Characters/Razor.webp" alt="Razor">
-                <br>Razor 
-            </a>
-        <a href="Sucrose.html" class="filterDiv Anemo"><img src="images/We/Element_Anemo.webp" class="elicon" alt=""><img src="images/Characters/Sucrose.webp" alt="Sucrose">
-                <br>Sucrose 
-            </a>
-            <a href="Jean.html" class="filterDiv Anemo"><img src="images/We/Element_Anemo.webp" class="elicon" alt=""><img src="images/Characters/Jean.webp" alt="Jean">
-                <br>Jean 
-            </a>
-        <a href="Tartaglia.html" class="filterDiv Hydro"><img src="images/We/Element_Hydro.webp" class="elicon" alt=""><img src="images/Characters/Tartaglia.webp" alt="Childe">
-                <br>Tartaglia 
-            </a>
-        <a href="Venti.html" class="filterDiv Anemo"><img src="images/We/Element_Anemo.webp" class="elicon" alt=""><img src="images/Characters/Venti.webp" alt="Venti">
-                <br>Venti 
-            </a>
-        <a href="Traveler_Anemo.html" class="filterDiv Anemo"><img src="images/We/Element_Anemo.webp" class="elicon" alt=""><img src="images/Characters/Traveler.webp" alt="Viajante Anemo">
-                <br><div class="llk">Viajante <br> Anemo</div> 
-            </a>
-        <a href="Traveler_Geo.html" class="filterDiv Geo"><img src="images/We/Element_Geo.webp" class="elicon" alt=""><img src="images/Characters/Traveler.webp" alt="Viajante Geo">
-                <br>Viajante <br> Geo 
-            </a>
-        <a href="Traveler_Electro.html" class="filterDiv Electro"><img src="images/We/Element_Electro.webp" class="elicon" alt=""><img src="images/Characters/Traveler.webp" alt="Viajante Electro">
-                <br><div class="llk">Viajante <br> Electro</div> 
-            </a>
-        <a href="Xiangling.html" class="filterDiv Pyro"><img src="images/We/Element_Pyro.webp" class="elicon" alt=""><img src="images/Characters/Xiangling.webp" alt="Xiangling">
-                <br>Xiangling 
-            </a>
-        <a href="Xingqin.html" class="filterDiv Hydro"><img src="images/We/Element_Hydro.webp" class="elicon" alt=""><img src="images/Characters/Xingqiu.webp" alt="Xingqiu">
-                <br>Xingqin 
-            </a>
-        <a href="Xinyan.html" class="filterDiv Pyro"><img src="images/We/Element_Pyro.webp" class="elicon" alt=""><img src="images/Characters/Xinyan.webp" alt="Xinyan">
-                <br>Xinyan 
-           </a>
-        <a href="Zhongli.html" class="filterDiv Geo"><img src="images/We/Element_Geo.webp" class="elicon" alt=""><img src="images/Characters/Zhongli.webp" alt="Zhongli">
-                <br>Zhongli 
-            </a>
-        <a href="Xiao.html" class="filterDiv Anemo"><img src="images/We/Element_Anemo.webp" class="elicon" alt=""><img src="images/Characters/Xiao.webp" alt="Xiao">
-                <br>Xiao 
-            </a>
-        <a href="Ganyu.html" class="filterDiv Cryo"><img src="images/We/Element_Cryo.webp" class="elicon" alt=""><img src="images/Characters/Ganyu.webp" alt="Ganyu">
-                <br>Ganyu 
-            </a>
-        <a href="Albedo.html" class="filterDiv Geo"><img src="images/We/Element_Geo.webp" class="elicon" alt=""><img src="images/Characters/Albedo.webp" alt="Albedo">
-                <br>Albedo 
-            </a>
-        <a href="Hu_Tao.html" class="filterDiv Pyro"><img src="images/We/Element_Pyro.webp" class="elicon" alt=""><img src="images/Characters/Hu_Tao.webp" alt="Hu Tao">
-                <br>Hu Tao 
-            </a>
-        <a href="Rosaria.html" class="filterDiv Cryo"><img src="images/We/Element_Cryo.webp" class="elicon" alt=""><img src="images/Characters/Rosaria.webp" alt="Rosaria">
-                <br>Rosaria 
-            </a>
-        <a href="Yanfei.html" class="filterDiv Pyro"><img src="images/We/Element_Pyro.webp" class="elicon" alt=""><img src="images/Characters/Yanfei.webp" alt="Yanfei">
-                <br>Yanfei 
-            </a>
-        <a href="Eula.html" class="filterDiv Cryo"><img src="images/We/Element_Cryo.webp" class="elicon" alt=""><img src="images/Characters/Eula.webp" alt="Eula">
-                <br>Eula 
-           </a>
-        <a href="Kaedehara_Kazuha.html" class="filterDiv Anemo"><img src="images/We/Element_Anemo.webp" class="elicon" alt=""><img src="images/Characters/Kaedehara_Kazuha.webp" alt="Kazuha">
-                <br><div class="llk">Kaedehara <br> Kazuha</div> 
-            </a>
-        <a href="Kamisato_Ayaka.html" class="filterDiv Cryo"><img src="images/We/Element_Cryo.webp" class="elicon" alt=""><img src="images/Characters/Kamisato_Ayaka.webp" alt="Ayaka">
-                <br><div class="llk">Kamisato <br> Ayaka</div> 
-            </a>
-        <a href="Yoimiya.html" class="filterDiv Pyro"><img src="images/We/Element_Pyro.webp" class="elicon" alt=""><img src="images/Characters/Yoimiya.webp" alt="Yoimiya">
-                <br>Yoimiya 
-            </a>
-        <a href="Sayu.html" class="filterDiv Anemo"><img src="images/We/Element_Anemo.webp" class="elicon" alt=""><img src="images/Characters/Sayu.webp" alt="Sayu">
-                <br>Sayu
-            </a>
-        <a href="Raiden_Shogun.html" class="filterDiv Electro"><img src="images/We/Element_Electro.webp" class="elicon" alt=""><img src="images/Characters/Raiden_Shogun.webp" alt="Raiden Shogun">
-                <br><div class="llk">Raiden <br> Shogun</div> 
-           </a>
-        <a href="Kujou_Sara.html" class="filterDiv Electro"><img src="images/We/Element_Electro.webp" class="elicon" alt=""><img src="images/Characters/Kujou_Sara.webp" alt="Sara">
-                <br>Kujou Sara 
-            </a>
-        <a href="Aloy.html" class="filterDiv Cryo"><img src="images/We/Element_Cryo.webp" class="elicon" alt=""><img src="images/Characters/Aloy.webp" alt="Aloy">
-                <br>Aloy 
-           </a>
-        <a href="Sangonomiya_Kokomi.html" class="filterDiv Hydro"><img src="images/We/Element_Hydro.webp" class="elicon" alt=""><img src="images/Characters/Sangonomiya_Kokomi.webp" alt="Kokomi">
-                <br>Kokomi
-            </a>
-        <a href="Thoma.html" class="filterDiv Pyro"><img src="images/We/Element_Pyro.webp" class="elicon" alt=""><img src="images/Characters/Thoma.webp" alt="Thoma">
-                <br>Thoma 
-           </a>
-        <a href="Gorou.html" class="filterDiv Geo"><img src="images/We/Element_Geo.webp" class="elicon" alt=""><img src="images/Characters/Gorou.webp" alt="Gorou">
-                <br>Gorou 
-            </a>
-        <a href="Arataki_Itto.html" class="filterDiv Geo"><img src="images/We/Element_Geo.webp" class="elicon" alt=""><img src="images/Characters/Arataki_Itto.webp" alt="Arataki Itto">
-                <br>Arataki <br> Itto
-            </a>
-        <a href="Shenhe.html" class="filterDiv Cryo"><img src="images/We/Element_Cryo.webp" class="elicon" alt=""><img src="images/Characters/Shenhe.webp" alt="Shenhe">
-                <br>Shenhe
-            </a>
-        <a href="Yun_Jin.html" class="filterDiv Geo"><img src="images/We/Element_Geo.webp" class="elicon" alt=""><img src="images/Characters/Yun_Jin.webp" alt="YunJin">
-            <br>Yunjin
-        </a>
-        <a href="Kamisato_Ayato.html" class="filterDiv Hydro"><img src="images/We/Element_Hydro.webp" class="elicon" alt=""><img src="images/Characters/Kamisato_Ayato.webp" alt="Ayato">
-            <br><div class="llk">Kamisato <br> Ayato</div>
-        </a>
-        <a href="Yelan.html" class="filterDiv Hydro"><img src="images/We/Element_Hydro.webp" class="elicon" alt=""><img src="images/Characters/Yelan.webp" alt="Yelan">
-                <br>Yelan
-            </a>
-        <a href="Yae_Miko.html" class="filterDiv Electro"><img src="images/We/Element_Electro.webp" class="elicon" alt=""><img src="images/Characters/Yae_Miko.webp" alt="Yae Miko">
-            <br>Yae Miko 
-        </a>
-        <a href="Kuki_Shinobu.html" class="filterDiv Electro"><img src="images/We/Element_Electro.webp" class="elicon" alt=""><img src="images/Characters/Kuki_Shinobu.webp" alt="Kuki Shinobu">
-            <br><div class="llk">Kuki <br> Shinobu</div>
-        </a>
-        <a href="Shikanoin_Heizou.html" class="filterDiv Anemo"><img src="images/We/Element_Anemo.webp" class="elicon" alt=""><img src="images/Characters/Shikanoin_Heizou.webp" alt="Shikanoin_Heizou">
-            <br><div class="llk">Shikanoin <br> Heizou</div> 
-        </a>
+        <div class="filterDiv Pyro"><a href="Amber.html" class="purple"><img src="images/We/Element_Pyro.webp" class="elicon" alt=""><img class="ml" src="images/Characters/Character_Amber_Portrait.webp" alt="Amber">
+                <div class="ggg">Amber</div>
+           </a></div>
+        <div class="filterDiv Hydro"><a href="Barbara.html" class="purple"><img src="images/We/Element_Hydro.webp" class="elicon" alt=""><img src="images/Characters/Character_Barbara_Portrait.webp" alt="Barbara">
+                <div class="ggg">Barbara </div>
+           </a></div>
+        <div class="filterDiv Electro"><a href="Beidou.html" class="purple"><img src="images/We/Element_Electro.webp" class="elicon" alt=""><img src="images/Characters/Character_Beidou_Portrait.webp" alt="Beidou">
+                <div class="ggg">Beidou </div>
+            </a></div>
+        <div class="filterDiv Pyro"><a href="Bennett.html" class="purple"><img src="images/We/Element_Pyro.webp" class="elicon" alt=""><img src="images/Characters/Character_Bennett_Portrait.webp" alt="Bennet">
+                <div class="ggg">Bennet </div>
+            </a></div>
+        <div class="filterDiv Pyro"><a href="Diluc.html" class="golden"><img src="images/We/Element_Pyro.webp" class="elicon" alt=""><img src="images/Characters/Character_Diluc_Portrait.webp" alt="Diluc">
+                <div class="ggg">Diluc </div>
+            </a></div>
+        <div class="filterDiv Cryo"><a href="Diona.html" class="purple"><img src="images/We/Element_Cryo.webp" class="elicon" alt=""><img src="images/Characters/Character_Diona_Portrait.webp" alt="Diona">
+                <div class="ggg">Diona </div>
+            </a></div>
+        <div class="filterDiv Electro"><a href="Fischl.html" class="purple"><img src="images/We/Element_Electro.webp" class="elicon" alt=""><img class="ml" src="images/Characters/Character_Fischl_Portrait.webp" alt="Fischl">
+                <div class="ggg">Fischl </div>
+            </a></div>
+        <div class="filterDiv Cryo"><a href="Kaeya.html" class="purple"><img src="images/We/Element_Cryo.webp" class="elicon" alt=""><img class="ml" src="images/Characters/Character_Kaeya_Portrait.webp" alt="Kaeya">
+                <div class="ggg">Kaeya </div>
+            </a></div>
+        <div class="filterDiv Electro"><a href="Keqing.html" class="golden"><img src="images/We/Element_Electro.webp" class="elicon" alt=""><img class="ml" src="images/Characters/Character_Keqing_Portrait.webp" alt="Keqing">
+                <div class="ggg">Keqing </div>
+            </a></div>
+        <div class="filterDiv Pyro"><a href="Klee.html" class="golden"><img src="images/We/Element_Pyro.webp" class="elicon" alt=""><img src="images/Characters/Character_Klee_Portrait.webp" alt="Klee">
+                <div class="ggg">Klee </div>
+            </a></div>
+        <div class="filterDiv Electro"><a href="Lisa.html" class="purple"><img src="images/We/Element_Electro.webp" class="elicon" alt=""><img src="images/Characters/Character_Lisa_Portrait.webp" alt="Lisa">
+                <div class="ggg">Lisa </div>
+            </a></div>
+        <div class="filterDiv Hydro"><a href="Mona.html" class="golden"><img src="images/We/Element_Hydro.webp" class="elicon" alt=""><img src="images/Characters/Character_Mona_Portrait.webp" alt="Mona">
+                <div class="ggg">Mona </div>
+            </a></div>
+        <div class="filterDiv Geo"><a href="Noelle.html" class="purple"><img src="images/We/Element_Geo.webp" class="elicon" alt=""><img src="images/Characters/Character_Noelle_Portrait.webp" alt="Noelle">
+                <div class="ggg">Noelle </div>
+            </a></div>
+        <div class="filterDiv Geo"><a href="Ningguang" class="purple"><img src="images/We/Element_Geo.webp" class="elicon" alt=""><img class="ml" src="images/Characters/Character_Ningguang_Portrait.webp" alt="Ninguang">
+                <div class="ggg">Ningguang</div>
+            </a></div>
+        <div class="filterDiv Cryo"><a href="Qiqi.html" class="golden"><img src="images/We/Element_Cryo.webp" class="elicon" alt=""><img class="ml" src="images/Characters/Character_Qiqi_Portrait.webp" alt="Qiqi">
+                <div class="ggg">Qiqi </div>
+            </a></div>
+        <div class="filterDiv Electro"><a href="Razor.html" class="purple"><img src="images/We/Element_Electro.webp" class="elicon" alt=""><img style="margin-left: -60px;" src="images/Characters/Character_Razor_Portrait.webp" alt="Razor">
+                <div class="ggg">Razor </div>
+            </a></div>
+        <div class="filterDiv Anemo"><a href="Sucrose.html" class="purple"><img src="images/We/Element_Anemo.webp" class="elicon" alt=""><img class="ml" src="images/Characters/Character_Sucrose_Portrait.webp" alt="Sucrose">
+                <div class="ggg">Sucrose </div>
+            </a></div>
+        <div class="filterDiv Anemo"><a href="Jean.html" class="golden"><img src="images/We/Element_Anemo.webp" class="elicon" alt=""><img class="ml" src="images/Characters/Character_Jean_Portrait.webp" alt="Jean">
+                <div class="ggg">Jean </div>
+            </a></div>
+        <div class="filterDiv Hydro"><a href="Tartaglia.html" class="golden"><img src="images/We/Element_Hydro.webp" class="elicon" alt=""><img src="images/Characters/Personagem_Tartaglia_Retrato.webp" alt="Childe">
+                <div class="ggg">Tartaglia </div>
+            </a></div>
+        <div class="filterDiv Anemo"><a href="Venti.html" class="golden"><img src="images/We/Element_Anemo.webp" class="elicon" alt=""><img src="images/Characters/Character_Venti_Portrait.webp" alt="Venti">
+                <div class="ggg">Venti </div>
+            </a></div>
+        <div class="filterDiv Anemo"><a href="Traveler_Anemo.html" class="golden"><img src="images/We/Element_Anemo.webp" class="elicon" alt=""><img class="ml" src="images/Characters/Character_Traveler_28_Portrait.webp" alt="Viajante Anemo">
+                <div class="ggg">Viajante Anemo</div> 
+            </a></div>
+        <div class="filterDiv Geo"><a href="Traveler_Geo.html" class="golden"><img src="images/We/Element_Geo.webp" class="elicon" alt=""><img class="ml" src="images/Characters/Character_Traveler_29_Portrait.webp" alt="Viajante Geo">
+                <div class="ggg">Viajante Geo</div>
+            </a></div>
+        <div class="filterDiv Electro"><a href="Traveler_Electro.html" class="golden"><img src="images/We/Element_Electro.webp" class="elicon" alt=""><img class="ml" src="images/Characters/Character_Traveler_28_Portrait.webp" alt="Viajante Electro">
+                <div class="ggg">Viajante Electro</div> 
+            </a></div>
+        <div class="filterDiv Pyro"><a href="Xiangling.html" class="purple"><img src="images/We/Element_Pyro.webp" class="elicon" alt=""><img src="images/Characters/Character_Xiangling_Portrait.webp" alt="Xiangling">
+                <div class="ggg">Xiangling </div>
+            </a></div>
+        <div class="filterDiv Hydro"><a href="Xingqin.html" class="purple"><img src="images/We/Element_Hydro.webp" class="elicon" alt=""><img class="ml" src="images/Characters/Character_Xingqiu_Portrait.webp" alt="Xingqiu">
+                <div class="ggg">Xingqiu </div>
+            </a></div>
+        <div class="filterDiv Pyro"><a href="Xinyan.html" class="purple"><img src="images/We/Element_Pyro.webp" class="elicon" alt=""><img src="images/Characters/Character_Xinyan_Portrait.webp" alt="Xinyan">
+                <div class="ggg">Xinyan </div>
+           </a></div>
+        <div class="filterDiv Geo"><a href="Zhongli.html" class="golden"><img src="images/We/Element_Geo.webp" class="elicon" alt=""><img class="ml" src="images/Characters/Character_Zhongli_Portrait.webp" alt="Zhongli">
+                <div class="ggg">Zhongli </div>
+            </a></div>
+        <div class="filterDiv Anemo"><a href="Xiao.html" class="golden"><img src="images/We/Element_Anemo.webp" class="elicon" alt=""><img class="ml" src="images/Characters/Personagem_Xiao_Retrato.webp" alt="Xiao">
+                <div class="ggg">Xiao </div>
+            </a></div>
+        <div class="filterDiv Cryo"><a href="Ganyu.html" class="golden"><img src="images/We/Element_Cryo.webp" class="elicon" alt=""><img src="images/Characters/Character_Ganyu_Portrait.webp" alt="Ganyu">
+                <div class="ggg">Ganyu </div>
+            </a></div>
+        <div class="filterDiv Geo"><a href="Albedo.html" class="golden"><img src="images/We/Element_Geo.webp" class="elicon" alt=""><img src="images/Characters/Character_Albedo_Portrait.webp" alt="Albedo">
+                <div class="ggg">Albedo </div>
+            </a></div>
+        <div class="filterDiv Pyro"><a href="Hu_Tao.html" class="golden"><img src="images/We/Element_Pyro.webp" class="elicon" alt=""><img src="images/Characters/Personagem_Hu_Tao_Retrato.webp" alt="Hu Tao">
+                <div class="ggg">Hu Tao </div>
+            </a></div>
+        <div class="filterDiv Cryo"><a href="Rosaria.html" class="purple"><img src="images/We/Element_Cryo.webp" class="elicon" alt=""><img class="ml" src="images/Characters/Character_Rosaria_Portrait.webp" alt="Rosaria">
+                <div class="ggg">Rosaria </div>
+            </a></div>
+        <div class="filterDiv Pyro"><a href="Yanfei.html" class="purple"><img src="images/We/Element_Pyro.webp" class="elicon" alt=""><img class="ml" src="images/Characters/Character_Yanfei_Portrait.webp" alt="Yanfei">
+                <div class="ggg">Yanfei </div>
+            </a></div>
+        <div class="filterDiv Cryo"><a href="Eula.html" class="golden"><img src="images/We/Element_Cryo.webp" class="elicon" alt=""><img src="images/Characters/Character_Eula_Portrait.webp" alt="Eula">
+                <div class="ggg">Eula </div>
+           </a></div>
+        <div class="filterDiv Anemo"><a href="Kaedehara_Kazuha.html" class="golden"><img src="images/We/Element_Anemo.webp" class="elicon" alt=""><img src="images/Characters/Personagem_Kaedehara_Kazuha_Retrato.webp" alt="Kazuha">
+                <div class="ggg">Kaedehara Kazuha</div>
+            </a></div>
+        <div class="filterDiv Cryo"><a href="Kamisato_Ayaka.html" class="golden"><img src="images/We/Element_Cryo.webp" class="elicon" alt=""><img src="images/Characters/Personagem_Kamisato_Ayaka_Retrato.webp" alt="Ayaka">
+                <div class="ggg">Kamisato Ayaka</div>
+            </a></div>
+        <div class="filterDiv Pyro"><a href="Yoimiya.html" class="golden"><img src="images/We/Element_Pyro.webp" class="elicon" alt=""><img src="images/Characters/Personagem_Yoimiya_Retrato.webp" alt="Yoimiya">
+                <div class="ggg">Yoimiya </div>
+            </a></div>
+        <div class="filterDiv Anemo"><a href="Sayu.html" class="purple"><img src="images/We/Element_Anemo.webp" class="elicon" alt=""><img class="ml" src="images/Characters/Personagem_Sayu_Retrato.webp" alt="Sayu">
+                <div class="ggg">Sayu </div>
+            </a></div>
+        <div class="filterDiv Electro"><a href="Raiden_Shogun.html" class="golden"><img src="images/We/Element_Electro.webp" class="elicon" alt=""><img class="ml" src="images/Characters/Character_Raiden_Shogun_Portrait.webp" alt="Raiden Shogun">
+                <div class="ggg">Raiden Shogun</div> 
+           </a></div>
+        <div class="filterDiv Electro"><a href="Kujou_Sara.html" class="purple"><img src="images/We/Element_Electro.webp" class="elicon" alt=""><img class="ml" src="images/Characters/Character_Kujou_Sara_Portrait.webp" alt="Sara">
+                <div class="ggg">Kujou Sara</div>
+            </a></div>
+        <div class="filterDiv Cryo"><a href="Aloy.html" class="pink"><img src="images/We/Element_Cryo.webp" class="elicon" alt=""><img src="images/Characters/Character_Aloy_Portrait.webp" alt="Aloy">
+                <div class="ggg">Aloy</div>
+           </a></div>
+        <div class="filterDiv Hydro"><a href="Sangonomiya_Kokomi.html" class="golden"><img src="images/We/Element_Hydro.webp" class="elicon" alt=""><img class="ml" src="images/Characters/Character_Sangonomiya_Kokomi_Portrait.webp" alt="Kokomi">
+                <div class="ggg">Kokomi</div>
+            </a></div>
+        <div class="filterDiv Pyro"><a href="Thoma.html" class="purple"><img src="images/We/Element_Pyro.webp" class="elicon" alt=""><img class="ml" src="images/Characters/Character_Thoma_Portrait.webp" alt="Thoma">
+                <div class="ggg">Thoma</div>
+           </a></div>
+        <div class="filterDiv Geo"><a href="Gorou.html" class="purple"><img src="images/We/Element_Geo.webp" class="elicon" alt=""><img src="images/Characters/Character_Gorou_Portrait.webp" alt="Gorou">
+                <div class="ggg">Gorou</div>
+            </a></div>
+        <div class="filterDiv Geo"><a href="Arataki_Itto.html" class="golden"><img src="images/We/Element_Geo.webp" class="elicon" alt=""><img src="images/Characters/Character_Arataki_Itto_Portrait.webp" alt="Arataki Itto">
+                <div class="ggg">Arataki Itto</div>
+            </a></div>
+        <div class="filterDiv Cryo"><a href="Shenhe.html" class="golden"><img src="images/We/Element_Cryo.webp" class="elicon" alt=""><img class="ml" src="images/Characters/Character_Shenhe_Portrait.webp" alt="Shenhe">
+                <div class="ggg">Shenhe</div>
+            </a></div>
+        <div class="filterDiv Geo"><a href="Yun_Jin.html" class="purple"><img src="images/We/Element_Geo.webp" class="elicon" alt=""><img class="ml" src="images/Characters/Personagem_Yunjin_Retrato.webp" alt="YunJin">
+            <div class="ggg">Yunjin</div>
+        </a></div>
+        <div class="filterDiv Hydro"><a href="Kamisato_Ayato.html" class="golden"><img src="images/We/Element_Hydro.webp" class="elicon" alt=""><img src="images/Characters/Personagem_Kamisato_Ayato_Retrato.webp" alt="Ayato">
+            <div class="ggg">Kamisato Ayato</div>
+        </a></div>
+        <div class="filterDiv Hydro"><a href="Yelan.html" class="golden"><img src="images/We/Element_Hydro.webp" class="elicon" alt=""><img src="images/Characters/Personagem_Yelan_Retrato.webp" alt="Yelan">
+                <div class="ggg">Yelan</div>
+            </a></div>
+        <div class="filterDiv Electro"><a href="Yae_Miko.html" class="golden"><img src="images/We/Element_Electro.webp" class="elicon" alt=""><img class="ml" src="images/Characters/Personagem_Yae_Miko_Retrato.webp" alt="Yae Miko">
+            <div class="ggg">Yae Miko </div>
+        </a></div>
+        <div class="filterDiv Electro"><a href="Kuki_Shinobu.html" class="purple"><img src="images/We/Element_Electro.webp" class="elicon" alt=""><img src="images/Characters/Personagem_Kuki_Shinobu_Retrato.webp" alt="Kuki Shinobu">
+            <div class="ggg">Kuki Shinobu</div>
+        </a></div>
+        <div class="filterDiv Anemo"><a href="Shikanoin_Heizou.html" class="purple"><img src="images/We/Element_Anemo.webp" class="elicon" alt=""><img class="ml" src="images/Characters/Character_Shikanoin_Heizou_Portrait.webp" alt="Shikanoin_Heizou">
+            <div class="ggg">Shikanoin Heizou</div> 
+        </a></div>
+        <div class="filterDiv Dendro"><a href="Shikanoin_Heizou.html" class="purple"><img src="images/We/Element_Dendro.webp" class="elicon" alt=""><img style="margin-left: -140px;" class="ml" src="images/Characters/UI_Gacha_AvatarImg_Collei.png" alt="Shikanoin_Heizou">
+            <div class="ggg">Collei</div> 
+        </a></div>
+        <div class="filterDiv Dendro"><a href="Shikanoin_Heizou.html" class="golden"><img src="images/We/Element_Dendro.webp" class="elicon" alt=""><img style="margin-left: -140px;" class="ml" src="images/Characters/UI_Gacha_AvatarImg_Tighnari.png" alt="Shikanoin_Heizou">
+            <div class="ggg">Tighnari</div> 
+        </a></div>
         </div>
 
 
     </div>
-
+<script>
+    document.querySelector('#search-input').addEventListener('input', filterList);
+function filterList() {
+    const searchInput = document.querySelector('#search-input')
+    const filter = searchInput.value.toLowerCase()
+    const listItems = document.querySelectorAll('.filterDiv')
+    
+    listItems.forEach((item) =>{
+        let text = item.textContent;
+        if(text.toLowerCase().includes(filter.toLowerCase())){
+            item.style.display = '';
+        }
+        else{
+            item.style.display = 'none';
+        }
+    })
+    }
+</script>
     <script src="JavaScript/darkmode1.js"></script>
     <script src="JavaScript/darkmode.js"></script>
     <script src="JavaScript/Menu.js "></script>

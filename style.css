@@ -25,7 +25,7 @@ body {
     font-size:min(14.5px,3.3334vw);
     letter-spacing: 1px;
 }
-.bg5,#myBtnContainer,#search-input,#bg2,#vis1,#main2,#header, #content,.bg8,.bg_golden,.displayflex a,.bg_gray,.bg_blue,.bg_green,.bg_purple,#seta,#gtc,.cs,#pers,#pers2,#main4,.bg3,#Times .displayflex img,.btn.active{
+.bg5,#myBtnContainer,#sbar,#bg2,#vis1,#main2,#header, #content,.bg8,.bg_golden,.displayflex a,.bg_gray,.bg_blue,.bg_green,.bg_purple,#seta,#gtc,.cs,#pers,#pers2,#main4,.bg3,#Times .displayflex img,.btn.active{
     box-shadow: rgba(0, 0, 0, 0.438) 1px 1px 5px;
 }
 
@@ -266,10 +266,7 @@ img {
     border-style: none;
 }
 
-.displayflex {
-    padding: 0px 10px;
-    text-align: justify;
-}
+
 #p1 a{
     padding: 5px;
     border-radius: 5px;
@@ -781,7 +778,9 @@ input{
 #myBtnContainer {
   display: inline-flex;
   justify-content: space-around;align-items: baseline;
-  width: 317px;
+  max-width: 317px;
+  width: 100%;
+  margin: 5px 0px;
   padding: 5px;
   border-radius: 5px;
   background-color: var(--BACK-GROUND);
@@ -821,20 +820,18 @@ input{
     opacity: 1;
 
 }
-
-#search-input{ 
+#search-input{color: var(--pt);
+    display: none;height:46px;padding-left: 44px;outline: none; background-color: #19191900; border: 0;font-size:min(15px,3.3334vw);
+}
+#sbar{ 
     display: inline-block;
-font-size: 15px;
     height: 46px;
     border-radius: 5px;
-    outline: none;
-    padding-left: 44px;
-    color: var(--pt);
     background-color: var(--BACK-GROUND);
-    border: 0;
-    width: 310px;
-    
+    width: 100%;
+    position: relative;
 }
+
 .purple,.golden,.pink{
     display:inline-block;
 }
@@ -913,7 +910,6 @@ li {
 
  .displayflex a img:nth-last-child(2){
        height: 230px;
-       margin-top: 10px;
     }
     
     .displayflex a{
@@ -925,9 +921,11 @@ li {
     margin-left: -30px;
 }
 
-    .st{
-        display: flex;flex-wrap: wrap;align-items: center;justify-content: space-between;
+    .st{    
+        display: flex;flex-wrap: wrap;justify-content: space-between;align-items: center;
 }
+.displayflex {
+    text-align: justify;}
 @media only screen and (min-width: 851px){
     
     .displayflex a:hover img{max-height: 300px;}
@@ -939,7 +937,12 @@ margin-top: -35px;
     .rollx a,.displayflex a{opacity: 0.7;
     }
     }
+
 @media only screen and (max-width: 850px) {
+    
+    #main2{
+        margin:0px 10px;
+    }
     .st{
         position: sticky; position: -webkit-sticky; z-index: 1;top: 60px;
     }
@@ -949,7 +952,6 @@ margin-top: -35px;
    .displayflex a{
         height: 300px;
         width: 120px;
-        overflow: hidden;
     }
     .rollx a{margin:0px 10px;}
     .rollx{
@@ -1003,26 +1005,40 @@ margin-top: -35px;
     }
 
     
-    #main2{
-        margin-left:10px;
-        margin-right:10px;
-        padding: 15px;
-    }
+    
     #tlS,#tlA,#tlB,#tlD{
         height: 30px;
         width: 30px;
         font-size: 20px;
     }
 }
-
-
-
+#cls{
+    display: none;
+    position: absolute;
+    right: 10px;
+    font-size: 16px;
+    top:14px;
+    cursor: pointer;
+}
+@media only screen and (max-width: 291px) {#main2{
+    margin-left:5px;
+    margin-right:5px;
+    padding: 5px;}
+}
 
 .dark {
     color: var(--pt);
     background-color: rgb(243, 243, 243);
 }
-
+@media screen and (max-width: 421px) and (min-width:370px){
+.displayflex{
+    padding: 0px 25px;
+}}
+@media screen and (max-width: 380px) and (min-width:350px){
+    .displayflex{
+        padding: 0px 20px;
+    }
+}
 .dark #header a:hover{
 color: rgb(138, 138, 138);
 }

@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class="ghj">
     
     <div id="header">
           
@@ -108,8 +108,8 @@
         </div>
         <br><br><br>
             
-                <div class="st">
-                    <div style="position:relative ; display: inline-block;"><input type="text" id="search-input" placeholder="Pesquise um Personagem..."><i style="font-size: 20px; position: absolute;left: 10px; top:12px;" class="fa-solid fa-magnifying-glass"></i></div>
+                <div class="st"><div id="sbar" >
+                    <input type="text" id="search-input" placeholder="Pesquise um Personagem..."><i onclick="xx()" style="cursor: pointer; font-size: 20px; position: absolute;left: 10px; top:12px;" class="fa-solid fa-magnifying-glass"></i><div id="cls" onclick="yy()">X</div></div>
                     
                     <div id="myBtnContainer" class="vv">
                     <button class="btn active" onclick="filterSelection('all')"><img src="images/We/app-menu-icon-8.jpg" alt="" id="ib"><img src="images/We/iconwhite.png" alt="" id="iw"></button>
@@ -316,6 +316,23 @@ function filterList() {
             item.style.display = 'none';
         }
     })
+    }document.getElementById("sbar").style = "max-width:40px;";
+    var x = document.getElementById("sbar");
+    var y = document.getElementById('search-input')
+    var c = document.getElementById('cls')
+    function xx() {
+        
+    
+  x.style = "max-width:317px;"
+  y.style = "display:block;"
+  c.style = "display:block;"
+    }
+    function yy() {
+    
+  x.style = "max-width:40px;"
+    
+  y.style = "display:;"
+  c.style = "display:;"
     }
 </script>
     <script src="JavaScript/darkmode1.js"></script>

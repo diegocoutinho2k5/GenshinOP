@@ -106,11 +106,14 @@
         <div class="center">
             <div class="titulos">Personagens / Builds</div>
         </div>
-        <br><br><br>
+        <br>
             
                 <div class="st"><div id="sbar" >
-                    <input type="text" id="search-input" placeholder="Pesquise um Personagem..."><i onclick="xx()" style="cursor: pointer; font-size: 20px; position: absolute;left: 10px; top:12px;" class="fa-solid fa-magnifying-glass"></i><div id="cls" onclick="yy()">X</div></div>
+                    <input type="text" id="search-input" placeholder="Pesquise um Personagem..."><i style="font-size: 20px; position: absolute;left: 10px; top:12px;" class="fa-solid fa-magnifying-glass"></i><div id="click" onclick="xx()" style="height: 45px; width: 40px; cursor: pointer; font-size: 20px; position: absolute;left: 0px; top:0px;"></div><div id="cls" onclick="yy()">X</div></div>
                     
+                    
+                </div>
+                <div id="rd"><i class="fa-solid fa-caret-up" onclick="rowdown()" id="set"></i>
                     <div id="myBtnContainer" class="vv">
                     <button class="btn active" onclick="filterSelection('all')"><img src="images/We/app-menu-icon-8.jpg" alt="" id="ib"><img src="images/We/iconwhite.png" alt="" id="iw"></button>
                     <button class="btn" onclick="filterSelection('Anemo')"><img src="images/We/Element_Anemo.webp"
@@ -129,9 +132,7 @@
                 
                 
                 
-                            </div>
-                </div>
-            
+                            </div></div>
                <br>
         <div class="displayflex" id="p1">
         <div class="filterDiv Pyro"><a href="Amber.html" class="purple"><img src="images/We/Element_Pyro.webp" class="elicon" alt=""><img class="ml" src="images/Characters/Character_Amber_Portrait.webp" alt="Amber">
@@ -316,24 +317,59 @@ function filterList() {
             item.style.display = 'none';
         }
     })
-    }document.getElementById("sbar").style = "max-width:40px;";
+    }
     var x = document.getElementById("sbar");
     var y = document.getElementById('search-input')
     var c = document.getElementById('cls')
+    var cl = document.getElementById('click')
     function xx() {
-        
+        x.style = 'max-width:317px'
     
-  x.style = "max-width:317px;"
   y.style = "display:block;"
   c.style = "display:block;"
     }
     function yy() {
     
-  x.style = "max-width:40px;"
-    
+        x.style = 'max-width:40px'
   y.style = "display:;"
   c.style = "display:;"
     }
+    
+    function myFunction(z) {
+  if (z.matches) { x.style = 'max-width:40px;'
+  y.style = "display:;"
+  c.style = "display:;"
+    
+  } else {
+    x.style = 'max-width:317px;'
+  }
+}
+function myFunction2(t) {
+    if (t.matches) {
+  c.style = "display:;"
+  cl.style = "display:none;"
+  } 
+}
+
+var z = window.matchMedia("(max-width: 850px)")
+myFunction(z) 
+z.addListener(myFunction)
+
+var t = window.matchMedia("(min-width: 851px)")
+myFunction2(t) 
+t.addListener(myFunction2)
+function rowdown() {
+    var x = document.getElementById("myBtnContainer");
+    if (x.style.display === "inline-flex") {
+      x.style.display = "";
+      document.getElementById('set').style = 'transform:rotate(0deg);transition:0.4s';
+      
+     
+    } else {
+      x.style.display = "inline-flex";
+document.getElementById('set').style = 'transform:rotate(180deg);transition:0.4s;';
+}
+}
 </script>
     <script src="JavaScript/darkmode1.js"></script>
     <script src="JavaScript/darkmode.js"></script>

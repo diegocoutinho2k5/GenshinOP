@@ -99,12 +99,12 @@ body {
     display: inline-block;  
 }
 
-#txt .titulos3{
+#pers .titulos3{
     text-align: center;
 font-weight: normal;
     display: inline;
     color: rgb(149, 204, 168);
-font-size: 20px;letter-spacing: 2px;
+font-size: 17px;letter-spacing: 2px;
 }
 #txt .titulos{
     display: inline;
@@ -642,6 +642,7 @@ table img:hover,.bg_golden:hover,.bg8 a:hover,.displayflex a:hover,.bg5 img:hove
     position: relative;
     text-align: right;
 color: white;
+min-height: 400px;
 }
 
 #pers .titulos::after{

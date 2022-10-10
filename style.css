@@ -1,7 +1,7 @@
 :root{
     --pt:white;
-    --css:#252525;
-    --BACK-GROUND:#191919;
+    --css:#25252581;/*#252525*/
+    --BACK-GROUND:#1919199a;/*#191919*/
     --line: rgba(255, 255, 255, 0.11);
     --dest:#ffd780;
 }
@@ -18,12 +18,15 @@ html {
 }
 
 body {
-    background: var(--BACK-GROUND);
     margin: 0;
     font-family:  sans-serif;
     color: white;
     font-size:min(14.5px,3.3334vw);
     letter-spacing: 1px;
+    background: linear-gradient(-45deg, #E23E57, #88304E, #522546, #311D3F,#E23E57, #88304E, #522546, #311D3F, #E23E57, #88304E, #522546, #311D3F);
+	background-size: 400% 400%;
+    background-attachment: fixed;
+	animation: gradient 15s ease infinite;
 }
 .bg5,#bg2,#vis1,#main2,#header, #content,.bg8,.bg_golden,.displayflex a,.bg_gray,.bg_blue,.bg_green,.bg_purple,#seta,#gtc,.cs,#pers,#pers2,#main4,.bg3,#Times .displayflex img,.btn.active,.ops{
     box-shadow: rgba(0, 0, 0, 0.438) 1px 1px 5px;
@@ -1130,7 +1133,7 @@ color: rgb(138, 138, 138);
 }
 
 .opaaaa{
-    background: linear-gradient(-45deg, #2192FF, #38E54D, #9CFF2E, #FDFF00  );
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab  );
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 }

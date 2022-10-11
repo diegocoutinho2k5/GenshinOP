@@ -25,7 +25,6 @@ body {
     letter-spacing: 1px;
     background: linear-gradient(-45deg, #E23E57, #88304E, #522546, #311D3F,#E23E57, #88304E, #522546, #311D3F, #E23E57, #88304E, #522546, #311D3F);
 	background-size: 400% 400%;
-    background-attachment: fixed;
 	animation: gradient 15s ease infinite;
 }
 .bg5,#bg2,#vis1,#main2,#header, #content,.bg8,.bg_golden,.displayflex a,.bg_gray,.bg_blue,.bg_green,.bg_purple,#seta,#gtc,.cs,#pers,#pers2,#main4,.bg3,#Times .displayflex img,.btn.active,.ops{
@@ -37,7 +36,7 @@ body {
 }
 
 #header {
-    background-color: var(--css);
+    background-color: var(--BACK-GROUND);
     padding:8px 0px;
     z-index: 1;
     display: flex;justify-content: center;
@@ -412,7 +411,7 @@ table{
     font-size: 16px;
 }
 #bg2 {
-    background-color:var(--css);
+    background: linear-gradient(to bottom, #000000,rgba(0, 0, 0, 0.432)); 
     font-size: 16px;
     text-align: center;
   padding:10px 0px;
@@ -1074,7 +1073,8 @@ margin-top: -35px;
 
 .dark {
     color: var(--pt);
-    background-color: rgb(243, 243, 243);
+    background-image: linear-gradient(-45deg,#f1f1ff,#e7feed,#d0f5ae,#d3e5e9,#f1f1ff,#e7feed,#eaf8dd,#d3e5e9,#f1f1ff,#e7feed,#eaf8dd,#d3e5e9);
+    background-size: 400% 400%;
 }
 @media screen and (max-width: 421px) and (min-width:370px){
 .displayflex{
@@ -1089,13 +1089,7 @@ margin-top: -35px;
 color: rgb(138, 138, 138);
 }
 
-.dark #main2,.dark #main4, .dark #main1,.dark #header,.dark #content{
-    background-color: rgb(252, 252, 252);
-    
-}
-.dark #header{
-    border-bottom:1px solid rgba(0, 0, 0, 0.3) ;
-}
+
 
 
 
@@ -1112,8 +1106,8 @@ color: rgb(138, 138, 138);
 }
 
 :root .dark{
-    --css:  rgb(245, 245, 245);
-    --BACK-GROUND:rgb(239, 239, 239);
+    --css:  rgba(245, 245, 245, 0.404);
+    --BACK-GROUND:rgba(239, 239, 239, 0.603);
     --line: rgba(0, 0, 0, 0.212);
     --dest:#2a62ca;
     --pt:rgb(24, 24, 34);

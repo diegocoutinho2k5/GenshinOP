@@ -3,7 +3,7 @@
     --css:#25252581;/*#252525*/
     --BACK-GROUND:#1919199a;/*#191919*/
     --line: rgba(255, 255, 255, 0.11);
-    --dest:#fff56e;
+    --dest:#fff280;
 }
 
 *{
@@ -46,13 +46,13 @@ body {
 #header-content{
      display: flex;justify-content: space-evenly;width: 1100px;align-items: center;text-align: center;
 }
-#dsss{
+.dsss{
     display: none;
 }
-.dark #dsss2{
+.dark .dsss2{
     display: none;
 }
-.dark #dsss{
+.dark .dsss{
     display: inline-block;
 }
 #header a {
@@ -497,18 +497,16 @@ table img:hover,.bg_golden:hover,.bg8 a:hover,.displayflex a:hover,.bg5 img:hove
     overflow-x:auto; 
     display: flex; 
     align-items: center;
+    font-weight: bold;
     justify-content: space-between;
 }
 .bg8 .A_A1{
     align-items:flex-start;
     
 }
-.A_A1 .bg_golden{
-    margin-right: 10px;
-    
-}
+
 .bg_golden img:nth-child(1),.bg_purple img:nth-child(1),.bg_blue img:nth-child(1),.bg_green img:nth-child(1),.bg_gray img:nth-child(1){
-    max-height: 190px;
+    max-height: 140px;
     
 }
 .bg_purple img:nth-last-child(1){
@@ -795,7 +793,7 @@ a {
 }
 .cs {
 display: inline-flex;
-    background-color: var(--css);
+    background-color: #e73c7e;
     border-radius: 50%;
     margin:0px 15px;
     align-items: center;
@@ -996,7 +994,10 @@ margin-top: -35px;
     }
 
 @media only screen and (max-width: 850px) {
-    
+    .A_A1 .bg_golden{
+        margin-right: 10px;
+        
+    }
     #main2{
         margin:0px 10px;
     }

@@ -103,8 +103,8 @@ body {
     text-align: center;
 font-weight: normal;
     display: inline;
-    color: rgb(163, 212, 222);
-font-size: 17px;letter-spacing: 2px;
+    color: rgb(163, 222, 173);
+font-size: 19px;letter-spacing: 2px;
 }
 #txt .titulos{
     display: inline;
@@ -370,7 +370,7 @@ table .ICONS{
 #Times .displayflex{
     display: flex;
     flex-wrap: nowrap;
-    width: 700px;
+    max-width: 700px;
     margin: auto;
     overflow-x: auto;
     justify-content: space-between;
@@ -507,8 +507,8 @@ table img:hover,.bg_golden:hover,.bg8 a:hover,.displayflex a:hover,.bg5 img:hove
 }
 
 .bg_golden img:nth-child(1),.bg_purple img:nth-child(1),.bg_blue img:nth-child(1),.bg_green img:nth-child(1),.bg_gray img:nth-child(1){
-    max-height: 140px;
-    
+    width: 29vw;
+    max-width: 140px;
 }
 .bg_purple img:nth-last-child(1){
     width: 62px;
@@ -946,13 +946,14 @@ li {
        height: 230px;
     }
     #Times a img:nth-last-child(1){
-        height: 120px;
-        width: 120px;
-        margin-bottom: -3px;
+        width: 22vw;
+        max-width: 120px;
+        margin: 2px;
         border-radius: 50%;
      }
      #Times a{
     border-radius: 10px;
+    background-color:var(--css);
     margin: 3px;
      }
      #Times a img:nth-last-child(2),#p1 a img:nth-last-child(3){

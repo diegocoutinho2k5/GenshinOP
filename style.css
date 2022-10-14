@@ -28,13 +28,7 @@ body {
 .bg5,#bg2,#vis1,#main2,#header, #Times,#persh,#content,.bg8,.bg8 a,.displayflex a,#gtc,.cs,#pers,#pers2,#main4,.bg3,.btn.active,.ops{
     box-shadow: rgba(0, 0, 0, 0.438) 1px 1px 5px;
 }
-hr{
-    border: 0px;
-    height: 2px;
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab  );
-	background-size: 800% 800%;
-	animation: gradient 2s linear infinite;
-}
+
 .ponto {
     visibility: hidden;
 }
@@ -423,7 +417,7 @@ table{
     font-size: 16px;
 }
 #bg2 {
-    background: linear-gradient(to bottom, #000000,rgba(0, 0, 0, 0.432)); 
+    background: var(--css); 
     font-size: 16px;
     text-align: center;
   padding:10px 0px;
@@ -1098,8 +1092,6 @@ margin-top: -35px;
 
 .dark {
     color: var(--pt);
-    background-image: linear-gradient(-45deg,#f1f1ff,#e7feed,#d0f5ae,#d3e5e9,#f1f1ff,#e7feed,#eaf8dd,#d3e5e9,#f1f1ff,#e7feed,#eaf8dd,#d3e5e9);
-    background-size: 400% 400%;
 }
 @media screen and (max-width: 421px) and (min-width:370px){
 #p1{
@@ -1131,8 +1123,8 @@ color: rgb(138, 138, 138);
 }
 
 :root .dark{
-    --css:  rgba(245, 245, 245, 0.404);
-    --BACK-GROUND:rgba(239, 239, 239, 0.603);
+    --css:  rgb(245, 245, 245);
+    --BACK-GROUND:rgb(239, 239, 239);
     --line: rgba(0, 0, 0, 0.212);
     --dest:#2a62ca;
     --pt:rgb(24, 24, 34);

@@ -20,7 +20,7 @@ html {
 body {
     margin: 0;
     font-family:  sans-serif;
-    color: white;
+    color: rgb(231, 231, 231);
     font-size:min(14.5px,3.3334vw);
     letter-spacing: 1px;
     background: var(--BACK-GROUND);
@@ -1021,8 +1021,13 @@ margin-top: -35px;
     }
    
     }
-
+    @media only screen and (max-width: 500px) {
+    #footer .LOGO img,#footer .LOGO2 img {
+        height: 30px;
+        width: 30px;
+    }}
 @media only screen and (max-width: 850px) {
+    
     .A_A1 .bg_golden{
         margin-right: 10px;
         
@@ -1112,6 +1117,7 @@ margin-top: -35px;
     color: var(--pt);
 }
 @media screen and (max-width: 421px) and (min-width:370px){
+    
 #p1{
     padding: 0px 25px;
 }}

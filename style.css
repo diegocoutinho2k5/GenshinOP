@@ -1,21 +1,7 @@
 :root{
     --pt:white;
     --css:#252525;/*#252525*/
-    --BACK-GROUND:#191919;/*#191919
-    
-    
-    
-    
-    //<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9657794171315990"
-     crossorigin="anonymous"></script>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NEDZLY09NT"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-NEDZLY09NT');
-</script>*/
+    --BACK-GROUND:#191919;
     --line: rgba(255, 255, 255, 0.11);
     --dest:#fcdb81;
 }

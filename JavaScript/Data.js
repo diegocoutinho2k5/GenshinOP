@@ -14,12 +14,12 @@
     var Mqi = document.getElementById("Quinta")
     var Mse = document.getElementById("Sexta")
     var Msa = document.getElementById("Sábado")
-    if(dia == 1 || dia == 4 || dia == 0){
+    if(dia == 1 || dia == 6 || dia == 0){
         for (let index = 0; index < s.length; index++){
             s[index].style = "display:block;"
         }
         }
-    if(dia == 2 || dia == 5 || dia == 0){
+    if(dia == 2 || dia == 6 || dia == 0){
         for (let index = 0; index < t.length; index++){
             t[index].style = "display:block;"
         }

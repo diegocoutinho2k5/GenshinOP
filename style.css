@@ -1,7 +1,21 @@
 :root{
     --pt:white;
     --css:#252525;/*#252525*/
-    --BACK-GROUND:#191919;/*#191919*/
+    --BACK-GROUND:#191919;/*#191919
+    
+    
+    
+    
+    //<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9657794171315990"
+     crossorigin="anonymous"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NEDZLY09NT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-NEDZLY09NT');
+</script>*/
     --line: rgba(255, 255, 255, 0.11);
     --dest:#fcdb81;
 }
@@ -20,7 +34,7 @@ html {
 body {
     margin: 0;
     font-family:  sans-serif;
-    color: rgb(231, 231, 231);
+    color: rgb(255, 255, 255);
     font-size:min(14.5px,3.3334vw);
     letter-spacing: 1px;
     background: var(--BACK-GROUND);
@@ -331,8 +345,8 @@ font-size: 22px;text-align: center;
     justify-content: center;
 display: flex;flex-wrap: wrap;
 }
-.bg5 img{
-    max-height: 220px;
+.rollx img{
+    height: 220px;
    transition: 0.5s;
 }
 
@@ -932,7 +946,7 @@ ul a:hover{
 }
 .fd img{
     width: 30vw;
-    max-width: 110px;
+    max-width: 130px;
     border-radius: 50%;
 }
 
@@ -1002,14 +1016,14 @@ ul a:hover{
         border: 1px solid var(--line);
     }
     #footer{
-        display: flex;justify-content: space-between; flex-wrap: wrap; background: var(--css);padding:30px;  border-top: 1px solid rgba(255, 255, 255, 0.363);
+        display: flex;justify-content: space-between; flex-wrap: wrap; background:rgb(31, 31, 31);padding:30px;  border-top: 1px solid rgba(255, 255, 255, 0.363);
        }
        .dark #footer{
         border-top: 1px solid rgba(0, 0, 0, 0.205);
        }
 @media only screen and (min-width: 851px){
     #set{display: none;}
-    .rollx a:hover img{max-height: 250px;}#g .ggg{
+    .rollx a:hover img{height: 250px;}#g .ggg{
 margin-top: -35px;
 }
     .rollx a:hover,.displayflex a:hover{opacity: 1;

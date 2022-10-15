@@ -1002,7 +1002,7 @@ ul a:hover{
         border: 1px solid var(--line);
     }
     #footer{
-        display: flex;justify-content: space-between; flex-wrap: wrap; background:rgb(31, 31, 31);padding:30px;  border-top: 1px solid rgba(255, 255, 255, 0.363);
+        background:rgb(31, 31, 31);  border-top: 1px solid rgba(255, 255, 255, 0.363);padding: 10px;
        }
        .dark #footer{
         border-top: 1px solid rgba(0, 0, 0, 0.205);
@@ -1017,7 +1017,7 @@ margin-top: -35px;
     .rollx a,.displayflex a{opacity: 0.7;
     }
     #footer{
-        justify-content: space-evenly;
+        padding: 20px 100px;
     }
    
     }

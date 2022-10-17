@@ -25,7 +25,7 @@ body {
     letter-spacing: 1px;
     background: var(--BACK-GROUND);
 }
-.bg5,#bg2,#vis1,#main2,#header, #Times,#persh,#content,.bg8,.bg8 a,.displayflex a,#gtc,.cs,#pers,#pers2,#main4,.bg3,.btn.active,.ops{
+.bg5,#bg2,#vis1,#main2,#header, #Times,#content,.bg8,.bg8 a,.displayflex a,#gtc,.cs,#pers,#main4,.bg3,.btn.active,.ops{
     box-shadow: rgba(0, 0, 0, 0.438) 1px 1px 5px;
 }
 
@@ -99,11 +99,10 @@ body {
     display: inline-block;  
 }
 
-#persh .titulos3{
+#pers .titulos3{
     text-align: center;
 font-weight: normal;
     display: inline;
-    color: rgb(163, 222, 173);
 font-size: 19px;letter-spacing: 2px;
 }
 #txt .titulos{
@@ -511,7 +510,7 @@ table img:hover,.bg_golden:hover,.bg8 a:hover,.displayflex a:hover,.bg5 img:hove
 
 .bg_golden img:nth-child(1),.bg_purple img:nth-child(1),.bg_blue img:nth-child(1),.bg_green img:nth-child(1),.bg_gray img:nth-child(1){
     width: 29vw;
-    max-width: 140px;
+    max-width: 120px;
 }
 .bg_purple img:nth-last-child(1){
     width: 62px;
@@ -684,7 +683,7 @@ background-size: 1800% 1800%;
     display: inline-block;
     
 }
-#pers, #pers2,#persh{
+#pers{
     position: relative;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
@@ -954,9 +953,9 @@ ul a:hover{
  #p1 a img:nth-last-child(2){
        height: 230px;
     }
-    #Times a img:nth-last-child(1){
+    #Times a img{
         width: 22vw;
-        max-width: 120px;
+        max-width: 100px;
         margin: 2px;
         border-radius: 50%;
      }
@@ -965,7 +964,7 @@ ul a:hover{
     background-color:var(--css);
     margin: 3px;
      }
-     #Times a img:nth-last-child(2),#p1 a img:nth-last-child(3){
+     #p1 a img:nth-last-child(3){
         position: absolute;
     top: 2px;
     right: 2px;
@@ -1008,8 +1007,9 @@ ul a:hover{
         border-top: 1px solid rgba(0, 0, 0, 0.205);
        }
 @media only screen and (min-width: 851px){
+    
     #set{display: none;}
-    .rollx a:hover img{height: 250px;}#g .ggg{
+    .rollx a:hover img{height: 230px; width: auto;}#g .ggg{
 margin-top: -35px;
 }
     .rollx a:hover,.displayflex a:hover{opacity: 1;
@@ -1022,6 +1022,9 @@ margin-top: -35px;
    
     }
     @media only screen and (max-width: 500px) {
+        .rollx img{
+            height: 180px;
+        }
     #footer .LOGO img,#footer .LOGO2 img {
         height: 30px;
         width: 30px;

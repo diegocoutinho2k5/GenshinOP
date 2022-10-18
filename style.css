@@ -522,8 +522,8 @@ table img:hover,.bg_golden:hover,.bg8 a:hover,.displayflex a:hover,.bg5 img:hove
     height: 20px;
 }
 .bg_blue img:nth-last-child(1){
-    width: 45px;
-    height: 18px;
+    width: 47px;
+    height: 20px;
 }
 .bg_green img:nth-last-child(1){
     width: 34px;
@@ -1173,7 +1173,7 @@ color: rgb(138, 138, 138);
 .opaaaa{
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab  );
 	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
+	animation: gradient 11s ease infinite;
 }
 /*background: linear-gradient(-45deg, rgb(55, 0, 255), rgb(255,127,0), rgb(255,255,0),rgb(127,255,0),rgb(0,255,0),rgb(0,255,127),rgb(0,255,255),rgb(0,127,255),rgb(0,0,255),rgb(127,0,255), rgb(255,0,255), rgb(255,0,127));*/
 @keyframes gradient {

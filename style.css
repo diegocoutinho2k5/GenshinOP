@@ -485,16 +485,30 @@ table img:hover,.bg_golden:hover,.bg8 a:hover,.displayflex a:hover,.bg5 img:hove
 #bg12 .bg_green,#bg12 .bg_golden,#bg12 .bg_purple,#bg12 .bg_gray,#bg12 .bg_blue{
     text-align: center;
     margin: 5px;
-    width: 150px;
-    height: 300px;
+    padding: 30px 5px;
+    width:35vw;
+    max-width: 160px;
+    min-width: 90px;
+    height: 270px;
     color: white;
-    overflow: hidden;
+    letter-spacing: 2px;
+    font-size: min(4.5vw,19px);position: relative;
+    
 }
 
+#bg12 .ffd{
+    position: absolute;
+    width:35vw;
+    background-color: #00000000;
+    max-width: 160px;
+    min-width: 90px;
+    bottom: 20px;left: 0px;
+}
 #bg12{
-    flex-wrap: wrap;
-    justify-content: space-around;
-    display: flex;
+    display: flex;flex-wrap: wrap;justify-content: space-evenly;
+}
+#main4 .bg5{
+    margin-bottom: 20px;
 }
 .A_A,.A_A1{
     overflow-x:auto; 
@@ -538,6 +552,7 @@ table img:hover,.bg_golden:hover,.bg8 a:hover,.displayflex a:hover,.bg5 img:hove
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
+
 .A_A1 .ffd{
     margin-top: 5px;
     
@@ -830,8 +845,8 @@ input{
   background-color: var(--BACK-GROUND);
 }
 .vv img{
-    width: 5vw;
-    max-width: 22px;
+    width:6vw;
+    max-width:28px;
 }
 .vv{
     display: inline-block;
@@ -855,9 +870,7 @@ input{
   color: white;
 }
 
-.dark .btn.active {
-    background-color: #000000b0;
-}
+
 
 
 #search-input{color: var(--pt);
@@ -1089,9 +1102,7 @@ margin-top: -35px;
     }
    
     
-    #main4 .bg5{
-        width: 45%;
-    }
+    
 
     
     

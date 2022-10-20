@@ -29,8 +29,9 @@
     <div id="QuartaM">[ Quarta-Feira</div>
     <div id="Quinta">Quinta-Feira</div>
     <div id="Sexta">Sexta-Feira</div>
-    <div id="Sábado">Sábado</div><i class="fa-solid fa-phone" style="position: absolute;font-size: 30px; bottom:20px; left:20px; border-radius: 15px; background-color:rgba(92, 92, 92, 0.76) ;padding: 10px;"></i></div>
-    <div id="scr"  style="transition: 1s; opacity: 0; width: 274px; height: 594px; top: 4px; right: 2px; border-radius:25px;background-image: url(images/lovepik-plant-green-leaf-mobile-wallpaper-background-image_400663870.jpg);background-size: 100% 100%; z-index: 1; position: absolute;"><div style="position:absolute;width:230px; right:23px;top:140px; margin:auto; border-radius:20px;height:30px; background:rgba(92, 92, 92, 0.76);"><i style="font-size: 15px; position: absolute;left: 10px; top:8px;" class="fa-solid fa-magnifying-glass"></i></div></div>
+    <div id="Sábado">Sábado</div><i class="fa-solid fa-phone" style="position: absolute;font-size: 30px; bottom:20px; left:20px; border-radius: 15px; background-color:rgba(92, 92, 92, 0.76) ;padding: 10px;"></i><i class="fa-solid fa-camera" style="position: absolute;font-size: 30px; bottom:20px; right:20px; border-radius: 15px; background-color:rgba(92, 92, 92, 0.76) ;padding: 10px;"></i></div>
+    <div id="scr"  style="transition: 1s; opacity: 0; width: 274px; height: 594px; top: 4px; right: 2px; border-radius:25px;background-image: url(images/lovepik-plant-green-leaf-mobile-wallpaper-background-image_400663870.jpg);background-size: 100% 100%; z-index: 1; position: absolute;"><div style="position:absolute;width:230px; right:23px;top:140px; margin:auto; border-radius:20px;height:30px; background:rgba(92, 92, 92, 0.76);"><i style="font-size: 15px; position: absolute;left: 10px; top:8px;" class="fa-solid fa-magnifying-glass"></i></div>
+    <div style="display: flex; flex-wrap: wrap; width:240px; margin: auto">div</div><div style="display: flex; justify-content: space-between; position :absolute; width:200px; bottom:20px; right:42px; font-size: 20px;"><i class="fa-solid fa-bars"></i><div style="border-radius: 7px; ; border: 2px solid white; width: 20px; height:20px;"></div><i class="fa-solid fa-angle-left"></i></div></div>
 </div>
 </main>
 <script>
@@ -43,6 +44,7 @@
         if(rotate.style.transform === "skewY(0deg)"){
 rotate.style.transform = "skewY(-5deg)";
 rotate.style.transition=" 1s";
+
 subi.style.transform = 'translate(13px,1px)';
 btn.style.transform = 'translate(5px,0px)';
 btn.style.transition=" 1s";
@@ -84,8 +86,7 @@ var data = new Date()
     var min = data.getMinutes()
     var hora = data.getHours()
     var sec = data.getSeconds()
-    if (min.length == 1) min = "0" + min
-    if (hora.length == 1) hora = "0" + hora
+    
     document.getElementById('gg').innerHTML= hora+':'+min
 </script>
 </body>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>#eita{
+        background: linear-gradient(-35deg,#131313,#131313,#131313 ,#131313,#131313,#131313 ,#131313,#131313,#131313,#131313,#131313,#131313,#131313,#131313,#131313,#131313,#131313,#131313, #131313, white,#131313,#131313,#131313,#131313,#131313,#131313,#131313,#131313,#131313,#131313,#131313,#131313,#131313,#131313,#131313 ,#131313,#131313,#131313,#131313,#131313  );
+	background-size: 100% 290%;
+	animation: gradient 4s ease infinite;}
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title><link rel="stylesheet" href="style.css">
+</head>
+<body style="z-index: -1; background-color: rgb(51, 73, 73); font-family: arial; color: white;">
+    <main style="padding-top:150px ;">
+    <div onclick="flip()" style="top: 1%; position: absolute; font-size: 40px; left: 1%; letter-spacing: 2.2px; cursor: pointer;"><i class="fa-solid fa-power-off"></i></div>
+ 
+    
+    <div id="cellf" style="position: absolute; top: -100px;  width: 280px;height: 600px;margin: auto; position:relative;">
+    <div id="sub" style="width: 280px; height: 604px;background-color: rgb(240, 240, 240);top: -1px; right: 0px; border-radius:25px; border-top-right-radius: 32px; position: absolute; z-index: -1;"></div>
+    <div  id="eita" style=" width: 280px; transition: 3s; height: 600px;background-color: rgb(14, 14, 14);border: 1px solid rgb(206, 206, 206); top: 0px; left: 0px; border-radius: 25px;  position: absolute; z-index: 1;"></div>
+    <div id="btn" style="position: relative; height: 100px; width: 3px;background-color: rgb(133, 133, 133);right: -281px;bottom: -80px;"></div>
+    <div id="btn2" style="position: relative; height: 45px; width: 3px;background-color: rgb(133, 133, 133);right: -281px;bottom: -130px;"></div>
+    <div style="top: 19px; right: 139px; position: absolute; height:12px; width:12px; border-radius: 50%;z-index: 4; background-color: rgb(0, 0, 0);"></div>
+    <div style="top: 21px; right: 141px; position: absolute; height:8px; width:8px; border-radius: 50%; background-color: rgba(5, 88, 99, 0.644); z-index: 5;"></div>
+    <div id="pw" style="opacity: 0; width: 274px; height: 594px;background-image: url(images/lovepik-plant-green-leaf-mobile-wallpaper-background-image_400663870.jpg); background-size: 100% 100%; top: 4px; right: 2px; border-radius:25px;  position: absolute; z-index: 2;"><div id="gg" style="position: absolute; right: 80px; top: 140px; font-size:50px; font-weight: lighter;"></div><div style="left: 15px; top:5px;position:absolute; font-size: 13px;">Oi</div><div style="right: 15px; top:5px;position:absolute; font-size: 13px;"><i class="fa-solid fa-volume-xmark"></i> <i class="fa-solid fa-wifi"> </i> 68%<i class="fa-solid fa-battery-three-quarters" style="transform: rotate(-90deg);"></i></div><i onclick="screen()" class="fa-solid fa-fingerprint" id="ses" style="cursor: pointer; position: absolute; font-size:40px; bottom:130px; right:125px; display: none;"></i><div id="Domingo">Domingo</div>
+    <div id="SegundaM">Segunda-Feira</div>
+    <div id="TerçaM">Terça-Feira</div>
+    <div id="QuartaM">[ Quarta-Feira</div>
+    <div id="Quinta">Quinta-Feira</div>
+    <div id="Sexta">Sexta-Feira</div>
+    <div id="Sábado">Sábado</div><i class="fa-solid fa-phone" style="position: absolute;font-size: 30px; bottom:20px; left:20px; border-radius: 15px; background-color:rgba(92, 92, 92, 0.76) ;padding: 10px;"></i></div>
+    <div id="scr"  style="transition: 1s; opacity: 0; width: 274px; height: 594px; top: 4px; right: 2px; border-radius:25px;background-image: url(images/lovepik-plant-green-leaf-mobile-wallpaper-background-image_400663870.jpg);background-size: 100% 100%; z-index: 1; position: absolute;"><div style="position:absolute;width:230px; right:23px;top:140px; margin:auto; border-radius:20px;height:30px; background:rgba(92, 92, 92, 0.76);"><i style="font-size: 15px; position: absolute;left: 10px; top:8px;" class="fa-solid fa-magnifying-glass"></i></div></div>
+</div>
+</main>
+<script>
+    function flip() {
+        const rotate = document.getElementById('cellf');
+        const subi = document.getElementById('sub');
+        const btn = document.getElementById('btn');
+        const btn2 = document.getElementById('btn2');
+        const pw = document.getElementById('pw');
+        if(rotate.style.transform === "skewY(0deg)"){
+rotate.style.transform = "skewY(-5deg)";
+rotate.style.transition=" 1s";
+subi.style.transform = 'translate(13px,1px)';
+btn.style.transform = 'translate(5px,0px)';
+btn.style.transition=" 1s";
+btn2.style.transform = 'translate(5px,0px)';
+btn2.style.transition=" 1s";
+subi.style.transition=" 1s";
+subi.style.opacity='1';
+subi.style.width='290px';pw.style.opacity='1'
+                pw.style.transition ='0.3s'
+                document.getElementById('ses').style.display='block'}
+else{
+    rotate.style.transform = "skewY(0deg)";
+rotate.style.transition=" 1s";
+subi.style.transform = 'translate(0px,0px)';
+btn.style.transform = 'translate(0px,0px)';
+btn.style.transition=" 1s";
+btn2.style.transform = 'translate(0px,0px)';
+btn2.style.transition=" 1s";
+subi.style.transition=" 1s";
+subi.style.opacity='1';
+subi.style.width='280px';pw.style.opacity='0'
+document.getElementById('ses').style.display='none'
+pw.style.display='block'
+        
+        document.getElementById('scr').style.opacity='0'
+
+   }
+        }
+       function screen() {
+        
+            pw.style.display='none'
+        
+        document.getElementById('scr').style.opacity='1'
+       }
+    
+</script><script src="https://kit.fontawesome.com/7e144ec40c.js" crossorigin="anonymous"></script>
+<script>
+var data = new Date()
+    var min = data.getMinutes()
+    var hora = data.getHours()
+    var sec = data.getSeconds()
+    if (min.length == 1) min = "0" + min
+    if (hora.length == 1) hora = "0" + hora
+    document.getElementById('gg').innerHTML= hora+':'+min
+</script>
+</body>
+</html>
